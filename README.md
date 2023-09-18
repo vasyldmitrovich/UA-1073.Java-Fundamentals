@@ -10,9 +10,9 @@
 
 - create folder on disk;
 - open cmd and goto to new folder;
-- clone repository **git clone https://github.com/vasyldmitrovich/UA-1073.Java Fundamentals.git**
+- clone repository **git clone https://github.com/vasyldmitrovich/UA-1073.Java-Fundamentals.git**
 
-- change directory to **UA-1073.Java Fundamentals**;
+- change directory to **UA-1073.Java-Fundamentals**;
 - check branch **git branch**
 - create new branch **git branch <NAME>** nameBranch
 - switch to new branch **git checkout <NAME>** nameBranch
