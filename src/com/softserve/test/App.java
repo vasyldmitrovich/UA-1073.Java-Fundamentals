@@ -1,4 +1,4 @@
-package com.softserve.test
+package com.softserve.test;
 
 public class App{
 
