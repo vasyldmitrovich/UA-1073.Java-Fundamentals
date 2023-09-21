@@ -1,7 +1,7 @@
 package com.softserve.edu01.hw;
 
 import java.util.Scanner;
-//ada
+
 public class Homework3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
