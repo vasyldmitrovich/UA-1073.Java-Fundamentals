@@ -1,17 +1,18 @@
 package com.softserve.edu01.pt;
 
 public class App {
+
     public static void main(String[] args) {
 
-        // Practical tasks
+        Task1.reverseOrder();
 
-        // Task 1
-        Task1.task1();
+        Task2.average();
 
-        // Task 2
-        Task2.task2();
+        Task3.twoIntegers();
 
-        // Task 3...
+        Task4.questions();
 
     }
+
+
 }
