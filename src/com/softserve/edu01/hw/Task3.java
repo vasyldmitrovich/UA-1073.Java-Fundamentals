@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.util.Locale;
 
 public class Task3 {
-    // test
     public static void main (String[] args) throws IOException {
         Locale.setDefault(Locale.ROOT);
 
