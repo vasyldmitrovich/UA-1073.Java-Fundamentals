@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Locale;
 
 public class Task3 {
+    // test
     public static void main (String[] args) throws IOException {
         Locale.setDefault(Locale.ROOT);
 
@@ -13,6 +14,7 @@ public class Task3 {
         System.out.println("Please, enter info for the first country: cost and duration of the call");
         double cost1 = Double.parseDouble(scanner.readLine());
         double duration1 = Double.parseDouble(scanner.readLine());
+
 
         System.out.println("Please, enter info for the second country: cost and duration of the call");
         double cost2 = Double.parseDouble(scanner.readLine());
