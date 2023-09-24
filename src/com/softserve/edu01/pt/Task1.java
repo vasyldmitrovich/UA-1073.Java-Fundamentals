@@ -1,6 +1,5 @@
 package com.softserve.edu01.pt;
 
-import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Scanner;
 
 public class Task1 {
