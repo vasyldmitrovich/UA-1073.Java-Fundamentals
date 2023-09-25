@@ -4,6 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Task1 {
+
     public static void task1 () {
         Locale.setDefault(Locale.ROOT);
         Scanner scan = new Scanner(System.in);
@@ -18,6 +19,7 @@ public class Task1 {
         System.out.println("Area of your triangle: " + areaTriniagle);
 
     }
+
 
 
 

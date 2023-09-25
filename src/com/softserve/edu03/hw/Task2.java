@@ -3,7 +3,10 @@ package com.softserve.edu03.hw;
 import java.util.Scanner;
 
 public class Task2 {
+
+    //Change name of this method, and call this method in class App.java in main method
     public static void task2 () {
+
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Input first number ");
