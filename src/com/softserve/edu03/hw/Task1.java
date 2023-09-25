@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Task1 {
-    public static void main(String[] args) {
+    public static void task1 () {
         Locale.setDefault(Locale.ROOT);
         Scanner scan = new Scanner(System.in);
 

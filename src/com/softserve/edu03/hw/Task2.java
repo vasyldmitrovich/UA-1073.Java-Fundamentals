@@ -3,7 +3,7 @@ package com.softserve.edu03.hw;
 import java.util.Scanner;
 
 public class Task2 {
-    public static void main(String[] args) {
+    public static void task2 () {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Input first number ");
