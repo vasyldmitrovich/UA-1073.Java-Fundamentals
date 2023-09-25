@@ -1,7 +1,7 @@
 package hw2;
 
 import java.util.Scanner;
-
+//Need rename and move to another package
 class Main1 {
     public class Main {
         public static void main(String[] args) {
