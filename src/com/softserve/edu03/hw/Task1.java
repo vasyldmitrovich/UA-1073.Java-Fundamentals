@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Task1 {
-    public static void main(String[] args) {//Give some another name of this method, You already have main method in class App.java
+    public static void run() {
         Locale.setDefault(Locale.ROOT);
         Scanner console = new Scanner(System.in);
         System.out.println("Input side 1:");
