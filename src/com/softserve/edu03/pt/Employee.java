@@ -85,6 +85,5 @@ public class Employee {
         employee.setName(name);
         employee.setRate(rate);
         employee.setHours(hours);
-        //console.close();
     }
 }
