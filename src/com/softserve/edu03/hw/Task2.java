@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Task2 {
     public int findMinNumber(){
-        int min = Integer.MAX_VALUE;
+        int min = Integer.MAX_VALUE;//Good
 
         for(int i = 1; i <= 5; ++i){
             int enterNum = getNumber(String.format("Input the #%d number: ", i));

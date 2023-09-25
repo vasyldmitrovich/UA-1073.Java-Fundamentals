@@ -22,7 +22,7 @@ public class Task1 {
         return enterNum;
     }
 
-    public void simpleUI(){
+    public void simpleUI(){//Why you do not use this UI in main method?
         double a = getNumber("Enter the first number: ");
         double b = getNumber("Enter the second number: ");
 

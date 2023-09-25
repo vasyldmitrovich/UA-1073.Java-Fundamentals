@@ -1,12 +1,18 @@
 package com.softserve.edu03.hw;
 
 public class Main {
+    //All is good
     public static void main(String[] args) {
-//        Task1 task1 = Task1.createTriangle();
-//        System.out.printf("The area of the triangle is %.4f\n", task1.getArea());
 
-//        Task2 task2 = new Task2();
-//        System.out.printf("The smallest number is %d", task2.findMinNumber());
+
+        Task1 task1 = Task1.createTriangle();
+        System.out.printf("The area of the triangle is %.4f\n", task1.getArea());
+
+        Task2 task2 = new Task2();
+        System.out.printf("The smallest number is %d", task2.findMinNumber());
+
+
+//
 
         Person person1 = new Person();
         Person person2 = new Person("Bohdan", "Bohdan");
