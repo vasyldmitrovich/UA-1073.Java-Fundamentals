@@ -12,7 +12,7 @@ public class App {
         System.out.println(new Employee("Rob Stark", 5, 5));
         System.out.println(new Employee("Anakin Skywalker", 6, 15));
         System.out.println(new Employee("Gandalf", 400, 700));
-        System.out.println(Employee.totalSalary());
+        System.out.println(Employee.totalSalary());//Good
 
 
     }

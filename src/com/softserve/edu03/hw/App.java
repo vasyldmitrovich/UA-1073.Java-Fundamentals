@@ -2,6 +2,7 @@ package com.softserve.edu03.hw;
 
 public class App {
 
+    //Good, vary nice ;-)
     public static void main(String[] args) {
         // Homework 1 - triangle area
         Hw1.area();

@@ -2,7 +2,7 @@ package com.softserve.edu03.pt;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class Task1 {//Nice
 
     public static void getTotal (Integer a, Integer b) {
          System.out.println("The sum of " + a + " and " + b + " is " + (a + b));
