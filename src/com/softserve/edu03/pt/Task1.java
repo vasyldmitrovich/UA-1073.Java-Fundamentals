@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Task1 {
 
+    //The same mistake
     public static void main(String... args) {
         Locale.setDefault(Locale.ROOT);
         Scanner scanner = new Scanner(System.in);
@@ -18,7 +19,7 @@ public class Task1 {
         System.out.println("The average of %d and %d is %.2f".formatted(firstNumber, secondNumber, getAverage(firstNumber, secondNumber)));
 
     }
-
+//Ok
     static double getAverage(int firstNumber, int secondNumber) {
         return (firstNumber + secondNumber) / 2.0;
     }

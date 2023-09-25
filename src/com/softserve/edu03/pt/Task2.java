@@ -3,6 +3,8 @@ package com.softserve.edu03.pt;
 import java.util.Scanner;
 
 public class Task2 {
+
+    //The same with name of this method
     public static void main(String... args) {
         Employee employee1 = new Employee("Alex", 7, 49);
         Employee employee2 = new Employee("Sofia", 9);
@@ -28,7 +30,11 @@ public class Task2 {
     }
 }
 
+//The same mistake with this class, move this class to file Employee.java
 class Employee {
+
+    //Move this method at the end of class
+    //Remember about order of fields and methods in class
     public static void initializeEmployee(Employee employee) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the employee's name: ");

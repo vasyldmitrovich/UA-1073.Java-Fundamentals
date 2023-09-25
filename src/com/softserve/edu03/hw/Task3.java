@@ -32,6 +32,7 @@ public class Task3 {
     }
 }
 
+//This class should be not in this file. Create file Person.java
 class Person {
     private String firstName;
     private String lastName;
@@ -61,6 +62,7 @@ class Person {
                 '}';
     }
 
+    // Do not correct order. Firstly should be fields after constructors without and with parameters after method like toString() and after another methods
     public Person() {
     }
 

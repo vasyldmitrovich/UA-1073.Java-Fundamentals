@@ -4,6 +4,8 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Task2 {
+
+    //Change name of this method to some like task2()
     public static void main(String... args) {
         Locale.setDefault(Locale.ROOT);
         Scanner scanner = new Scanner(System.in);
@@ -20,6 +22,7 @@ public class Task2 {
         System.out.format("The smallest number is %d\n", findTheSmallestNumber(a, b, c));
     }
 
+    //Ok
     static int findTheSmallestNumber(int a, int b, int c) {
         int min;
         if (a < b) {
