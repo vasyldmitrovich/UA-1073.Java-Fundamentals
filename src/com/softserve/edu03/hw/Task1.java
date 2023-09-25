@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Task1 {
 
     //Change name of this method, and call this method in class App.java in main method
-    public static void main(String[] args) {
+    public static void task1 () {
         Locale.setDefault(Locale.ROOT);
         Scanner scan = new Scanner(System.in);
 
@@ -22,6 +22,9 @@ public class Task1 {
     }
 
 
+    public void task1_1() {
+        System.out.println("Hello from task1_1");
+    }
 
 }
 
