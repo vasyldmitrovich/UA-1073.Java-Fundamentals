@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Task1 {
 
     //The same mistake
-    public static void main(String... args) {
+    public static void task1(String... args) {
         Locale.setDefault(Locale.ROOT);
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the first number: ");

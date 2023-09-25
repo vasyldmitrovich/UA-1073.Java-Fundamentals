@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Task2 {
 
     //Change name of this method to some like task2()
-    public static void main(String... args) {
+    public static void task2(String... args) {
         Locale.setDefault(Locale.ROOT);
         Scanner scanner = new Scanner(System.in);
 
