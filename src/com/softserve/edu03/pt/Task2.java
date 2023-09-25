@@ -3,7 +3,7 @@ package com.softserve.edu03.pt;
 import java.util.Locale;
 public class Task2 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//The same
         Locale.setDefault(Locale.ROOT);
         Employee employee1 = new Employee();
         Employee.promptValues(employee1);

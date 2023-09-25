@@ -3,7 +3,7 @@ package com.softserve.edu03.hw;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-public class Person {
+public class Person {//This class is good, nice
     private String firstName;
     private String lastName;
     private int birthYear;

@@ -1,7 +1,7 @@
 package com.softserve.edu03.hw;
 
 public class Task3 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Give some another name of this method, You already have main method in class App.java
         Person person1 = new Person();
         Person person2 = new Person();
         Person person3 = new Person();
