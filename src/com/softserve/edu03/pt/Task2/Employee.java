@@ -1,6 +1,6 @@
 package com.softserve.edu03.pt.Task2;
 
-public class Employee {
+public class Employee {//This class is good
     private String name;
     private double rate;
     private double hours;

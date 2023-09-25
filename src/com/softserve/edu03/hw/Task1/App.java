@@ -7,6 +7,7 @@ public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        //You could make methods static in class, and do not need here create objects like Form rectengl1 = mew Form()
         Form rectengl1 = new Form();
 
         System.out.println("Input first side: ");

@@ -8,7 +8,7 @@ public class Person {
     private int lifeDay;
     private int lifeMonth;
     private int liveYear;
-    private int d;
+    private int d;//What it is???? what the name of fields, give more informative name of fields
     private int m;
     private int y;
 
@@ -86,6 +86,7 @@ public class Person {
     }
 
     //адекватної реалізації для цього методу я не зміг придумати, можливо ви могли б щось запропонувати
+    //All is good, this method is good it change first name and last name, all ok
     public void changeName(String fn, String ln) {
         firstName = fn;
         lastName = ln;
