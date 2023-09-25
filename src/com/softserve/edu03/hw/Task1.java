@@ -4,6 +4,8 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Task1 {
+
+    //Change name of this method, and call this method in class App.java in main method
     public static void main(String[] args) {
         Locale.setDefault(Locale.ROOT);
         Scanner scan = new Scanner(System.in);
