@@ -3,6 +3,7 @@ package com.softserve.edu03.pt.task2;
 import java.util.Objects;
 
 public class Employee {
+    public String getSalary;
     private String name;
     private double rate;
     private double hours;
@@ -78,5 +79,6 @@ public class Employee {
     public double getSalary() {
         return rate * hours;
     }
+
 
 }
