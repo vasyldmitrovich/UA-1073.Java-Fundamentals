@@ -6,7 +6,8 @@ import java.util.Scanner;
 public class App {
     private static final Scanner scanner = new Scanner(System.in);
 
-
+    //All is good, but do the same what with task1 move code from this main method to edu03.hw.App.java
+    //When you do that you will have one main method where you call all yours tasks
     public static void main(String[] args) {
         System.out.print("Input the first number: ");
         double firstNumber = scanner.nextDouble();
