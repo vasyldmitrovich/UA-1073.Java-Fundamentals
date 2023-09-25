@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Task1 {
     private static final Scanner SCANNER = new Scanner(System.in);
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Change name of this class for example myTask1()
         Locale.setDefault(Locale.ROOT);
         int a = getNumber("Enter the first number: ");
         int b = getNumber("Enter the second number: ");

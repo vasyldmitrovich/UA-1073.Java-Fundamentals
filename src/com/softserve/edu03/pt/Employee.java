@@ -8,6 +8,8 @@ public class Employee {
     private int rate;
     private int hours;
 
+    //Always add constructor without parameters
+
     public Employee() {
         this("N/A", 0, 0);
     }

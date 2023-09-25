@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Task2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//The same here, change name of method
         Locale.setDefault(Locale.ROOT);
         Scanner console = new Scanner(System.in);
         System.out.println("Input the first number:");

@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Task1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Give some another name of this method, You already have main method in class App.java
         Locale.setDefault(Locale.ROOT);
         Scanner console = new Scanner(System.in);
         System.out.println("Input side 1:");
@@ -16,7 +16,7 @@ public class Task1 {
         System.out.println("The area of this triangle is " + triangleArea(a, b, c));
     }
 
-    public static double triangleArea(int a, int b, int c) {
+    public static double triangleArea(int a, int b, int c) {//Good
         return Math.sqrt((a + b + c) * (b + c - a) * (a + c - b) * (a + b - c) / 16.0);
     }
 }
