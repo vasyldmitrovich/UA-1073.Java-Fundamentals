@@ -12,6 +12,6 @@ public class Task1 {
         if (number1 % 2 != 0) counter++;
         if (number2 % 2 != 0) counter++;
         if (number3 % 2 != 0) counter++;
-        System.out.println("Entered " + counter + " odd numbers");
+        System.out.println("Odd number count: " + counter);
     }
 }
