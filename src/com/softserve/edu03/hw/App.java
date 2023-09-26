@@ -1,9 +1,11 @@
 package com.softserve.edu03.hw;
 
+import com.softserve.edu03.hw.task3.Task3HW;
+
 public class App {
 
     public static void main(String[] args) {
-        Task2.task2();
+        Task3HW.task3();
 
 
     }
