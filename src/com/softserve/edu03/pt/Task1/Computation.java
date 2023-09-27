@@ -2,7 +2,7 @@ package com.softserve.edu03.pt.Task1;
 
 import java.util.Scanner;
 
-public class Computation {
+public class Computation {//Good
 
     public int sum(int a, int b) {
         return a + b;

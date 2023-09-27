@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
+
+        //Nice, very nice ;-)
+
         Scanner scanner = new Scanner(System.in);
         Employee[] employees = new Employee[3];
         double totalSalary = 0;
