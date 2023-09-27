@@ -1,5 +1,5 @@
 package com.softserve.edu03.pt.task1;
-import com.softserve.edu03.pt.task1.Calculation;
+
 import java.util.Scanner;
 
 
@@ -16,9 +16,8 @@ public class Calculation {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println(prompt + " :");
-        int num = scanner.nextInt();
 
-        return num;
+        return scanner.nextInt();
 
     }
 
