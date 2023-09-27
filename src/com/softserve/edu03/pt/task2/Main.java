@@ -1,8 +1,7 @@
 package com.softserve.edu03.pt.task2;
-
 import com.softserve.edu03.pt.task2.Employee;
-
 import java.util.Scanner;
+
 
 public class Main {
     public static void main(String[] args) {
