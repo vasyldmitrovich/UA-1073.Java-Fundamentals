@@ -1,0 +1,8 @@
+package com.softserve.edu04.hw.task5;
+
+public enum Breed {
+    LABRADOR_RETRIEVER, GERMAN_SHEPHERD,
+    GOLDEN_RETRIEVER, BULLDOG, BEAGLE,
+    YORKSHIRE_TERRIER, POODLE, FRENCH_BULLDOG,
+    ROTTWEILER
+}
