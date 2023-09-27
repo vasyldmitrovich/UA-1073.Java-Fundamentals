@@ -8,13 +8,14 @@ public class Task1 {
     private double c;
 
     public static Task1 createTriangle(){
-        double a = getNumber("Input Side a: ");
+        double a = getNumber("Input Side a: ");//This is nice ;-)
         double b = getNumber("Input Side b: ");
         double c = getNumber("Input Side c: ");
 
         return new Task1(a, b, c);
     }
 
+    //Good decision
     private static double getNumber(String prompt){
         double enterNum;
         Scanner scanner = new Scanner(System.in);

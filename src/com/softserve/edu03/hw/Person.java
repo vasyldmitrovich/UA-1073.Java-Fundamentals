@@ -3,6 +3,7 @@ package com.softserve.edu03.hw;
 import java.time.Year;
 import java.util.Scanner;
 
+//Good
 public class Person {
     private String firstName;
     private String lastName;
@@ -22,6 +23,7 @@ public class Person {
         this.birthYear = birthYear;
     }
 
+    //Ok
     public int getAge(){
         Year currentYear = Year.now();
         int yearValue = currentYear.getValue();
@@ -62,6 +64,7 @@ public class Person {
         return scanner.nextLine();
     }
 
+    //Good
     public void changeName(String fn, String ln){
         if(!fn.isEmpty()){
             firstName = fn;

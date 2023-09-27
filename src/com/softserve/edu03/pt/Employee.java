@@ -1,6 +1,6 @@
 package com.softserve.edu03.pt;
 
-public class Employee {
+public class Employee {//Nice
     private static double totalSum;
 
     private String name;
