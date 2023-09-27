@@ -6,7 +6,7 @@ public class App {
 
     private static final Scanner scanner = new Scanner(System.in);
 
-
+    //Move code from this main method in class edu03.hw.App.java and here call methods from this class
     public static void main(String[] args) {
         System.out.print("Input Side 1: ");
         double firstSide = scanner.nextDouble();

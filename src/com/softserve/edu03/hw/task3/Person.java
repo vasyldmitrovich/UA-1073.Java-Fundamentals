@@ -2,7 +2,7 @@ package com.softserve.edu03.hw.task3;
 
 import java.util.Scanner;
 
-public class Person {
+public class Person {//This is good structure of class, nice
     private String firstName;
     private String lastName;
     private int birthYear;
