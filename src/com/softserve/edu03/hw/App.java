@@ -6,6 +6,7 @@ public class App {
 
     public static void main(String[] args) {
         Task01.myTask1();
+        Task02.myTask2();
 
     }
 }

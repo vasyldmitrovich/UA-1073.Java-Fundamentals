@@ -31,27 +31,26 @@ public class Employee {
     }
 
 
-
     public Employee(String name, int rate, int hours) {
         this.name = name;
         this.rate = rate;
         this.hours = hours;
     }
 
-    public int getSalary(int rating, int hours){
+    public int getSalary(int rating, int hours) {
         int salary = 0;
         salary = rate * hours;
 
-        return  salary;
+        return salary;
     }
 
     @Override
     public String toString() {
-         String info = String.format("Name: %1$s, Rate: %2$s, Hours: %3$s", getName(), getRate(), getHours());
+        String info = String.format("Name: %1$s, Rate: %2$s, Hours: %3$s", getName(), getRate(), getHours());
         return info;
     }
 
-    public double getBonuses(int salary){
+    public double getBonuses(int salary) {
         //double bonus = 0.0;
         double bonus = (salary * 0.1);
         return bonus;
@@ -62,7 +61,7 @@ public class Employee {
     }
 
 
-    public void totalSum( double bonus, int salary){
+    public void totalSum(double bonus, int salary) {
         totalSum = bonus + salary;
     }
 }
