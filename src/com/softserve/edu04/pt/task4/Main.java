@@ -2,10 +2,18 @@ package com.softserve.edu04.pt.task4;
 
 public class Main {
     public static void task4And5() {
+        Product p1 = new Product("cherry", 11.5, 90);
+        Product p2 = new Product("apple", 14.5, 30);
+        Product p3 = new Product("strawberry", 9.5, 50);
+        Product p4 = new Product("tomato", 15.5, 40);
+        Product expensive = Product.mostExpensiveProduct(p1, p2, p3, p4);
+        Product mostquantity = Product.mostQuantity(p1, p2, p3, p4);
 
-        Product product1 = new Product("apple", 5.5, 100);
-        Product product2 = new Product("chery", 7.8, 40);
-        Product product3 = new Product("tomato", 6.1, 80);
-        Product product4 = new Product("kiwi", 8.5, 20);
+        System.out.println("The most expensive product is: " + expensive);
+        System.out.println("The most quentity product is: " + mostquantity);
+
+
     }
+
+
 }
