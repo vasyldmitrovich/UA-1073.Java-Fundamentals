@@ -28,9 +28,7 @@ public class Dog {
     public static Dog findOldestDog(Dog[] dogs) {
         Dog oldestDog = null;
         for (Dog dog : dogs) {
-            if (oldestDog == null) {
-                oldestDog = dog;
-            } else if (oldestDog.isOlder(dog)) {
+            if (oldestDog == null || oldestDog.isOlder(dog)) {
                 oldestDog = dog;
             }
         }
@@ -42,7 +40,7 @@ public class Dog {
         return age > dog.getAge();
     }
     public boolean isUniqueName(Dog dog) {
-        return name != dog.getName();
+        return !name.equals(dog.getName());
     }
 
     public void printInfo () {
