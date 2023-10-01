@@ -14,7 +14,7 @@ public class Main {
 }
 
 enum Continent{
-    ASIA, EUROPE, AMERICA;
+    EUROPE, AMERICA
 }
 
 enum Country{
