@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Task2 {
 
     public static void run() {
-        System.out.println("Task 1 running ...");
         System.out.print("Enter positive integer number: ");
         Scanner console = new Scanner(System.in);
         int enteredNumber = console.nextInt();
