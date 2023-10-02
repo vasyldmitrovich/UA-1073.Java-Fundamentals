@@ -4,7 +4,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        // Homeworks 1
+        System.out.println("hi!");
 
     }
 }
