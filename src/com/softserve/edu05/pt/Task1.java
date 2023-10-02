@@ -11,7 +11,7 @@ public class Task1 {
         System.out.println("Unsorted String array: " + Arrays.toString(names));
         Arrays.sort(names);
         System.out.println("Sorted String array: " + Arrays.toString(names));
-        int[] numbers = {5, 12, 34, 5, 8, 99, 11, 5, 45, 67};
+        int[] numbers = {5, 12, 34, 8, 99};
         int sum = 0;
         for (int i = 0; i < numbers.length; i++) {
             sum += numbers[i];
