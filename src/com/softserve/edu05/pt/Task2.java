@@ -17,6 +17,6 @@ public class Task2 {
                 break;
             }
         }
-        System.out.printf("Entered number is " + (isPrime ? "prime" : "not prime"));
+        System.out.printf(isPrime ? "Is a prime number" : "Is not prime number");
     }
 }
