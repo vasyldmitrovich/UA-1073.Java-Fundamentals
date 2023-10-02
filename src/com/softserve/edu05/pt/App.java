@@ -8,5 +8,7 @@ public class App {
         Task2.run();
         System.out.println("Task 3 running ...");
         Task3.run();
+        System.out.println("Task 4 running ...");
+        Task4.run();
     }
 }
