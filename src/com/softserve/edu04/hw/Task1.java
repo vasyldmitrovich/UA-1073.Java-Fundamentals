@@ -1,6 +1,5 @@
 package com.softserve.edu04.hw;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Task1 {
