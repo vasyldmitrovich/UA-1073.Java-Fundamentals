@@ -13,18 +13,20 @@ public class Task4 {
         for (int i = 0; i < employees.length; i++) {
             System.out.println(employees[i].toString());
         }
-        boolean isSwap;
-        do {
-            isSwap = false;
-            for (int i = 0; i < employees.length - 1; i++) {
-                if (employees[i].getSalary() < employees[i + 1].getSalary()) {
-                    Employee tmp = employees[i];
-                    employees[i] = employees[i + 1];
-                    employees[i + 1] = tmp;
+        for (int i = 0; i < employees.length - 1; i++) {
+            boolean isSwap = false;
+            for (int j = 0; j < employees.length - i - 1; j++) {
+                if (employees[j].getSalary() < employees[j + 1].getSalary()) {
+                    Employee tmp = employees[j];
+                    employees[j] = employees[j + 1];
+                    employees[j + 1] = tmp;
                     isSwap = true;
                 }
             }
-        } while (isSwap);
+            if (!isSwap) {
+                break;
+            }
+        }
         System.out.print("Enter department number: ");
         Scanner console = new Scanner(System.in);
         int enteredDepartmentNumber = console.nextInt();

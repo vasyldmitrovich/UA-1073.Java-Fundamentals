@@ -31,7 +31,7 @@ public class Task3 {
         } else if (countNegative < countPositive) {
             System.out.println("There are more positive values in the array");
         } else {
-            System.out.println("There are an equaln umber of positive and negative values in the array");
+            System.out.println("There are an equal number of positive and negative values in the array");
         }
     }
 }
