@@ -1,4 +1,4 @@
-package com.softserve.edu04.pt.task5;
+package com.softserve.edu04.hw.task5;
 
 public class Dog {
     private String name;
