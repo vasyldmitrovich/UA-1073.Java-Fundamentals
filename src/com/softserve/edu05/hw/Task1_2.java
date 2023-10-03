@@ -11,20 +11,34 @@ public class Task1_2 {
             numbers[i] = console.nextInt();
             console.nextLine();
         }
+        if (isFirstFivePositive(numbers)) {
+            System.out.println("The sum of first 5 elements is " + firstFiveSum(numbers));
+        } else {
+            System.out.println("The product of last 5 elements is " + lastFiveProduct(numbers));
+        }
+    }
+
+    static boolean isFirstFivePositive(int[] numbers) {
         boolean isPositive = true;
-        int result = 0;
         for (int i = 0; i < 5; i++) {
             isPositive = numbers[i] <= 0 ? false : isPositive;
+        }
+        return isPositive;
+    }
+
+    static int firstFiveSum(int[] numbers) {
+        int result = 0;
+        for (int i = 0; i < 5; i++) {
             result += numbers[i];
         }
-        if (isPositive) {
-            System.out.println("The sum of first 5 elements is " + result);
-        } else {
-            result = 1;
-            for (int i = 5; i < 10; i++) {
-                result *= numbers[i];
-            }
-            System.out.println("The product of last 5 elements is " + result);
+        return result;
+    }
+
+    static int lastFiveProduct(int[] numbers) {
+        int result = 1;
+        for (int i = 5; i < 10; i++) {
+            result *= numbers[i];
         }
+        return result;
     }
 }
