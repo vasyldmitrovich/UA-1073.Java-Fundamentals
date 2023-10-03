@@ -11,5 +11,7 @@ public class App {
         Task1_3.run();
         System.out.println("Task 2 running ...");
         Task2.run();
+        System.out.println("Task 3 running ...");
+        Task3.run();
     }
 }
