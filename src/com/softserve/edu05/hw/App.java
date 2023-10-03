@@ -9,5 +9,7 @@ public class App {
         Task1_2.run();
         System.out.println("Subtask 1.3 running ...");
         Task1_3.run();
+        System.out.println("Task 2 running ...");
+        Task2.run();
     }
 }
