@@ -1,5 +1,6 @@
 package com.softserve.edu05.hw;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class App {
@@ -20,5 +21,28 @@ public class App {
 
         // Task 2
         SumOfIntegers.findSum();
+
+        // Task 3
+        Car car1 = new Car("Sedan", 2020, 2000);
+        Car car2 = new Car("SUV", 2019, 2500);
+        Car car3 = new Car("Compact", 2022, 1500);
+        Car car4 = new Car("Convertible", 2021, 2200);
+
+        Car[] cars = {car1, car2, car3, car4};
+
+        Car.sortByYears(cars);
+        System.out.println("Sorted cars by year: " + Arrays.toString(cars));
+
+        System.out.println("Enter year");
+        int year = SCANNER.nextInt();
+        SCANNER.nextLine();
+
+        Car[] carsByYear = Car.filterByYear(cars, year);
+
+        System.out.println("Cars of " + year + " year: " + Arrays.toString(carsByYear));
+
+        // Task 4
+        RandomNumber randomNumber = new RandomNumber();
+        RandomNumber.guessNumber(randomNumber.getNumber());
     }
 }
