@@ -1,6 +1,6 @@
 package com.softserve.edu04.pt;
 
-public class Product {
+class Product {
 
     String name;
     double price;
@@ -22,7 +22,7 @@ public class Product {
         return (p1.quantity <= p2.quantity) ? p2 : p1;
     }
 
-    public static void  getMostExpensive(Product p1, Product p2, Product p3, Product p4) {
+    static void  getMostExpensive(Product p1, Product p2, Product p3, Product p4) {
         mostExpensive = p1;
         mostExpensive = comparisonByPrice(mostExpensive, p2);
         mostExpensive = comparisonByPrice(mostExpensive, p3);
@@ -31,7 +31,7 @@ public class Product {
                 mostExpensive.quantity);
     }
 
-    public static void biggestQuantityProduct (Product p1, Product p2, Product p3, Product p4) {
+    static void biggestQuantityProduct (Product p1, Product p2, Product p3, Product p4) {
         biggestQuantity = p1;
         biggestQuantity = comparisonByQuantity(biggestQuantity, p2);
         biggestQuantity = comparisonByQuantity(biggestQuantity, p3);

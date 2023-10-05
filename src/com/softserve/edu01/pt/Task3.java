@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Task3 {
 
-    public static void twoIntegers () {
+    static void twoIntegers () {
         System.out.println("\nHello. Please insert variable \"a\"");
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();

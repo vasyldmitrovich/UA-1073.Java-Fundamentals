@@ -3,7 +3,7 @@ package com.softserve.edu01.pt;
 import java.util.Scanner;
 
 public class Task1 {
-    public static void reverseOrder() {
+    static void reverseOrder() {
         String firstNumber;
         String secondNumber;
         String thirdNumber;

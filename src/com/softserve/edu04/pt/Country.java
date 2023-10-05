@@ -2,7 +2,7 @@ package com.softserve.edu04.pt;
 
 import java.util.Scanner;
 
-public enum Country {
+enum Country {
 
     ALBANIA(Continent.EUROPE), CHINA(Continent.ASIA), AUSTRALIA(Continent.OCEANIA),
     GERMANY(Continent.EUROPE), UKRAINE(Continent.EUROPE), USA(Continent.NORTH_AMERICA),
@@ -15,7 +15,7 @@ public enum Country {
         this.continent = continent;
     }
 
-    public static void showContinentByCountry () {
+    static void showContinentByCountry () {
         Scanner sc = new Scanner(System.in);
         System.out.println("""
                 Hello. Input country name and i'll show you continent she belongs to.

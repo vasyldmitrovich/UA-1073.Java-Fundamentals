@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class RandomIntegersArray {
+class RandomIntegersArray {
 
     private static final int[] myArray = new int[10];
     private static Random random = new Random();

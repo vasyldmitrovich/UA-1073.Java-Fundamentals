@@ -3,7 +3,7 @@ package com.softserve.edu01.pt;
 import java.util.Scanner;
 
 public class Task2 {
-    public static void average () {
+    static void average () {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input first number");
         int first = scanner.nextInt();

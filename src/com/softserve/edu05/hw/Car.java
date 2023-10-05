@@ -3,7 +3,7 @@ package com.softserve.edu05.hw;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Car {
+class Car {
 
     private final String type;
     private final int year;

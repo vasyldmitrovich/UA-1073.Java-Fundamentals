@@ -1,25 +1,25 @@
 package com.softserve.edu04.hw;
 
-public class App {
+class App {
 
     public static void main(String[] args) {
 
         // HW1 - Float numbers
 
-//        FloatNumbers.checkNumbers();
+        FloatNumbers.checkNumbers();
 
         // HW2 - Three Integers
 
-//        ThreeIntegers.minAndMax();
+        ThreeIntegers.minAndMax();
 
         //HW3 - HTTP errors
 
-//        HTTPError.getNameByNumber();
+        HTTPError.getNameByNumber();
 
         //HW4 - Faculty
 
-//        Faculty f = Faculty.createFaculty();
-//        System.out.println(f);
+        Faculty f = Faculty.createFaculty();
+        System.out.println(f);
 
 
         // HW4 (рефакторинг ) - у мене питання, у методі test (наведений нижче) я хотів з консолі зчитати текст

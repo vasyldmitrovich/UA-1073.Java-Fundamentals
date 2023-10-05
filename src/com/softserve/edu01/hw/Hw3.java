@@ -2,9 +2,9 @@ package com.softserve.edu01.hw;
 
 import java.util.Scanner;
 
-public class Hw3 {
+class Hw3 {
 
-    public static void costOfCalls () {
+    static void costOfCalls () {
 
         System.out.println("Hello please insert duration of the first " +
                 "call in minutes");

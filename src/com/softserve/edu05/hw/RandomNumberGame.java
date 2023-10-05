@@ -3,7 +3,7 @@ package com.softserve.edu05.hw;
 import java.util.Random;
 import java.util.Scanner;
 
-public class RandomNumberGame {
+class RandomNumberGame {
 
     static void game() {
         System.out.println("""

@@ -2,17 +2,17 @@ package com.softserve.edu03.pt;
 
 import java.util.Scanner;
 
-public class Task1 {//Nice
+class Task1 {//Nice
 
-    public static void getTotal (Integer a, Integer b) {
+    static void getTotal (Integer a, Integer b) {
          System.out.println("The sum of " + a + " and " + b + " is " + (a + b));
     }
 
-    public static void getAverage (Integer a, Integer b) {
+    static void getAverage (Integer a, Integer b) {
         System.out.println("The average of " + a + " and " + b + " is " + (a + b) / 2.0);
     }
 
-    static void getNumber () {
+    static void getNumber() {
         int a;
         int b;
         Scanner scanner = new Scanner(System.in);
