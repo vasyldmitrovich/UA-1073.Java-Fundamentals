@@ -2,12 +2,12 @@ package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-public class ThreeIntegers {
+class ThreeIntegers {
 
     private static int min;
     private static int max;
 
-    public static void minAndMax () {
+    static void minAndMax () {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input 1 Integer");
         max = sc.nextInt();

@@ -3,7 +3,7 @@ package com.softserve.edu05.pt;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArraysForHW {
+class ArraysForHW {
 
     private static final int[] firstArray = new int[5];
     private static final int[] secondArray = new int[6];

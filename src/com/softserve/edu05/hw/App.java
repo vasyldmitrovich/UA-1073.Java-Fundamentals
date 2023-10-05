@@ -2,7 +2,7 @@ package com.softserve.edu05.hw;
 
 import com.softserve.edu05.hw.hw1program.OneProgram;
 
-public class App {
+class App {
 
     public static void main(String[] args) {
 

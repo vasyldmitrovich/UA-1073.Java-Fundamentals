@@ -2,7 +2,7 @@ package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-public enum HTTPError {
+enum HTTPError {
     BR (400, "Bad Request"),
     UA (401, "Unauthorized"),
     PR (402, "Payment Required"),
@@ -17,7 +17,7 @@ public enum HTTPError {
         this.errorName = errorName;
     }
 
-    public static void getNameByNumber() {
+    static void getNameByNumber() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input number of HTTP error (between 400, 401, 402, 403, 404):");
         int scInt = sc.nextInt();

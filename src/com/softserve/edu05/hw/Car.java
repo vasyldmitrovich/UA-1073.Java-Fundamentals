@@ -3,7 +3,7 @@ package com.softserve.edu05.hw;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Car {
+class Car {
 
     private final String type;
     private final int year;
@@ -11,7 +11,7 @@ public class Car {
     private static Car[] collection = new Car[4];
     private static int count = 0;
 
-    public Car(String type, int year, double engineCapacity) {
+    Car(String type, int year, double engineCapacity) {
         this.type = type;
         this.year = year;
         this.engineCapacity = engineCapacity;

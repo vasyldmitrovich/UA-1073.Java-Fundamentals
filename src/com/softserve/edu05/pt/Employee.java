@@ -3,7 +3,7 @@ package com.softserve.edu05.pt;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Employee {
+class Employee {
 
     private final String name;
     private final int departmentNumber;
@@ -11,7 +11,7 @@ public class Employee {
     private static int count = 0;
     private static Employee[] allEmployees = new Employee[5];
 
-    public Employee(String name, int departmentNumber, int salary) {
+    Employee(String name, int departmentNumber, int salary) {
         this.name = name;
         this.departmentNumber = departmentNumber;
         this.salary = salary;

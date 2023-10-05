@@ -1,20 +1,20 @@
 package com.softserve.edu04.pt;
 
-public class App {
+class App {
 
     public static void main(String[] args) {
 
         // Pt1 . just run it... )
 
-//        OddNumbers.calcOddNumb();
+        OddNumbers.calcOddNumb();
 
         //Pt2 NUMBER !!! of the day of the week (according to the requirements)
 
-//        DaysOfWeek.dayByNumber();
+        DaysOfWeek.dayByNumber();
 
         //Pt3 Implement 2 types of switch
 
-//        Country.showContinentByCountry();
+        Country.showContinentByCountry();
 
         //Pt4 + Pt5
 
