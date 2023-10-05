@@ -3,7 +3,7 @@ package com.softserve.edu05.hw;
 
 import java.util.Scanner;
 
-class DoWhileSum {
+public class DoWhileSum {
 
     static void doWhileSum() {
         Scanner sc = new Scanner(System.in);

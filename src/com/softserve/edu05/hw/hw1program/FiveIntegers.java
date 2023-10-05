@@ -3,7 +3,7 @@ package com.softserve.edu05.hw.hw1program;
 import java.util.Arrays;
 import java.util.Scanner;
 
-class FiveIntegers {
+public class FiveIntegers {
 
     private static final int[] myArray = new int[5];
 

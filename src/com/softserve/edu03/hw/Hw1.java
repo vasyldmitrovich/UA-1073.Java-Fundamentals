@@ -7,7 +7,7 @@ import static java.lang.Math.sqrt;
 public class Hw1 {
 
     //All is good
-    static void area (){
+    public static void area (){
         Scanner scanner = new Scanner(System.in);
         System.out.println("We will calculate area of triangle. \n" +
                 "Input Side 1:");

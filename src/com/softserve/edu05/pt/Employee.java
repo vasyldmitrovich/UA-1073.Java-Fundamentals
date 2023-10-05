@@ -3,7 +3,7 @@ package com.softserve.edu05.pt;
 import java.util.Arrays;
 import java.util.Scanner;
 
-class Employee {
+public class Employee {
 
     private final String name;
     private final int departmentNumber;

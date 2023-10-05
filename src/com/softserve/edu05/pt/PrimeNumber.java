@@ -2,7 +2,7 @@ package com.softserve.edu05.pt;
 
 import java.util.Scanner;
 
-class PrimeNumber {
+public class PrimeNumber {
 
     static void primeCheck() {
         System.out.println("Hello. Please, input POSITIVE INTEGER amd i will tell you is it a prime or not:");

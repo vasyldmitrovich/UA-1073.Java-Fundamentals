@@ -2,7 +2,7 @@ package com.softserve.edu04.pt;
 
 import java.util.Scanner;
 
-enum DaysOfWeek {
+public enum DaysOfWeek {
     MONDAY("Понеділок", "Monday"),
     TUESDAY("Вівторок", "Tuesday"),
     WEDNESDAY("Середа", "Wednesday"),
@@ -24,7 +24,7 @@ enum DaysOfWeek {
         return "Ви обрали " + ua + "(" + en + ")";
     }
 
-    static void dayByNumber() {
+    public static void dayByNumber() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введіть порядковий номер дня (інтервал від 1 до 7):");
         int temp = sc.nextInt();

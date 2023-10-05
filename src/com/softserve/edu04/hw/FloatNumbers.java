@@ -2,9 +2,9 @@ package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-class FloatNumbers {
+public class FloatNumbers {
 
-    static void checkNumbers () {
+    public static void checkNumbers () {
         Scanner sc = new Scanner(System.in);
         System.out.println("""
                 Hello. We will check three FLOAT numbers, are they belongs to the range [-5, 5]

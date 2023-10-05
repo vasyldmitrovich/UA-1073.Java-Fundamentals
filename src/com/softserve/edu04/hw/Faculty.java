@@ -2,12 +2,12 @@ package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-class Faculty {
+public class Faculty {
     private final String name;
     private final int numberOfStudents;
     private final Season season;
 
-    enum Season {
+    public enum Season {
         FIRST,
         SECOND,
         THIRD,
@@ -30,7 +30,7 @@ class Faculty {
                 '}';
     }
 
-    static Faculty createFaculty() {
+    public static Faculty createFaculty() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Hello, we will create new faculty. \nPlease input faculty Name:");
         String tempName = sc.nextLine();
@@ -61,7 +61,7 @@ class Faculty {
 
 
 
-    static Faculty test() {
+    public static Faculty test() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Hello, we will create new faculty. \nPlease input faculty Name:");
         String tempName = sc.nextLine();

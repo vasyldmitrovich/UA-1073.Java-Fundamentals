@@ -2,7 +2,7 @@ package com.softserve.edu05.hw.hw1program;
 
 import java.util.Scanner;
 
-class DayInMonth {
+public class DayInMonth {
 
     private static final int[] daysInMonth = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 

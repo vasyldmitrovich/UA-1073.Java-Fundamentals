@@ -2,9 +2,9 @@ package com.softserve.edu01.hw;
 
 import java.util.Scanner;
 
-class Hw2 {
+public class Hw2 {
 
-    static void nameAndAddress () {
+    public static void nameAndAddress () {
 
         System.out.println("Hello, what is your name?");
         String name = new Scanner(System.in).nextLine();

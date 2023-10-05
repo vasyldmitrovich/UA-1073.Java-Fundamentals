@@ -1,6 +1,6 @@
 package com.softserve.edu03.pt;
 
-class App {
+public class App {
 
     public static void main(String[] args) {
         // Task 1

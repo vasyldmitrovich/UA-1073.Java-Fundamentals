@@ -1,6 +1,6 @@
 package com.softserve.edu03.pt;
 
-class Employee {//Good structure, nice
+public class Employee {//Good structure, nice
 
     private String name;
     private int rate;
@@ -10,54 +10,54 @@ class Employee {//Good structure, nice
     public Employee() {
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 
-    void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    int getRate() {
+    public int getRate() {
         return rate;
     }
 
-    void setRate(int rate) {
+    public void setRate(int rate) {
         this.rate = rate;
     }
 
-    int getHours() {
+    public int getHours() {
         return hours;
     }
 
-    void setHours(int hours) {
+    public void setHours(int hours) {
         this.hours = hours;
     }
 
-    static int getTotalSum() {
+    public static int getTotalSum() {
         return totalSum;
     }
 
-    static void setTotalSum(int totalSum) {
+    public static void setTotalSum(int totalSum) {
         Employee.totalSum = totalSum;
     }
 
-    static String totalSalary () {
+    public static String totalSalary () {
     return "Total salary of all workers with bonuses " + totalSum + " $.";
     }
 
-    Employee(String name, int rate, int hours) {
+    public Employee(String name, int rate, int hours) {
         this.name = name;
         this.rate = rate;
         this.hours = hours;
         totalSum = (int) (totalSum +  rate * hours * 1.1);
     }
 
-    int getSalary() {
+    public int getSalary() {
         return this.rate * this.hours;
     }
 
-    int getBonuses() {
+    public int getBonuses() {
         return getSalary() / 10;
     }
 

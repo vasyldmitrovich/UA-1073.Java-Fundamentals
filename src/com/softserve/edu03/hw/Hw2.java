@@ -2,9 +2,9 @@ package com.softserve.edu03.hw;
 
 import java.util.Scanner;
 
-class Hw2 {
+public class Hw2 {
 
-        static String smallestNumber (){
+        public static String smallestNumber (){
         Scanner scanner = new Scanner(System.in);
         int min;
         System.out.println("We will find the smallest number. \n" +
