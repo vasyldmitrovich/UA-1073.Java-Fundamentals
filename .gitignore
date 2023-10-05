@@ -127,8 +127,8 @@ workspace.xml
 /**/bower_components/
 
 # npm
-/node_modules/
-/**/node_modules/
-/src/lib/gson-2.8.9.jar
-/src/lib/hamcrest-core-1.3.jar
-/src/lib/junit-4.13.2.jar
+#/node_modules/
+#/**/node_modules/
+#/lib/gson-2.8.9.jar
+#/lib/hamcrest-core-1.3.jar
+#/lib/junit-4.13.2.jar
