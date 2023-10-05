@@ -1,4 +1,4 @@
-package com.softserve.edu05.apptest;
+package com.softserve.edu05;
 
 public class Calc {
 
