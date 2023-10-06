@@ -33,6 +33,7 @@ public class Dog {
     }
 
     //Метод визначення найстарійшої собаки
+    //This method should not be there, this method should be in class for example Task5.java
     static Dog theOldestDog(Dog dog1, Dog dog2, Dog dog3) {
         Dog res = dog1;
         if (dog2.getAge() > res.getAge()) {
@@ -45,6 +46,7 @@ public class Dog {
 
     }
 
+    //And this method move to another class too
     static boolean dublicateName(Dog dog1, Dog dog2, Dog dog3) {
         boolean dublicat;
         if (dog1.getName().equals(dog2.getName()) || dog2.getName().equals(dog3.getName()) || dog1.getName().equals(dog3.getName())) {

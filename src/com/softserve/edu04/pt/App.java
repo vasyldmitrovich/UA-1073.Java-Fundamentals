@@ -6,6 +6,7 @@ public class App {
     public static void main(String[] args) {
         Main.task5Edu04Hw();
 
+        //I do not see calling another tasks here
 
 
 

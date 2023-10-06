@@ -1,6 +1,6 @@
 package com.softserve.edu04.hw.task4;
 
-public enum Season {
+public enum Season {//Good
     SUMMER("Summer"),
     AUTUMN("Autumn"),
     WINTER("Winter"),

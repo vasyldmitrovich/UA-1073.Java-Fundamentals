@@ -32,6 +32,7 @@ public class Product {
                 '}';
     }
 
+    //These methods should not be there
     static Product mostExpensiveProduct(
             Product p1,
             Product p2,

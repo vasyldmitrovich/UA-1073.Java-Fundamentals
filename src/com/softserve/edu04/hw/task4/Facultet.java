@@ -16,4 +16,6 @@ public class Facultet {
                 ", whichSeason=" + whichSeason +
                 '}';
     }
+
+    //Add constructor without parameters and getters and setters
 }

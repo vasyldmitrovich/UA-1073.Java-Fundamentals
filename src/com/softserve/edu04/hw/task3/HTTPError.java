@@ -5,7 +5,7 @@ public enum HTTPError {
     _411("Length Required. Server rejected the request because the Content-Length header field is not defined and the server requires it."),
     _412("Precondition Failed. The client has indicated preconditions in its headers which the server does not meet." ),
     _413("Payload Too Large. Request entity is larger than limits defined by server.");
-
+    //What means symbol _ why you put this symbol there?
     final String answer;
 
     HTTPError(String answer) {

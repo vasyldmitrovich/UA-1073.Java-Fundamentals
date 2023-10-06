@@ -3,7 +3,7 @@ package com.softserve.edu04.pt.task1;
 import java.util.Scanner;
 
 public class Task1Edu04 {
-    public static void task1Edu04() {
+    public static void task1Edu04() {//Why you do not call this method from class App.java?
 
         var scan = new Scanner(System.in);
 

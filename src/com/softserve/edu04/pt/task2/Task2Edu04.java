@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Task2Edu04 {
 
-    public static void task2Edu04() {
+    public static void task2Edu04() {//Call this method in class App.java
         var scan = new Scanner(System.in);
 
         System.out.println("Input day of the week: ");

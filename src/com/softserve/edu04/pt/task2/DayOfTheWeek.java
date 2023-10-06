@@ -2,7 +2,7 @@ package com.softserve.edu04.pt.task2;
 
 
 
-enum DayOfTheWeek {
+enum DayOfTheWeek {//Good
     MONDAY("Monday", "Понеділок"), TUESDAY("Tuesday", "Вівторок"),
     WEDNESDAY("Wednesday", "Середа"), THURSDAY("Thursday", "Четвер"),
     FRIDAY("Friday", "П'ятниця"), SATURDAY("Saturday", "Субота"),

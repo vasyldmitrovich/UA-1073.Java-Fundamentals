@@ -1,6 +1,7 @@
 package com.softserve.edu04.hw.task5;
 
-public class Main {
+public class Main {//Give another name of class for example Task5.java
+
     public static void task5Edu04Hw() {
         Dog dog1 = new Dog("Boni", 2, Breed.PUG);
         Dog dog2 = new Dog("Lukas", 5, Breed.SPANIEL);

@@ -2,7 +2,7 @@ package com.softserve.edu04.hw.task4;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Task4Edu04Hw {
+public class Task4Edu04Hw {//Ok
     public static void task4() {
         Scanner scanner = new Scanner(System.in);
 
