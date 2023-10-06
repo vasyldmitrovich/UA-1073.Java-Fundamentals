@@ -19,7 +19,7 @@ public class Task1_3 {
         calculateTheProduct(arr);
     }
 
-    public static void findMinValue(int[] arr) {
+    public static void findMinValue(int[] arr) {//Good
         int min = arr[0];
         int minIdx = 0;
         for (int i = 1; i < arr.length; i++) {

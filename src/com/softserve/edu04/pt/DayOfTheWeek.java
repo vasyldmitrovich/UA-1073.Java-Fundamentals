@@ -1,6 +1,6 @@
 package com.softserve.edu04.pt;
 
-public enum DayOfTheWeek {
+public enum DayOfTheWeek {//Ok
     MONDAY("Monday", "Понеділок"), TUESDAY("Tuesday", "Вівторок"), WEDNESDAY("Wednesday", "Середа"),
     THURSDAY("Thursday", "Четвер"), FRIDAY("Friday", "П'ятниця"), SATURDAY("Saturday", "Субота"), SUNDAY("Sunday", "Неділя");
 

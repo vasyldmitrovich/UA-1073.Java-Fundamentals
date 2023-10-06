@@ -1,7 +1,7 @@
 package com.softserve.edu04.hw;
 
 public class Task5 {
-    public static void task5() {
+    public static void task5() {//Ok
 
         Dog d1 = new Dog("Bars", Breed.CHIHUAHUA, 5);
         Dog d2 = new Dog("Lemurko", Breed.MALTESE, 1);

@@ -54,7 +54,7 @@ public class Task1 {
         }
     }
 
-    public static void findValue(int[] arr, int a) {
+    public static void findValue(int[] arr, int a) {//Good
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == a) {
                 System.out.printf("Array contains a value %d, index: %d\n", a, i);

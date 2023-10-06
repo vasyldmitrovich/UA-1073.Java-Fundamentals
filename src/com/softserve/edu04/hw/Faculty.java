@@ -16,7 +16,7 @@ public class Faculty {
         return numberOfStudents;
     }
 
-    public void setNumberOfStudents(int numberOfStudents) throws Exception {
+    public void setNumberOfStudents(int numberOfStudents) throws Exception {//Ok
         if (numberOfStudents < 0) {
             throw new Exception("Number of students can`t be negative!");
         } else {

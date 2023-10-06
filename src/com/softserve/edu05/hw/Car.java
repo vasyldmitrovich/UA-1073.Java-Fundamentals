@@ -7,7 +7,7 @@ public class Car {
     private int yearOfProduction;
     private double engineCapacity;
 
-
+    //Put constructors getters and setters and override methods in correct order
     public Car(String type, int yearOfProduction, double engineCapacity) {
         this.type = type;
         this.yearOfProduction = yearOfProduction;

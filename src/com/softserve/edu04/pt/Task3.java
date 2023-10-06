@@ -3,7 +3,7 @@ package com.softserve.edu04.pt;
 import java.util.Scanner;
 
 public class Task3 {
-    public static void task3() {
+    public static void task3() {//Ok
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Input the name of the country: " );

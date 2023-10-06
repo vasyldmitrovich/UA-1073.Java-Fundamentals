@@ -13,7 +13,7 @@ public class Task1 {
         System.out.print("Input the third number: ");
         float c = sc.nextFloat();
 
-        if (checkEligibility(a, b, c)) {
+        if (checkEligibility(a, b, c)) {//Good
             System.out.println("Numbers are belong to the range [-5, 5].");
         } else {
             System.out.println("Numbers are NOT belong to the range [-5, 5].");

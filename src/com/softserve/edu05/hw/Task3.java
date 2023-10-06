@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task3 {
-    public static void task3() {
+    public static void task3() {//Ok
         Car[] cars = new Car[4];
         cars[0] = new Car("Audi", 2010, 1.8);
         cars[1] = new Car("BMW", 2017, 3.0);

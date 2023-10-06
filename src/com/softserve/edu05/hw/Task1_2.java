@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Task1_2 {
     public static void task1_2() {
         Scanner sc = new Scanner(System.in);
-        //int[] arr = new int[]{3, 5, 7, -1, 9, 13, 15, 48, 19, 2};
+        //int[] arr = new int[]{3, 5, 7, -1, 9, 13, 15, 48, 19, 2};If you have been tested your method, after that delete this line
         int[] arr = new int[10];
         for (int i = 0; i < arr.length; i++) {
             System.out.print("Enter the " + (i + 1) + " element: ");

@@ -20,7 +20,7 @@ public class Task4 {
         System.out.print("Number of students: " + mif.getNumberOfStudents());
         System.out.println(", current season: " + mif.getCurrentSeason().season);
 
-
+        //All good
 
     }
 }

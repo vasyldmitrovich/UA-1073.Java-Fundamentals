@@ -16,7 +16,7 @@ public class Task3 {
             case 404 -> HTTPError.NOT_FOUND;
             case 405 -> HTTPError.METHOD_NOT_ALLOWED;
             case 406 -> HTTPError.NOT_ACCEPTABLE;
-            default -> throw new Exception("Wrong error number!");
+            default -> throw new Exception("Wrong error number!");//Good
         };
         System.out.printf("Name of the error %d: " + error.errorMessage, errorNumber);
 

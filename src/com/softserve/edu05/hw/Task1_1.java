@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Task1_1 {
     static Scanner scanner = new Scanner(System.in);
 
-    public static void task1_1() {
+    public static void task1_1() {//Nice to see method like that
         System.out.print("Input the month: ");
         int month = Integer.parseInt(scanner.nextLine());
         getDayInMonth(month);

@@ -28,7 +28,7 @@ public class Task1 {
     public static void checkOddNumber(int number) {
         if (number % 2 == 1) {
             System.out.printf("Number %d is odd.\n", number);
-            countOdd++;
+            countOdd++;//Good
         }
 
     }
