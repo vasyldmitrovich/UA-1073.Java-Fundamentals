@@ -18,7 +18,7 @@ public class Task2 {
         System.out.println("The smallest number is " + smallestNumber);
     }
 
-    public static int findSmallestNumber(int a, int b, int c) {
+    public static int findSmallestNumber(int a, int b, int c) {//Nice
         int smallest = a;
 
         if (b < smallest) {
