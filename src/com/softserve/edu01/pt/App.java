@@ -6,10 +6,10 @@ public class App {
         // Practical tasks
 
         // Task 1
-        Task1.task1();
+        //Task1.task1();
 
         // Task 2
-        Task2.task2();
+        //Task2.task2();
 
         // Task 3...
 
