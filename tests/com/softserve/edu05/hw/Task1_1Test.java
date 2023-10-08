@@ -9,8 +9,8 @@ class Task1_1Test {
 
     @Test
     void testGetMonthDays() {
-        assertEquals(28, getMonthDays(2), "February");
-        assertEquals(31, getMonthDays(12), "December");
-        assertEquals(30, getMonthDays(6), "June");
+        assertEquals(28, getMonthDays(2));
+        assertEquals(31, getMonthDays(12));
+        assertEquals(30, getMonthDays(6));
     }
 }
