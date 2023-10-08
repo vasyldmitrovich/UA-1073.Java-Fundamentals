@@ -1,5 +1,5 @@
 package com.softserve.edu03.hw.hw3;
-
+//done
 import java.time.LocalDate;
 import java.util.Scanner;
 
@@ -57,7 +57,7 @@ public class Persona {
     }
 
     public void output(){
-        System.out.println(firstName() + " " + lastName + " " + "is" + getAge() + "years old"); //idea каже що не може знайти цей метод при рані програми (
+       // System.out.println(firstName() + " " + lastName + " " + "is" + getAge() + "years old"); //idea каже що не може знайти цей метод при рані програми (
         // Method call expected), коли роблю як idea реколендує також є помилка після вводу фамілії. Підкажіть як пофіксити?
     }
 

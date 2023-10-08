@@ -1,5 +1,5 @@
 package com.softserve.edu03.hw.hw1;
-
+//done
 import java.util.Locale;
 import java.util.Scanner;
 
