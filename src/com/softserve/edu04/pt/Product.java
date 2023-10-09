@@ -2,10 +2,10 @@ package com.softserve.edu04.pt;
 
 class Product {
 
-    String name;
+    String name;//Make fields private
     double price;
     int quantity;
-    static Product mostExpensive;
+    static Product mostExpensive;//Move this two variable from here to class for example Pt1.java
     static Product biggestQuantity;
 
     Product(String name, double price, int quantity) {
@@ -14,6 +14,9 @@ class Product {
         this.quantity = quantity;
     }
 
+    //Add getters setters and override methods like toString and others
+
+    //And this methods move too
     private static Product comparisonByPrice (Product p1, Product p2) {
         return (p1.price <= p2.price) ? p2 : p1;
     }

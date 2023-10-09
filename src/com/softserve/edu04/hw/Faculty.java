@@ -7,7 +7,7 @@ class Faculty {
     private final int numberOfStudents;
     private final Season season;
 
-    enum Season {
+    enum Season {//The same with this enum
         FIRST,
         SECOND,
         THIRD,
@@ -68,7 +68,9 @@ class Faculty {
         System.out.println("Input number of students:");
         int tempNumberOfStudents = sc.nextInt();
         System.out.println("Input Season (between 1, 2, 3, 4, 5):");
-        String rrr = sc.nextLine().toUpperCase();
+        String rrr = sc.next();
+        rrr.toUpperCase();
+        System.out.println("blablabla");
         switch (rrr) {
             case "FIRST" -> {
                 return new Faculty(tempName, tempNumberOfStudents, Season.FIRST);
