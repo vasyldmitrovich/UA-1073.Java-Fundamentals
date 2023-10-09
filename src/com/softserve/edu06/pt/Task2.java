@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt;
 
-public class Task2 {
+public class Task2 {//ok
     public static void task2() {
         Car[] cars = new Car[]{
                 new Sedan("BMW X5", 210, 2015),

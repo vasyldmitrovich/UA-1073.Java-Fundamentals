@@ -9,7 +9,7 @@ public class Task1 {
                 new Kiwi("Small", false),
         };
 
-        for (Bird bird : birds) {
+        for (Bird bird : birds) {//Good
             System.out.println(bird);
             bird.fly();
         }

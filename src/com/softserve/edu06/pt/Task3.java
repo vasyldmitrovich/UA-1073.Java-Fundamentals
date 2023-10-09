@@ -14,7 +14,7 @@ public class Task3 {
 
     }
 
-    public static void printLines(Line[] lines) {
+    public static void printLines(Line[] lines) {//Good
         for (Line line : lines) {
             line.print();
         }
