@@ -1,7 +1,13 @@
 package com.softserve.edu06.task1;
 
-public abstract class FlyingBird extends Bird {
-    FlyingBird(String feathers, int layEggs) {
+public class FlyingBird extends Bird {
+    FlyingBird(String feathers, boolean layEggs) {
         super(feathers, layEggs);
     }
+
+    @Override
+    public void fly() {
+        System.out.println("I can fly");
+    }
+
 }

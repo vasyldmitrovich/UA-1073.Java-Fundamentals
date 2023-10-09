@@ -2,9 +2,9 @@ package com.softserve.edu06.task1;
 
 public abstract class Bird {
     private String feathers;
-    private int layEggs;
+    private boolean layEggs;
 
-    Bird(String feathers, int layEggs) {
+    Bird(String feathers, boolean layEggs) {
         this.feathers = feathers;
         this.layEggs = layEggs;
     }
@@ -18,11 +18,11 @@ public abstract class Bird {
         this.feathers = feathers;
     }
 
-    public int getLayEggs() {
+    public boolean isLayEggs() {
         return layEggs;
     }
 
-    public void setLayEggs(int layEggs) {
+    public void setLayEggs(boolean layEggs) {
         this.layEggs = layEggs;
     }
 }

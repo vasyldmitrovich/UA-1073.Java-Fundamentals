@@ -2,12 +2,13 @@ package com.softserve.edu06.task1;
 
 public class Kiwi extends NonFlyingBird {
 
-    Kiwi(String feathers, int layEggs) {
+    Kiwi(String feathers, boolean layEggs) {
         super(feathers, layEggs);
     }
 
     @Override
     public void fly() {
-        System.out.println(getFeathers() + " has " + getLayEggs() + " eggs");
+        super.fly();
+        System.out.println("Kiwi \nFeathers: " + getFeathers() + ". Can lay eggs: " + isLayEggs());
     }
 }
