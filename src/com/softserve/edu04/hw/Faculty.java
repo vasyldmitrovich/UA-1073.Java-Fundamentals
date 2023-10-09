@@ -7,14 +7,6 @@ class Faculty {
     private final int numberOfStudents;
     private final Season season;
 
-    enum Season {//The same with this enum
-        FIRST,
-        SECOND,
-        THIRD,
-        FOURTH,
-        FIFTH
-    }
-
     private Faculty(String name, int numberOfStudents, Season season) {
         this.name = name;
         this.numberOfStudents = numberOfStudents;
@@ -67,10 +59,10 @@ class Faculty {
         String tempName = sc.nextLine();
         System.out.println("Input number of students:");
         int tempNumberOfStudents = sc.nextInt();
-        System.out.println("Input Season (between 1, 2, 3, 4, 5):");
-        String rrr = sc.next();
-        rrr.toUpperCase();
-        System.out.println("blablabla");
+        System.out.println("Input Season (First, Second, Third, Fourth, Fifth)");
+        sc.nextLine();
+        String rrr = sc.nextLine().toUpperCase();
+       //        System.out.println("blablabla");   // Thank you !!!
         switch (rrr) {
             case "FIRST" -> {
                 return new Faculty(tempName, tempNumberOfStudents, Season.FIRST);

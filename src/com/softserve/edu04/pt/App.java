@@ -22,8 +22,8 @@ class App {
         Product p2 = new Product("Iphone 15", 48_000.00, 17);
         Product p3 = new Product("Gun", 23_000.00, 40);
         Product p4 = new Product("Fireworks", 86.47, 499);
-        Product.getMostExpensive(p1, p2, p3, p4);
-        Product.biggestQuantityProduct(p1, p2, p3, p4);
+        ProductMethods.getMostExpensive(p1, p2, p3, p4);
+        ProductMethods.biggestQuantityProduct(p1, p2, p3, p4);
 
 
 

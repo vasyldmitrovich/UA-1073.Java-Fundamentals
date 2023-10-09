@@ -33,10 +33,10 @@ class App {
 
         // HW 5 - Dogs
 
-//        Dog a = new Dog("Alice", 4, Dog.Breed.BEAGLE);
-//        Dog b = new Dog("Ted", 7, Dog.Breed.BULLDOG);
-//        Dog c = new Dog("Alice", 3, Dog.Breed.LABRADOR);
-//        Dog.oldestDog(a, b, c);
-//        Dog.sameName(a, b, c);
+        Dog a = new Dog("Alice", 4, Breed.BEAGLE);
+        Dog b = new Dog("Ted", 7, Breed.BULLDOG);
+        Dog c = new Dog("Alice", 3, Breed.LABRADOR);
+        Task1.oldestDog(a, b, c);
+        Dog.sameName(a, b, c);
     }
 }

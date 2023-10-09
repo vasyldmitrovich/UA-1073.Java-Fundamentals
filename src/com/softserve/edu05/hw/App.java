@@ -16,13 +16,13 @@ class App {
 
         //HW 3 - Cars
 
-        new Car("BMW", 2019, 3.0);
-        new Car("Запорожець", 1988, 7.0);
-        new Car("Audi", 2023, 4.0);
-        new Car("Mercedes", 1988, 1.988);
+        CarLogic.addNewCar(new Car("BMW", 2019, 3.0));
+        CarLogic.addNewCar(new Car("Запорожець", 1988, 7.0));
+        CarLogic.addNewCar(new Car("Audi", 2023, 4.0));
+        CarLogic.addNewCar(new Car("Mercedes", 1988, 1.988));
 
-        Car.findCarsByYear();
-        Car.sortCarsDescendingOrder();
+        CarLogic.findCarsByYear();
+        CarLogic.sortCarsDescendingOrder();
 
         //HW 4 - Random Number Game
 
