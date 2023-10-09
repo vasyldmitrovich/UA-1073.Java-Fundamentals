@@ -1,4 +1,4 @@
-package com.softserve.edu04.hw.Task2;
+package com.softserve.edu04.hw.task2;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -14,6 +14,8 @@ public class Main {
         int n2 = scanner.nextInt();
         System.out.println("Input number");
         int n3 = scanner.nextInt();
+
+        //Move this logic in some method and call this method here
         int min = n1;
         int max = n1;
         if (n2 < n1) {

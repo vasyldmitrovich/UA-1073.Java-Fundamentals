@@ -1,4 +1,4 @@
-package com.softserve.edu04.hw.Task3;
+package com.softserve.edu04.hw.task3;
 
 public enum HTTPError {
     ERROR101 ("Switching Protocols"),

@@ -1,4 +1,4 @@
-package com.softserve.edu04.hw.Task1;
+package com.softserve.edu04.hw.task1;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -16,6 +16,8 @@ public class Main {
         double n2 = scanner.nextDouble();
         System.out.println("Input third number");
         double n3 = scanner.nextDouble();
+        //Good
+
         if (n1>=min && n1<=max) {
             counter ++;
         }
