@@ -2,7 +2,7 @@ package com.softserve.edu04.pt;
 
 import java.util.Scanner;
 
-public class Task01 {
+public class Task01 {//Good
     public static void oddNumbers() {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter three numbers to explore");

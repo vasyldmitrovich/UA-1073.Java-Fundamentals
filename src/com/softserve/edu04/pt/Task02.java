@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Task02 {
 
-    enum Days {
+    enum Days {//Move to file Days.java
         MONDAY("Monday","Понеділок"),
         TUESDAY("Tuesday","Вівторок"),
         WEDNESDAY("Wednesday","Середа"),

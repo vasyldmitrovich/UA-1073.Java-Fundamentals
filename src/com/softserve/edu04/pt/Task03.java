@@ -1,7 +1,7 @@
 package com.softserve.edu04.pt;
 
 public class Task03 {
-    enum Continent {
+    enum Continent {//Move to file Continent.java
         ASIA,
         AFRICA,
         AMERICA,
@@ -12,7 +12,7 @@ public class Task03 {
 
 
     }
-    enum Country{
+    enum Country{//Move to file Country.java
         JAPAN(Continent.ASIA),
         INDIA(Continent.ASIA),
         CHINA(Continent.ASIA),
