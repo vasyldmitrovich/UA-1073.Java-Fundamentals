@@ -6,7 +6,7 @@ public class hw2 {
         Scanner scanner = new Scanner(System.in);
         int choice;
 
-        do {
+        do {//Ok
             System.out.print("Введіть перше число ");
             double n = scanner.nextDouble();
 

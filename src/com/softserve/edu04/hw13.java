@@ -8,6 +8,7 @@ public class hw13 {
         System.out.println("Введіть 5 цілих чисел ");
         for (int i = 0; i < 5; i++) numbers[i] = scanner.nextInt();
 
+        //Move this logic to some method and call this method here
         int pos = -1, min = Integer.MAX_VALUE, minPos = -1, prod = 1, sum = 0, posCount = 0;
 
         for (int i = 0; i < 5; i++) {

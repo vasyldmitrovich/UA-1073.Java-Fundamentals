@@ -3,7 +3,7 @@ package com.softserve.edu04;
 import java.util.Scanner;
 
 public class hw5 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Ok
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введіть місяць від 1-12 ");
         int month = scanner.nextInt();
