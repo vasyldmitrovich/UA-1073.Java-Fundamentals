@@ -10,7 +10,7 @@ public class hw33 {
         int num1 = scanner.nextInt();
         int num2 = scanner.nextInt();
         int smallest = smallestt(num, num1, num2);
-        System.out.println(" Найменше число - " + smallest);
+        System.out.println(" Найменше число - " + smallest);//Call this method here
     }
     public static int smallestt(int num, int num1, int num2) {
         int smallest = num;
