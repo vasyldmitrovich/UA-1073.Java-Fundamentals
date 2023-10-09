@@ -2,7 +2,7 @@ package com.softserve.edu03.pt.task1;
 
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args){//Nice
         double number1 = Calculation.getNumber("First number");
 
         double number2 = Calculation.getNumber("Second number");

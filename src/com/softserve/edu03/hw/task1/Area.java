@@ -26,7 +26,7 @@ public class Area {
         scanner.close();
     }
 
-    public static double calculateArea(double sideA, double sideB, double sideC) {
+    public static double calculateArea(double sideA, double sideB, double sideC) {//Good
         if (sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA) {
             double s = (sideA + sideB + sideC) / 2.0;
 

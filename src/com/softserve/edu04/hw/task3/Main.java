@@ -19,7 +19,7 @@ public class Main {
     }
 }
 
-enum HTTPError {
+enum HTTPError {//Move this enum to file HTTPError.java
     HTTP_400(400, "Bad Request"),
     HTTP_401(401, "Unauthorized"),
     HTTP_402(402, "Payment Required"),
@@ -27,7 +27,8 @@ enum HTTPError {
     HTTP_404(404, "Not Found");
 
      final int code;
-     final String name;   //чи обов'язково тут private?
+     final String name;   //чи обов'язково тут private?    Yes, should be private
+    //so that someone else could not change this variable, and we were sure that there would be a valid value
 
     HTTPError(int code, String name) {
         this.code = code;
@@ -49,5 +50,6 @@ enum HTTPError {
             }
         }
         return null; // Помилка з таким кодом не знайдена
+        //This is not correct
     }
 }

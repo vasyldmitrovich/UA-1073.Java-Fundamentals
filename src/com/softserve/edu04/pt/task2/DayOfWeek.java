@@ -3,7 +3,7 @@ package com.softserve.edu04.pt.task2;
 import java.util.Scanner;
 
 public class DayOfWeek {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Move to class for example App.java
         var scanner = new Scanner(System.in);
         System.out.println("Input day of week");
         String response = scanner.nextLine();
@@ -14,7 +14,7 @@ public class DayOfWeek {
     }
 }
 
-enum Day {
+enum Day {//Move to file Day.java
     MONDAY("Monday", "Понеділок"),
     TUESDAY("Tuesday", "Вівторок");
 

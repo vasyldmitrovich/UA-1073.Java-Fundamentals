@@ -2,7 +2,7 @@ package com.softserve.edu03.hw.task2;
 
 import java.util.Scanner;
 
-public class SmallestNumber {
+public class SmallestNumber {//Nice
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 

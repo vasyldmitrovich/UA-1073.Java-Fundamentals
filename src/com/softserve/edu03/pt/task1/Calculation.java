@@ -12,7 +12,7 @@ public class Calculation {
         return ((a + b) / 2.0);
     }
 
-    public static int getNumber(String prompt) {
+    public static int getNumber(String prompt) {//Good method
         Scanner scanner = new Scanner(System.in);
 
         System.out.println(prompt + " :");

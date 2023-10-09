@@ -13,7 +13,7 @@ public class Main {
     }
 }
 
-enum Continent{
+enum Continent{//The same with this enums, move to separate files
     EUROPE, AMERICA
 }
 
