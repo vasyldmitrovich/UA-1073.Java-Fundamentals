@@ -4,7 +4,7 @@ package com.softserve.edu05.task4;
 import java.util.Random;
 import java.util.Scanner;
 
-public class App {
+public class App {//Ok
     public static void main(String[] args) {
         guessNumber();
     }

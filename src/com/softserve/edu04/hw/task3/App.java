@@ -30,5 +30,5 @@ public class App {
             case "409" -> System.out.println(HTTPError.GONE);
             default -> System.out.println("Enter a valid status.");
         }
-    }
+    }//Very nice
 }

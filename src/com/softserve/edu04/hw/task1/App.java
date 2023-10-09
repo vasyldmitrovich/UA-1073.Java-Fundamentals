@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         inputAndCheck();
-    }
+    }//Nice
 
     public static void inputAndCheck() {
         Scanner scanner = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class App {
         float num2 = scanner.nextFloat();
         System.out.print("Input number 3: ");
         float num3 = scanner.nextFloat();
-        checkIfInRange(num1, num2, num3);
+        checkIfInRange(num1, num2, num3);//Good
     }
 
     public static void checkIfInRange(float num1, float num2, float num3) {

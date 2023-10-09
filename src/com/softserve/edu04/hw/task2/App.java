@@ -18,7 +18,7 @@ public class App {
         outputMaxAndMin(num1, num2, num3);
     }
 
-    public static void outputMaxAndMin(int num1, int num2, int num3) {
+    public static void outputMaxAndMin(int num1, int num2, int num3) {//Cool
         int max;
         int min;
 

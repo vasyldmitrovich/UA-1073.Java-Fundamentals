@@ -1,8 +1,5 @@
 package com.softserve.edu04.hw.task5;
 
-import com.softserve.edu04.hw.task4.Season;
-
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Dog {
@@ -11,6 +8,7 @@ public class Dog {
     private int age;
 
 
+    //Add constructors without and with parameters
 
     public String getName() {
         return name;

@@ -1,6 +1,6 @@
 package com.softserve.edu05.task1;
 
-public class DataProvider {
+public class DataProvider {//All is good
     public int getDaysInMonths(int month) {
 
         int[] daysInMonths = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
@@ -12,6 +12,7 @@ public class DataProvider {
         }
         return 0;
     }
+
     public int getFirstFive(int[] numbers) {
         int result = 0;
 
@@ -27,6 +28,7 @@ public class DataProvider {
         }
         return result;
     }
+
     private boolean isNumbersPositive(int[] numbers) {
         int count = 0;
 

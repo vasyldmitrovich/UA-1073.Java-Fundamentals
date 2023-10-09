@@ -2,7 +2,7 @@ package com.softserve.edu05.task1;
 
 import java.util.Scanner;
 
-public class DialogCreator {
+public class DialogCreator {//Nice, very nice
     private static final DataProvider dataProvider = new DataProvider();
     private static final Scanner scanner = new Scanner(System.in);
 

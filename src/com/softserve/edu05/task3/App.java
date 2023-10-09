@@ -3,7 +3,7 @@ package com.softserve.edu05.task3;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class App {
+public class App {//All good, nice
     private static final Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         Car[] cars = createInstances();
