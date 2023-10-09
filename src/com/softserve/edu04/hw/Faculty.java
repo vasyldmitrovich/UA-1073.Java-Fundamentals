@@ -1,6 +1,6 @@
 package com.softserve.edu04.hw;
 
-import javax.sound.midi.Soundbank;
+import javax.sound.midi.Soundbank;//Delete this import if you do not use it
 import java.util.Scanner;
 
 public class Faculty {

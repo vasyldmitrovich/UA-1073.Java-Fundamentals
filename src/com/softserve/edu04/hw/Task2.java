@@ -3,7 +3,7 @@ package com.softserve.edu04.hw;
 import java.util.Scanner;
 
 public class Task2 {
-    public static void run() {
+    public static void run() {//Nice
         Scanner console = new Scanner(System.in);
         System.out.println("Enter 3 integer numbers:");
         int num1 = console.nextInt();

@@ -3,7 +3,7 @@ package com.softserve.edu04.pt;
 import java.util.Scanner;
 
 public class Task2 {
-    public static void run() {
+    public static void run() {//Good
         Scanner console = new Scanner(System.in);
         String enteredDay = console.nextLine();
         DayOfWeek day = DayOfWeek.valueOf(enteredDay.toUpperCase());

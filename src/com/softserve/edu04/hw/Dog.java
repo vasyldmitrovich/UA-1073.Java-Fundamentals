@@ -7,6 +7,8 @@ public class Dog {
     private Breed breed;
     private int age;
 
+    //Add constructors without and with parameters
+
     public String getName() {
         return name;
     }

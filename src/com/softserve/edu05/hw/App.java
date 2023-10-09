@@ -1,7 +1,7 @@
 package com.softserve.edu05.hw;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//All task good
         System.out.println("Task 1 running ...");
         System.out.println("Subtask 1.1 running ...");
         Task1_1.run();

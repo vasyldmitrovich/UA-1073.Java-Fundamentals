@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt.task01;
 
-public class Circle {
+public class Circle {//Good
     private double radius;
 
     // Constructors

@@ -3,7 +3,7 @@ package com.softserve.edu04.hw;
 import java.util.Scanner;
 
 public class Task1 {
-    public static void run() {
+    public static void run() {//Good
         Scanner console = new Scanner(System.in);
         System.out.println("Enter 3 float numbers:");
         float num1 = console.nextFloat();

@@ -1,7 +1,7 @@
 package com.softserve.edu05.pt;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Very nice
         System.out.println("Task 1 running ...");
         Task1.run();
         System.out.println("Task 2 running ...");

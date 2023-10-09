@@ -2,7 +2,7 @@ package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-public class Task4 {
+public class Task4 {//Ok
     public static void run() {
         Scanner console = new Scanner(System.in);
         System.out.println("Enter number of students: ");

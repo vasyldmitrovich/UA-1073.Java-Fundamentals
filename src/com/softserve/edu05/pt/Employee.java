@@ -29,6 +29,7 @@ public class Employee {
         this.salary = salary;
     }
 
+    //Constructors should go before getters and setters, and add constructor without parameters
     public Employee(String name, int departmentNumber, int salary) {
         this.name = name;
         this.departmentNumber = departmentNumber;

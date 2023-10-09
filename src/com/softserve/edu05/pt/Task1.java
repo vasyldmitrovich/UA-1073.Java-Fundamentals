@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Task1 {
 
-    public static void run() {
+    public static void run() {//Nice
         String[] names = {"Lilly", "John", "Bob", "Anna", "Sarah", "Denis"};
         System.out.println("Unsorted String array: " + Arrays.toString(names));
         Arrays.sort(names);
