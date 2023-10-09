@@ -3,7 +3,7 @@ package com.softserve.edu04.pt;
 import java.util.Scanner;
 
 public class Task3 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Good
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input the country name ");
         String countryName = scanner.nextLine();
@@ -13,7 +13,7 @@ public class Task3 {
     }
 }
 
-enum Continent{
+enum Continent{//Do the same with this enums
     EUROPE, AMERICA, ASIA, AFRICA;
 }
 

@@ -1,7 +1,7 @@
 package com.softserve.edu03.pt;
 
 public class Employee {
-    public static String totalSalary;
+    public static String totalSalary;//Why you do not use this field?
     private static double totalSum;
 
     private String name;

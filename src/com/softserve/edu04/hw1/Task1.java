@@ -15,6 +15,7 @@ public class Task1 {
         int min = -5;
         int max =  5;
 
+        //Move this logic to some method and call this method here
         if(num1 >= min && num1 <= max){
             System.out.println("First number belong to range [ -5, 5 ]");
         } else{

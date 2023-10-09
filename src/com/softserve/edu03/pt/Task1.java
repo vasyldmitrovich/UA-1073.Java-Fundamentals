@@ -2,7 +2,8 @@ package com.softserve.edu03.pt;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class Task1 {//You already have main method in class App.java
+    //Here write some method and call this method in class App.java
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("input the first number: ");

@@ -16,6 +16,7 @@ public class Task2 {
         int max;
         int min;
 
+        //Do the same with this logic
         if (number1 < number2){
             min = number1;
         } else {
