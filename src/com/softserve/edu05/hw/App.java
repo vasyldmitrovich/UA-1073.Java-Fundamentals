@@ -8,11 +8,11 @@ class App {
 
         //HW 1
 
-        OneProgram.oneProgramM();
+        OneProgram.oneProgramM();//Ok
 
         //HW 2 - Sum of two integers in do-while cycle
 
-        DoWhileSum.doWhileSum();
+        DoWhileSum.doWhileSum();//Ok
 
         //HW 3 - Cars
 

@@ -6,7 +6,7 @@ class Dog {
     private final int age;
     private final Breed breed;
 
-    enum Breed {
+    enum Breed {//Move to file Breed.java
         BEAGLE, BULLDOG, LABRADOR
     }
 
@@ -16,7 +16,7 @@ class Dog {
         this.breed = breed;
     }
 
-    static void oldestDog(Dog a, Dog b, Dog c) {
+    static void oldestDog(Dog a, Dog b, Dog c) {//Move to class for example Task1.java
         Dog temp;
         if (a.age > b.age && a.age > c.age) {
             temp = a;

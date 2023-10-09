@@ -8,7 +8,8 @@ class Car {
     private final String type;
     private final int year;
     private final double engineCapacity;
-    private static Car[] collection = new Car[4];
+    private static Car[] collection = new Car[4];//Move this logic to class for example Task1.java
+    //This class should only represent entity Car
     private static int count = 0;
 
     Car(String type, int year, double engineCapacity) {
