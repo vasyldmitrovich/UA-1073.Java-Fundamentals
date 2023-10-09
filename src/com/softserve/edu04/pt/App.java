@@ -11,7 +11,7 @@ public class App {
         System.out.println(-a - 1);
     }
 }
-class App1 {
+class App1 {//Each class write in new file
     public static void main(String[] args) {
         int a = 3;
         int b = 5;
@@ -95,7 +95,7 @@ class App5 {
 }
 enum DayOfWeek {
     MONDAY("Monday", "Понеділок"),
-    TUESDAY("Tuesday", "Вівторок");
+    TUESDAY("Tuesday", "Вівторок");//Where another days???
     final String en;
     final String ua;
 
@@ -117,10 +117,10 @@ class App6 {
         System.out.println(country + " belongs to " + country.continent);
     }
 }
-enum Continent {
+enum Continent {//Move to file Continent.java
     ASIA, EUROPE, AMERICA;
 }
-enum Country {
+enum Country {//Move to file Country.java
     UKRAINE(Continent.EUROPE),
     USA(Continent.AMERICA);
     final Continent continent;
