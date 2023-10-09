@@ -18,7 +18,7 @@ public class App {
         System.out.println("The smallest number is: " + getSmallestNumber(a, b, c, min));
     }
 
-    private static double getSmallestNumber(double a, double b, double c, double min){
+    private static double getSmallestNumber(double a, double b, double c, double min){//Not ok, always return variable a
         if (b < min){
             min = b;
         }

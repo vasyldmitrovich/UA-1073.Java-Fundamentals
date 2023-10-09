@@ -3,7 +3,7 @@ package com.softserve.edu03.hw.hw1;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class App {
+public class App {//Good
     public static void main (String[] args){
         Locale.setDefault(Locale.ROOT);
         Scanner scanner = new Scanner(System.in);

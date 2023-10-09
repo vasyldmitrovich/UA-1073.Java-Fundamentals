@@ -46,24 +46,21 @@ public class Persona {
     public void input(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter First Name: ");
-        String firstName = scanner.nextLine();
-        System.out.println("Enter First Name: ");
-        String lasttName = scanner.nextLine();
-        System.out.println("Enter First Name: ");
-        int birthYear = scanner.nextInt();
+        firstName = scanner.nextLine();
+        System.out.println("Enter Last Name: ");
+        lastName = scanner.nextLine();
+        System.out.println("Enter Birth year: ");
+        birthYear = scanner.nextInt();
     }
     public static int getAge(){
         return LocalDate.now().getYear() - birthYear;
     }
 
     public void output(){
-       // System.out.println(firstName() + " " + lastName + " " + "is" + getAge() + "years old"); //idea каже що не може знайти цей метод при рані програми (
-        // Method call expected), коли роблю як idea реколендує також є помилка після вводу фамілії. Підкажіть як пофіксити?
+        System.out.println(firstName + " " + lastName + " " + "is" + getAge() + "years old"); //Should be like that
+
     }
 
-    //private String firstName() { //idea попросила його створити, не розумію чому. Чи можете ви мені пояснити?
-       // return null;
-    //}
 
     public void changeName(String fn, String ln){
         setFirstName(fn);
