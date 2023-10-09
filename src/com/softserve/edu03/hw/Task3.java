@@ -43,11 +43,12 @@ public class Task3 {
 
     }
 
-    public static class Person {
+    public static class Person {//Move this class to file Person.java
         private String firstName;
         private String lastName;
         private int birthYear;
 
+        //Do not correct order method in this class, please read java convention
         public int getAge() {
             int currentYear = java.util.Calendar.getInstance().get(java.util.Calendar.YEAR);
             return currentYear - birthYear;

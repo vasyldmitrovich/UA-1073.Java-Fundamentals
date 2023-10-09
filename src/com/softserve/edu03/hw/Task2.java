@@ -27,5 +27,5 @@ public class Task2 {
 
         System.out.println("The smallest number is: " + min);
 
-    }
+    }//Good
 }

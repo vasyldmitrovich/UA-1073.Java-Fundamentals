@@ -14,7 +14,7 @@ public class Task2 {
 
     }
 }
-enum DaysOfWeek {
+enum DaysOfWeek {//Separate classes in different files
     MONDAY("Monday", "Понеділок"),
     TUESDAY("Tuesday", "Вівторок"),
     WEDNESDAY("Wednesday", "Середа"),

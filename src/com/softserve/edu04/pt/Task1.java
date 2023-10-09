@@ -3,7 +3,7 @@ package com.softserve.edu04.pt;
 import java.util.Scanner;
 
 public class Task1 {
-    public static void main() {
+    public static void main() {//Ok
         var scanner = new Scanner(System.in);
         int n1 = scanner.nextInt();
         int n2 = scanner.nextInt();

@@ -31,7 +31,7 @@ public class Task2 {
         return new Employee(name, rate, hours);
     }
 
-    public static class Employee {
+    public static class Employee {//Move this class to file Employee.java too
         private String name;
         private double rate;
         private double hours;

@@ -40,7 +40,7 @@ public class Task5 {
         return new Dog(name, Breed.valueOf(breed.toUpperCase()), age);
     }
 
-    public static class Dog {
+    public static class Dog {//Why you write all classes in one file, this is not good
         private String name;
         private Breed breed;
         private int age;

@@ -16,7 +16,7 @@ public class Task4 {
 
     }
 
-    public class Faculty {
+    public class Faculty {//The same mistake here
 
         private int numberOfStudents;
         private String currentlySeason;
@@ -27,7 +27,7 @@ public class Task4 {
         }
     }
 
-    enum Season {
+    enum Season {//And this enum move to file Season.java
         WINTER("Winter"),
         SPRING("Spring"),
         SUMMER("Summer"),

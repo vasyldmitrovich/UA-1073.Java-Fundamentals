@@ -25,7 +25,7 @@ public class Task3 {
 
     }
 
-    enum HTTPEror {
+    enum HTTPEror {//Move to file HTTPError.java
         HTTP_400("Bad Request"),
         HTTP_401("Unauthorized"),
         HTTP_402("Payment Required");
