@@ -1,4 +1,4 @@
-package com.softserve.edu04;
+package com.softserve.edu05;
 import java.util.Scanner;
 public class hw13 {
     public static void main(String[] args) {
