@@ -4,7 +4,7 @@ import com.softserve.edu06.hw.task2.Developer;
 import com.softserve.edu06.hw.task2.Employee;
 
 public class App {
-    public static void main (String[] args) {
+    public static void main (String[] args) {//Nice
         // Task 2
         Employee employee = new Employee("Taras", 32, 32735.35);
         Developer developer = new Developer(employee, "Java engineer");

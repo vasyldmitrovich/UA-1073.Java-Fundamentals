@@ -1,7 +1,7 @@
 package com.softserve.edu06.pt;
 
 public class App {
-    public static void main (String[] args) {
+    public static void main (String[] args) {//All tasks is good
         // task2
         Car[] cars = {
                 new Sedan("BMW X6", 2020, 200),

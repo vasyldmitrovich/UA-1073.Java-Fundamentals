@@ -11,7 +11,7 @@ public class Employee {
     private int departmentNumber;
     private int salary;
 
-    public static Employee promptParameter() {
+    public static Employee promptParameter() {//Move this method to class like Task1.java for example
         Employee employee = new Employee();
         System.out.println("Enter name of employee" );
         String name = SCANNER.nextLine();
@@ -52,7 +52,7 @@ public class Employee {
         this.salary = salary;
     }
 
-    public static Employee[] findEmployeesInDepartment (Employee[] employees, int department) {
+    public static Employee[] findEmployeesInDepartment (Employee[] employees, int department) {//Move this method too
         var filteredEmployees = new ArrayList<Employee>();
         for (Employee employee : employees) {
             if (employee.getDepartmentNumber() == department) {
@@ -65,7 +65,7 @@ public class Employee {
 
     public static void sortBySalaryDesc(Employee[] employees) {
         Arrays.sort(employees, EmployeeSalaryComparator);
-    }
+    }//And that method too
 
     public String getName () {
         return name;

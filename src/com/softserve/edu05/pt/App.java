@@ -10,6 +10,7 @@ public class App {
         // Task 1
 
         // task 1_1
+        //Good
         String[] strings = SortStringArray.getStringArray(5);
         System.out.println("String array is: " + Arrays.toString(strings));
         SortStringArray.sort(strings);

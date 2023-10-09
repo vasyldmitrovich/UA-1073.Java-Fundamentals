@@ -2,7 +2,7 @@ package com.softserve.edu04.pt;
 
 import java.util.Scanner;
 
-public class App {
+public class App {//Very nice
     public static Scanner SCANNER = new Scanner(System.in);
 
     public static void main (String[] args) {

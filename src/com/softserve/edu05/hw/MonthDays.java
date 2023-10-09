@@ -2,7 +2,7 @@ package com.softserve.edu05.hw;
 
 import static com.softserve.edu05.hw.App.SCANNER;
 
-public class MonthDays {
+public class MonthDays {//Good
     private static final int[] MONTH_DAYS = {
             31, // January
             28, // February

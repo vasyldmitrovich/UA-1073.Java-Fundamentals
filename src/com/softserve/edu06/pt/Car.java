@@ -36,7 +36,7 @@ abstract class Car {
     }
 
     abstract void run();
-    abstract void stop();
+    abstract void stop();//Good
 
     @Override
     public String toString () {

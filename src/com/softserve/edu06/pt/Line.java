@@ -6,7 +6,7 @@ public class Line {
 
     public Line (int x0, int y0, int x1, int y1) {
         this(new Point(x0, y0), new Point(x1, y1));
-    }
+    }//Good
 
     public Line (Point start, Point end) {
         this.start = start;

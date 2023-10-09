@@ -7,6 +7,8 @@ import java.util.Calendar;
 import java.util.Comparator;
 
 public class Car {
+
+    //Methods which you use to manipulate arrays move to class for example Task1.java, do not write that methods here
     private static Comparator<Car> CarYearComparator = new Comparator<Car>() {
         @Override
         public int compare (Car car1, Car car2) {

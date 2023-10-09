@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt;
 
-public class Truck extends Car {
+public class Truck extends Car {//All good
     public Truck (String model, int maxSpeed, int yearOfProduction) {
         super(model, maxSpeed, yearOfProduction);
     }
