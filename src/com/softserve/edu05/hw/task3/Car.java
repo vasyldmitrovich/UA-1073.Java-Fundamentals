@@ -5,6 +5,8 @@ public class Car {
     private int yearOfProductino;
     private double engineCapacity;
 
+    //Write constructor without parameters
+
     public Car(String type, int yearOfProductino, double engineCapacity) {
         this.type = type;
         this.yearOfProductino = yearOfProductino;
@@ -22,4 +24,6 @@ public class Car {
     public double getEngineCapacity() {
         return engineCapacity;
     }
+
+    //Add setters  toString equals and HashCode
 }

@@ -1,7 +1,7 @@
 package com.softserve.edu06.hw.task2;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//All good
         Employee[] employees = {
                 new Employee("Taras", 25, 32500.00),
                 new Employee("Badan", 19, 20000.00),

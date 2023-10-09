@@ -5,6 +5,8 @@ public class Employee {
     private int numberVid;
     private double salary;
 
+    //Add constructor without parameters
+
     public Employee(String PIB, int numberVid, double salary) {
         this.PIB = PIB;
         this.numberVid = numberVid;
@@ -22,4 +24,6 @@ public class Employee {
     public double getSalary() {
         return salary;
     }
+
+    //Add another methods
 }

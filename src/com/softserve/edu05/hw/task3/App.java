@@ -25,6 +25,7 @@ public class App {
             }
         }
 
+        //Good
         Collections.sort(car, (car1, car2) -> Integer.compare(car1.getYearOfProductino(), car2.getYearOfProductino()));
         System.out.println("\nCars in descending order of year of production:");
         for (Car caar : car){

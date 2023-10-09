@@ -1,6 +1,6 @@
 package com.softserve.edu06.hw.task2;
 
-public class Developer extends Employee {
+public class Developer extends Employee {//Good
     private String position;
 
     public Developer(String name, int age, double salary, String position) {

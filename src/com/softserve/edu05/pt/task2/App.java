@@ -2,7 +2,7 @@ package com.softserve.edu05.pt.task2;
 
 import java.util.Scanner;
 
-public class App {
+public class App {//Nice
     public static void main(String[] args) {
         var scanner = new Scanner(System.in);
         System.out.println("Input namber: ");
