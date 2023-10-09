@@ -1,4 +1,4 @@
-package com.softserve.edu03.pt.Task1;
+package com.softserve.edu03.pt.Task1;//Packages names should be lowercase
 
 import java.util.Scanner;
 

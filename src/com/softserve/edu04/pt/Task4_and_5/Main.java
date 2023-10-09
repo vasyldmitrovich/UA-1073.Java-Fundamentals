@@ -14,6 +14,7 @@ public class Main {
         Product product3 = Product.prompt();
         Product product4 = Product.prompt();
         Product theMostExpensive = Product.theMostExpensiveProduct(product1, product2, product3, product4);
+        //Method like that do not write in class Product, this method should be in another class like Task1.java
         Product theBiggestQuantity = Product.theBiggestQuantity(product1, product2, product3, product4);
         System.out.println("The most expensive product is " + theMostExpensive);
         System.out.println("The biggest quantity is " + theBiggestQuantity);
