@@ -1,7 +1,7 @@
 package com.softserve.edu03.pt.pt.Task2;
 
 import java.util.Scanner;
-// не розумію чого не виходить створити багато робітників та як порахувати тотал сумму
+// do not understand why I cannot count salary with bonus added... and total sum is not correct because of this reason
 public class Employee {
     private String name;
     private double rate;
@@ -21,29 +21,31 @@ public class Employee {
         emp1.setRate(rate);
         System.out.println("Enter hours: ");
         Double hours = sc.nextDouble();
+        sc.nextLine();
         emp1.setHours(hours);
 
-        /*Employee emp2 = new Employee();
+        Employee emp2 = new Employee();
         System.out.println("Enter name: ");
-        String name = sc.nextLine();
+        String name2 = sc.nextLine();
         emp2.setName(name);
         System.out.println("Enter rate: ");
-        Double rate = sc.nextDouble();
+        Double rate2 = sc.nextDouble();
         emp2.setRate(rate);
         System.out.println("Enter hours: ");
-        Double hours = sc.nextDouble();
+        Double hours2 = sc.nextDouble();
+        sc.nextLine();
         emp2.setHours(hours);
 
         Employee emp3 = new Employee();
         System.out.println("Enter name: ");
-        String name = sc.nextLine();
+        String name3 = sc.nextLine();
         emp3.setName(name);
         System.out.println("Enter rate: ");
-        Double rate = sc.nextDouble();
+        Double rate3 = sc.nextDouble();
         emp3.setRate(rate);
         System.out.println("Enter hours: ");
-        Double hours = sc.nextDouble();
-        emp3.setHours(hours); */
+        Double hours3 = sc.nextDouble();
+        emp3.setHours(hours);
 
         System.out.println(totalSum);
 
@@ -88,12 +90,12 @@ public class Employee {
     }
 
     public double getSalary(){
-        return rate * hours;
+        return (rate * hours) + getGetBounuses();
     }
 
     public double getGetBounuses(){
-        double v = 0.1 / getSalary();
-        return v;
+        return 0.1 / (rate * hours);
+
     }
 
 
