@@ -14,7 +14,7 @@ public class Add {
 
 //        DoWhile.task2Edu05Hw();        //Task 2
 
-        Task3Edu05Hw.task3Edu05Hw();
+//        Task3Edu05Hw.task3Edu05Hw();   //Task 3
 
 
 
