@@ -1,4 +1,4 @@
-package com.softserve.edu04.hw;
+package com.softserve.edu04.hw.Task3;
 
 import java.util.Scanner;
 
@@ -13,28 +13,16 @@ public class Task3 {
 
         switch (selectError) {
             case 1:
-                System.out.println(HTTPEror.HTTP_400.error);
+                System.out.println(HTTPError.HTTPEror.HTTP_400.error);
                 break;
 
             case 2:
-                System.out.println(HTTPEror.HTTP_401.error);
+                System.out.println(HTTPError.HTTPEror.HTTP_401.error);
                 break;
             case 3:
-                System.out.println(HTTPEror.HTTP_402.error);
+                System.out.println(HTTPError.HTTPEror.HTTP_402.error);
         }
 
     }
 
-    enum HTTPEror {//Move to file HTTPError.java
-        HTTP_400("Bad Request"),
-        HTTP_401("Unauthorized"),
-        HTTP_402("Payment Required");
-
-        final String error;
-
-
-        HTTPEror(String error) {
-            this.error = error;
-        }
-    }
 }

@@ -12,23 +12,27 @@ public class Task1 {
         System.out.println("Input third number:");
         int num3 = scanner.nextInt();
 
-        int min = -5;
-        int max = 5;
+       findNum(num1, num2, num3);
 
         //Move this logic to some method and call this method here
-        if (num1 >= min && num1 <= max) {
+
+    }
+    public static void findNum(int number1, int number2, int number3) {
+        int min = -5;
+        int max = 5;
+        if (number1 >= min && number1 <= max) {
             System.out.println("First number is belong to range [-5, 5].");
         } else {
             System.out.println("First number is NOT belong to range [-5, 5].");
         }
 
-        if (num2 >= min && num2 <= max) {
+        if (number2 >= min && number2 <= max) {
             System.out.println("Second number is belong to range [-5, 5].");
         } else {
             System.out.println("Second number is NOT belong to range [-5, 5].");
         }
 
-        if (num3 >= min && num3 <= max) {
+        if (number3 >= min && number3 <= max) {
             System.out.println("Third number is belong to range [-5, 5].");
         } else {
             System.out.println("Third number is NOT belong to range [-5, 5].");

@@ -1,5 +1,8 @@
 package com.softserve.edu04.pt;
 
+import com.softserve.edu04.pt.Task2.Task2;
+import com.softserve.edu04.pt.Task3.Task3;
+
 public class App {
 
     public static void main(String[] args) {

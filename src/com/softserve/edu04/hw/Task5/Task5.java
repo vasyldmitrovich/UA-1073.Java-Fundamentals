@@ -1,4 +1,4 @@
-package com.softserve.edu04.hw;
+package com.softserve.edu04.hw.Task5;
 
 import java.util.Scanner;
 
@@ -84,18 +84,4 @@ public class Task5 {
             }
         }
     }
-
-    enum Breed {
-        LABRADOR("Labrador"),
-        BULLDOG("Bulldog"),
-        POODLE("Poodle"),
-        ROTTWEILER("Rottweiler");
-
-        final String en;
-
-        Breed(String en) {
-            this.en = en;
-        }
-    }
-
 }

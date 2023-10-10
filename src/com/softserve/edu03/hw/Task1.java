@@ -12,11 +12,14 @@ public class Task1 {
         System.out.println("Input Side 3: ");
         double number3 = scanner.nextDouble();
 
-        double p = (number1 + number2 + number3) / 2;
-
-        double area = Math.sqrt(p * (p - number1) * (p - number2) * (p - number3));//Move this logic to some method, and call this method here
+        double area = areaTriangle(number1, number2, number3);
 
         System.out.println("The area of the tringle is: " + area);
     }
-
+    public static double areaTriangle(double num1, double num2, double num3) {
+        double p = (num1 + num2 + num3) / 2;
+        double area = Math.sqrt(p * (p - num1) * (p - num2) * (p - num3));
+        return area;
+    }
 }
+

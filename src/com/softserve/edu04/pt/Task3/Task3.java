@@ -1,4 +1,4 @@
-package com.softserve.edu04.pt;
+package com.softserve.edu04.pt.Task3;
 
 import java.util.Scanner;
 
@@ -11,20 +11,4 @@ public class Task3 {
         System.out.println(country + " belongs to" + country.continent);
     }
 
-
 }
- enum Continent {
-    ASIA, EUROPE, AMERICA;
- }
-
- enum Country {
-    JAPAN(Continent.ASIA), UKRAINE(Continent.EUROPE), USA(Continent.AMERICA);
-
-    final Continent continent;
-
-    Country(Continent continent) {
-        this.continent = continent;
-    }
-
-
- }

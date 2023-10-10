@@ -13,10 +13,15 @@ public class Task2 {
         System.out.println("Input the third number:");
         int number3 = scanner.nextInt();
 
-        int min;
-        int max;
+        System.out.println("The smallest number is: " + findMin(number1, number2, number3));
+        System.out.println("The biggest number is: " + findMax(number1, number2, number3));
+
 
         //Do the same there
+
+    }
+    public static int findMin(int number1, int number2, int number3) {
+        int min = 0;
         if (number1 < number2) {
             min = number1;
         } else {
@@ -25,7 +30,10 @@ public class Task2 {
         if (number3 < min) {
             min = number3;
         }
-
+        return min;
+    }
+    public static int findMax(int number1, int number2, int number3) {
+        int max = 0;
         if (number1 < number2) {
             max = number2;
         } else {
@@ -34,10 +42,7 @@ public class Task2 {
         if (number3 > max) {
             max = number3;
         }
-
-        System.out.println("The smallest number is: " + min);
-        System.out.println("The biggest number is: " + max);
-
-
+        return max;
     }
+
 }
