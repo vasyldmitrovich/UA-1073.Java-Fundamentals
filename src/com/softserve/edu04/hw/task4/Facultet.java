@@ -17,5 +17,23 @@ public class Facultet {
                 '}';
     }
 
+    public Facultet() {
+    }
+
+    public int getNumOfStud() {
+        return numOfStud;
+    }
+
+    public void setNumOfStud(int numOfStud) {
+        this.numOfStud = numOfStud;
+    }
+
+    public Season getWhichSeason() {
+        return whichSeason;
+    }
+
+    public void setWhichSeason(Season whichSeason) {
+        this.whichSeason = whichSeason;
+    }
     //Add constructor without parameters and getters and setters
 }
