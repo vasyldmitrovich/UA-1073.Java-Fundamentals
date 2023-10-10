@@ -1,11 +1,6 @@
 package com.softserve.edu05.hw;
 
-import com.softserve.edu05.hw.task1.FiveNumber;
-import com.softserve.edu05.hw.task1.MonthDay;
-import com.softserve.edu05.hw.task1.SumaProd;
-import com.softserve.edu05.hw.task2.DoWhile;
-import com.softserve.edu05.hw.task3.Car;
-import com.softserve.edu05.hw.task3.Main;
+import com.softserve.edu05.hw.task3.Task3Edu05Hw;
 
 public class Add {
     public static void main(String[] args) {
@@ -18,7 +13,7 @@ public class Add {
 
 //        DoWhile.task2Edu05Hw();        //Task 2
 
-        Main.task3Edu05Hw();
+        Task3Edu05Hw.task3Edu05Hw();
 
     }
 

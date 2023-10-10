@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class Task3Edu05Hw {
     public static void task3Edu05Hw() {
 
         List<Car> car = new ArrayList<>();
