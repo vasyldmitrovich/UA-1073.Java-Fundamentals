@@ -1,6 +1,6 @@
 package com.softserve.edu04.pt.task4;
 
-public class Main {//Rename this class
+public class Task4And5Edu04Pt {//Rename this class
     public static void task4And5() {
         Product p1 = new Product("cherry", 11.5, 90);
         Product p2 = new Product("apple", 14.5, 30);
