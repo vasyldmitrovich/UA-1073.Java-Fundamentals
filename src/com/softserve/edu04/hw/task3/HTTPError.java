@@ -6,6 +6,7 @@ public enum HTTPError {
     _412("Precondition Failed. The client has indicated preconditions in its headers which the server does not meet." ),
     _413("Payload Too Large. Request entity is larger than limits defined by server.");
     //What means symbol _ why you put this symbol there?
+    //so that it is of type string
     final String answer;
 
     HTTPError(String answer) {
