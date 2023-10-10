@@ -1,6 +1,7 @@
 package com.softserve.edu05.hw;
 
 import com.softserve.edu05.hw.task3.Task3Edu05Hw;
+import com.softserve.edu05.hw.task4.Task_4_Edu05_Hw;
 import com.sun.tools.javac.Main;
 
 public class Add {
@@ -15,6 +16,8 @@ public class Add {
 //        DoWhile.task2Edu05Hw();        //Task 2
 
 //        Task3Edu05Hw.task3Edu05Hw();   //Task 3
+
+//        Task_4_Edu05_Hw.task4Edu05Hw(); //Task 4
 
 
 
