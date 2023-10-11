@@ -9,12 +9,7 @@ import java.util.Comparator;
 public class Car {
 
     //Methods which you use to manipulate arrays move to class for example Task1.java, do not write that methods here
-    private static Comparator<Car> CarYearComparator = new Comparator<Car>() {
-        @Override
-        public int compare (Car car1, Car car2) {
-            return car1.compareTo(car2);
-        };
-    };
+    private static Comparator<Car> CarYearComparator = (car1, car2) -> car1.compareTo(car2);
 
     private String type;
     private int year;
