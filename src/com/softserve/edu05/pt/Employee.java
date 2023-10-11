@@ -6,39 +6,15 @@ import java.util.Comparator;
 
 import static com.softserve.edu05.pt.App.SCANNER;
 
-public class Employee {
+public class Employee implements Comparable<Employee> {
     private String name;
     private int departmentNumber;
     private int salary;
 
-    public static Employee promptParameter() {//Move this method to class like Task1.java for example
-        Employee employee = new Employee();
-        System.out.println("Enter name of employee" );
-        String name = SCANNER.nextLine();
-        employee.setName(name);
-
-        System.out.println("Enter number of department for employee  " + name);
-        int departmentNumber = SCANNER.nextInt();
-        SCANNER.nextLine();
-        employee.setDepartmentNumber(departmentNumber);
-
-        System.out.println("Enter salary of emomployee " + name);
-        int salary = SCANNER.nextInt();
-        SCANNER.nextLine();
-        employee.setSalary(salary);
-
-        return employee;
-    }
-
     public Employee () {
         this("N/A", 0,0);
     }
-    private static Comparator<Employee> EmployeeSalaryComparator = new Comparator<Employee>() {
-        @Override
-        public int compare (Employee employee1, Employee employee2) {
-            return employee1.compareTo(employee2);
-        };
-    };
+
     public int compareTo (Employee employee1) {
         int compareSalary = employee1.getSalary();
 
@@ -51,21 +27,6 @@ public class Employee {
         this.departmentNumber = departmentNumber;
         this.salary = salary;
     }
-
-    public static Employee[] findEmployeesInDepartment (Employee[] employees, int department) {//Move this method too
-        var filteredEmployees = new ArrayList<Employee>();
-        for (Employee employee : employees) {
-            if (employee.getDepartmentNumber() == department) {
-                filteredEmployees.add(employee);
-            }
-        }
-
-        return filteredEmployees.toArray(new Employee[filteredEmployees.size()]);
-    }
-
-    public static void sortBySalaryDesc(Employee[] employees) {
-        Arrays.sort(employees, EmployeeSalaryComparator);
-    }//And that method too
 
     public String getName () {
         return name;

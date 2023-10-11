@@ -6,11 +6,7 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Comparator;
 
-public class Car {
-
-    //Methods which you use to manipulate arrays move to class for example Task1.java, do not write that methods here
-    private static Comparator<Car> CarYearComparator = (car1, car2) -> car1.compareTo(car2);
-
+public class Car implements Comparable<Car> {
     private String type;
     private int year;
     private int engineCapacity;
@@ -35,10 +31,6 @@ public class Car {
         }
 
         return filteredCars.toArray(new Car[filteredCars.size()]);
-    }
-
-    public static void sortByYears (Car[] cars) {
-        Arrays.sort(cars, CarYearComparator);
     }
 
     public int compareTo (Car car) {

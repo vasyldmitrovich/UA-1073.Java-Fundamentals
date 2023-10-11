@@ -30,7 +30,7 @@ public class App {
 
         Car[] cars = {car1, car2, car3, car4};
 
-        Car.sortByYears(cars);
+        Arrays.sort(cars);
         System.out.println("Sorted cars by year: " + Arrays.toString(cars));
 
         System.out.println("Enter year");
