@@ -5,6 +5,17 @@ public class Employee {
     private int departmentNumber;
     private int salary;
 
+    //Constructors should go before getters and setters, and add constructor without parameters
+    public Employee() {
+        this("N/A", 0, 0);
+    }
+
+    public Employee(String name, int departmentNumber, int salary) {
+        this.name = name;
+        this.departmentNumber = departmentNumber;
+        this.salary = salary;
+    }
+
     public String getName() {
         return name;
     }
@@ -26,13 +37,6 @@ public class Employee {
     }
 
     public void setSalary(int salary) {
-        this.salary = salary;
-    }
-
-    //Constructors should go before getters and setters, and add constructor without parameters
-    public Employee(String name, int departmentNumber, int salary) {
-        this.name = name;
-        this.departmentNumber = departmentNumber;
         this.salary = salary;
     }
 

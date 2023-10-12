@@ -8,6 +8,15 @@ public class Dog {
     private int age;
 
     //Add constructors without and with parameters
+    public Dog() {
+        this("N/A", Breed.DOG, 0);
+    }
+
+    public Dog(String name, Breed breed, int age) {
+        this.name = name;
+        this.breed = breed;
+        this.age = age;
+    }
 
     public String getName() {
         return name;
