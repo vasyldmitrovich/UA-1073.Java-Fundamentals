@@ -1,0 +1,107 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class Passengers {
+-passengers: int
++Passengers()
++getPassengers(): int
++setPassengers(int): void
+}
+
+interface Vehicle
+
+
+abstract class WaterVehicle {
++WaterVehicle()
+{abstract}isSailing(): void
+}
+
+abstract class FlyingVehicle {
++FlyingVehicle()
+{abstract}fly(): void
+{abstract}land(): void
+}
+
+abstract class GroundVehicle {
++GroundVehicle()
+{abstract}drive(): void
+}
+
+class Liner {
+-floors: int
++Liner()
+{abstract}isSailing(): void
++getFloors(): int
++setFloors(int): void
+}
+
+class Boat {
+-volume: int
++Boat()
++getVolume(): int
++setVolume(int): void
+{abstract}isSailing(): void
+}
+
+class Plane {
+-maxDistance: int
++Plane()
+{abstract}fly(): void
+{abstract}land(): void
++getMaxDistance(): int
++setMaxDistance(int): void
+}
+
+class Helicopter {
+-weight: int
+-maxHeight: int
++Helicopter()
+{abstract}fly(): void
+{abstract}land(): void
+}
+
+class Bus {
+-route: String
++Bus()
++getRoute(): String
++setRoute(String): void
+{abstract}drive():void
+}
+
+class Motorcycle {
+-maxSpeed: int
++Motorcycle()
+{abstract}drive(): void
++getMaxSpeed(): int
++setMaxSpeed(int): void
+}
+
+class Car {
+-model: String
++Car()
++getModel(): String
++setModel(String): void
+{abstract}drive():void
+}
+
+ Vehicle <|.. WaterVehicle
+ Vehicle <|.. WaterVehicle
+ Vehicle <|.. WaterVehicle
+
+ Passengers <|-- WaterVehicle
+ Passengers <|-- FlyingVehicle
+ Passengers <|-- GroundVehicle
+
+ Passengers <|-- WaterVehicle
+ Passengers <|-- FlyingVehicle
+ Passengers <|-- GroundVehicle
+
+ WaterVehicle <|-- Liner
+ WaterVehicle <|-- Boat
+
+ FlyingVehicle <|-- Plane
+ FlyingVehicle <|-- Helicopter
+
+ GroundVehicle <|-- Bus
+ GroundVehicle <|-- Motorcycle
+ GroundVehicle <|-- Car
