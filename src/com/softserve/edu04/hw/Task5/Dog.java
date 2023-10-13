@@ -1,11 +1,11 @@
 package com.softserve.edu04.hw.task5;
-
+import com.softserve.edu04.hw.task5.Main;
 import java.util.Objects;
 
 public class Dog {
-    String name;//Make fields private
-    String breed;
-    int age;
+    private String name;//Make fields private
+    private String breed;
+    private int age;
 
     public Dog(String name, String breed, int age) {
         this.name = name;
@@ -50,7 +50,7 @@ public class Dog {
             Dog dog1,
             Dog dog2,
             Dog dog3
-    ) {//Move this method to class Task5.java, this method should not be here
+    ) {
         Dog res = dog1;
         if (dog2.getAge() > res.getAge()) {
             res = dog2;

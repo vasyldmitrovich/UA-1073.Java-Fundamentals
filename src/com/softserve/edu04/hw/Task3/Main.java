@@ -1,5 +1,5 @@
 package com.softserve.edu04.hw.task3;
-
+import com.softserve.edu04.hw.task3.HTTPError;
 import java.util.Scanner;
 
 public class Main {

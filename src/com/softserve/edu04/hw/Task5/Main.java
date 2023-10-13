@@ -1,4 +1,6 @@
 package com.softserve.edu04.hw.task5;
+import com.softserve.edu04.hw.task5.Dog;
+import com.softserve.edu04.hw.task5.FieldBreed;
 
 public class Main {
     public static boolean sameName;

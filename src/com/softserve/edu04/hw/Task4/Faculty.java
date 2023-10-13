@@ -1,5 +1,5 @@
 package com.softserve.edu04.hw.task4;
-
+import com.softserve.edu04.hw.task4.Season;
 import java.util.Scanner;
 
 public class Faculty {
