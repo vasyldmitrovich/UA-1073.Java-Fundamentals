@@ -7,6 +7,9 @@ public class Car {
 
     //Write constructor without parameters
 
+    public Car() {
+    }
+
     public Car(String type, int yearOfProductino, double engineCapacity) {
         this.type = type;
         this.yearOfProductino = yearOfProductino;
