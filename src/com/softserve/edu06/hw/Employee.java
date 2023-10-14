@@ -1,6 +1,6 @@
 package com.softserve.edu06.hw;
 
-public class Employee {
+class Employee {
     private String name;
     private int age;
     private double salary;
