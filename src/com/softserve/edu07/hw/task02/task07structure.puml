@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class Passengers
+interface Vehicle
+abstract class WaterVehicle
+abstract class FlyingVehicle
+abstract class GroundVehicle
+class Liner
+class Boat
+class Plane
+class Helicopter
+class Bus
+class Motorcycle
+class Car
+
+Passengers <|- WaterVehicle
+Passengers <|- FlyingVehicle
+Passengers <|- GroundVehicle
+
+Vehicle <|-- WaterVehicle
+Vehicle <|-- FlyingVehicle
+Vehicle <|-- GroundVehicle
+
+WaterVehicle <|- Liner
+WaterVehicle <|- Boat
+
+FlyingVehicle <|- Plane
+FlyingVehicle <|- Helicopter
+
+GroundVehicle <|- Bus
+GroundVehicle <|- Motorcycle
+GroundVehicle <|- Car
+
+@enduml
