@@ -19,6 +19,6 @@ public class Task2 {
 //output max and min value
         System.out.println("Maximum value is : " + max);
         System.out.println("Minimum value is : " + min);
-
+        
     }
 }
