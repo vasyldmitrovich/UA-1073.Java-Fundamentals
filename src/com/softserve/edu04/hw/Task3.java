@@ -10,7 +10,7 @@ public enum ErrorCodes {
     HTTP_404(404, "Not Found"),
     HTTP_406(406, "Not Acceptable"),
     HTTP_409(409, "Conflict"),
-
+    
     // Define a special UNKNOWN_ERROR constant
     UNKNOWN_ERROR(-1, "Unknown Error");
 
