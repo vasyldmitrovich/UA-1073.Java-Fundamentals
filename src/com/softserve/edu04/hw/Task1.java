@@ -29,7 +29,7 @@ public class Task1 {
         } else {
             System.out.println("Second number doesn't belong to the range [-5;5]");
         }
-
+        
 
         if (num3 >= -5 && num3 <= 5) {
             System.out.println("Third number belongs to the range [-5;5]");
