@@ -28,7 +28,12 @@ public class Main {
         double hours = scanner.nextDouble();
         scanner.nextLine();
 
-        return new Employee(name, rate, hours);
+        return new Employee(name, rate, hours) {
+            @Override
+            public String report() {
+                return null;
+            }
+        };
     }
 }
 

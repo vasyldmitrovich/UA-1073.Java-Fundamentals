@@ -1,7 +1,5 @@
 package com.softserve.edu06.pt.task1;
 
-import com.softserve.edu06.pt.task1.ClassA;
-
 class ClassB extends ClassA {
     public double i = 1.1;
 

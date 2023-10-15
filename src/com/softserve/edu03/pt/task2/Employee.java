@@ -1,6 +1,6 @@
 package com.softserve.edu03.pt.task2;
 
-public class Employee {
+public abstract class Employee {
     private final String name;
     private final double rate;
     private final double hours;
@@ -30,5 +30,11 @@ public class Employee {
                 ", salary=" + getSalary() +
                 ", bonuses=" + getBonuses() +
                 '}';
+    }
+
+    public abstract String report();
+
+    protected Object getName() {
+        return null;
     }
 }
