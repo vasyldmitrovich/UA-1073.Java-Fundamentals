@@ -5,7 +5,7 @@ import com.softserve.edu07.pt.pt2.*;
 
 import java.util.Random;
 
-public class App {
+class App {
 
 
     public static void main(String[] args) {

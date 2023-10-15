@@ -8,7 +8,7 @@ import com.softserve.edu07.hw.hw2.TestVehicles;
 
 import java.util.Arrays;
 
-public class App {
+class App {
 
     public static void main(String[] args) {
 
