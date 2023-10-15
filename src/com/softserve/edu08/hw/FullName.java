@@ -1,6 +1,6 @@
 package com.softserve.edu08.hw;
 
-public class FullName {
+public class FullName implements Cloneable {
     private String firstName;
     private String lastName;
 
@@ -34,5 +34,10 @@ public class FullName {
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 '}';
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
