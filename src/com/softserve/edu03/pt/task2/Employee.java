@@ -35,6 +35,6 @@ public abstract class Employee {
     public abstract String report();
 
     protected Object getName() {
-        return null;
+        return null; // was new mistake
     }
 }
