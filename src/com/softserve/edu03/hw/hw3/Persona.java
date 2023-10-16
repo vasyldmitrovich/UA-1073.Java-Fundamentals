@@ -57,7 +57,7 @@ public class Persona {
     }
 
     public void output(){
-        System.out.println(firstName + " " + lastName + " " + "is" + getAge() + "years old"); //Should be like that
+        System.out.println(firstName + " " + lastName + " " + "is " + getAge() + " years old"); //Should be like that
 
     }
 
