@@ -62,13 +62,17 @@ public class Department implements Cloneable {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        Department copyOfDepartment = (Department) super.clone();
-        copyOfDepartment.address = (Address) copyOfDepartment.address.clone();
-        return copyOfDepartment;
+    public Department clone() {
+        try {
+            Department copyOfDepartment = (Department) super.clone();
+            copyOfDepartment.address = copyOfDepartment.address.clone();
+            return copyOfDepartment;
+        } catch (CloneNotSupportedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
-    private class Address implements Cloneable {
+    public class Address implements Cloneable {
         private String city;
         private String street;
         private int building;
@@ -116,8 +120,12 @@ public class Department implements Cloneable {
         }
 
         @Override
-        protected Object clone() throws CloneNotSupportedException {
-            return super.clone();
+        public Address clone() {
+            try {
+                return (Address) super.clone();
+            } catch (CloneNotSupportedException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }
