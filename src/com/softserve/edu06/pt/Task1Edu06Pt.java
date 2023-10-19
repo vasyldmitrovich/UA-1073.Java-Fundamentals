@@ -59,7 +59,7 @@ public class Task1Edu06Pt {
             ClassA.m6();
         }
 
-        // private void m8() {
+        @Override
         public void m8() {
             System.out.println("ClassB, method m8");
             super.m8();
@@ -67,7 +67,7 @@ public class Task1Edu06Pt {
     }
 
 
-    public class App {
+    public static class App {
 
         public static void main(String[] args) {
 
