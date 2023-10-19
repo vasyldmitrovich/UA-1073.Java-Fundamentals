@@ -3,7 +3,7 @@ package com.softserve.edu06.pt.task2;
 import java.util.ArrayList;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main() {
 
         ArrayList<Car> cars = new ArrayList<>();
 
