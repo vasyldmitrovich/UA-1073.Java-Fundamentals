@@ -1,4 +1,4 @@
-package com.softserve.edu06.pt;
+package com.softserve.edu06.pt.task1;
 
 public class Task1Edu06Pt {
     static class ClassA {
