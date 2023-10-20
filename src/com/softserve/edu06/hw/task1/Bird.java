@@ -9,18 +9,32 @@ public abstract class Bird {
         this.layEggs = layEggs;
     }
 
-    public abstract void fly();
 
-    public String getFeathers(){
+    public String getFeathers() {
         return feathers;
     }
-    public boolean canIayEggs() {
-        return layEggs;
 
+    public void setFeathers(String feathers) {
+        this.feathers = feathers;
     }
 
+    public boolean isLayEggs() {
+        return layEggs;
+    }
 
+    public void setLayEggs(boolean layEggs) {
+        this.layEggs = layEggs;
+    }
 
+    public abstract void fly();
+
+    @Override
+    public String toString() {
+        return "Bird{" +
+                "feathers='" + feathers + '\'' +
+                ", layEggs=" + layEggs +
+                '}';
+    }
 }
 
 

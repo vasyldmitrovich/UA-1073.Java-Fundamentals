@@ -1,13 +1,13 @@
 package com.softserve.edu06.hw.task1;
 
 public class Penguin extends NonFlyIngBird {
-    public Penguin() {
-        super("Black and White", true);
+    public Penguin(String feathers, boolean layEggs) {
+        super(feathers, layEggs);
     }
 
 
     @Override
     public String toString() {
-        return "Hi, i`m Penguin. I have " + getFeathers() + " feathers. I " + (canIayEggs() ? "can " : "not can") + "lay eggs";
+        return "I`m Penguin. I have " + getFeathers() + " feathers. I " + (isLayEggs() ? "can " : "not can") + "lay eggs";
     }
 }

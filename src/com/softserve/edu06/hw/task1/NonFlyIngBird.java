@@ -7,6 +7,6 @@ public class NonFlyIngBird extends Bird {
 
     @Override
     public void fly() {
-        System.out.println(" do not can fly");
+        System.out.println("I not can fly ");
     }
 }
