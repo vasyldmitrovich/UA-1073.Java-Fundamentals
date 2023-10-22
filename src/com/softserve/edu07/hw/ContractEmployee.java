@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw;
 
-public class ContractEmployee extends Employee implements Payment {
+public class ContractEmployee extends Employee implements Payment {//This interfaces should implement Employee
     private String federalTaxIdMember;
     private int hourlyRate;
 

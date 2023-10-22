@@ -1,6 +1,6 @@
 package com.softserve.edu07.pt;
 
-public class Task1 {
+public class Task1 {//Good
     public static void task1() {
         Animal[] animals = new Animal[]{
                 new Cat(),

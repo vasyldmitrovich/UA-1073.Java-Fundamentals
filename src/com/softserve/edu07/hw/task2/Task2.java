@@ -9,7 +9,7 @@ public class Task2 {
                 new Car(9, "BMW"),
         };
 
-        for (Vehicle vehicle : vehicles) {
+        for (Vehicle vehicle : vehicles) {//Good
             if (vehicle instanceof FlyingVehicle) {
                 ((FlyingVehicle) vehicle).fly();
                 ((FlyingVehicle) vehicle).land();

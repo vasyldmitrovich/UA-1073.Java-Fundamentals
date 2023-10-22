@@ -1,7 +1,7 @@
 package com.softserve.edu07.hw;
 
 public abstract class Employee {
-    private String employeeId;
+    private String employeeId;//noe employeeId simple id
     private String name;
     private double salary;
 

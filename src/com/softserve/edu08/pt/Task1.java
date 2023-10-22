@@ -1,6 +1,6 @@
 package com.softserve.edu08.pt;
 
-public class Task1 {
+public class Task1 {//Good
     public static void task1() {
         Department department = new Department("Dep1", new Department.Address("Ivano-Frankivsk", "Chornovola", 15));
         Department cloneDepartment = department.clone();

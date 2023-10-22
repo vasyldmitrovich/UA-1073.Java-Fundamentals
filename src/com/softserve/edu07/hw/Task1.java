@@ -4,7 +4,7 @@ package com.softserve.edu07.hw;
 import java.util.Arrays;
 
 public class Task1 {
-    public static void task1() {
+    public static void task1() {//Good
         Employee[] employees = new Employee[]{
                 new SalariedEmployee("1", "Andrii", 2000, "None"),
                 new SalariedEmployee("2", "Petro", 18000, "5595929"),

@@ -6,7 +6,7 @@ public class Task1_2 {
         Student student2 = new Student(new FullName("John", "Doe"), 25, 6);
         printStudents(student1, student2);
         System.out.println("+=".repeat(29));
-
+//Ok
         Student cloneStudent = student1.clone();
         printStudents(student1, cloneStudent);
 
