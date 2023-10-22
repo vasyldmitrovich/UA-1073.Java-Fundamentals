@@ -2,7 +2,7 @@ package com.softserve.edu07.hw.task1;
 
 import java.util.Arrays;
 
-public class Task1 {
+public class Task1 {//All good
     public static void main (String[] args) {
         Employee[] employees = {
                 new ContractEmployee("Employee 1" , "1","1", 1000),

@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.task2;
 
-public abstract class Passengers {
+public abstract class Passengers {//without s in the end name of class
     private int passengers;
 
     public Passengers (int passengers) {
