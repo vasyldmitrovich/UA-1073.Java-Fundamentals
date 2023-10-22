@@ -13,7 +13,7 @@ public class Task2 {
         for (int i = 0; i < 3; i++) {
             students.add(createStudent());
         }
-
+        students.get(0).equals(students.get(1));
         System.out.println(students);
 
         checkStudentsGrading(students);

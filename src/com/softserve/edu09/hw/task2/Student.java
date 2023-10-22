@@ -1,6 +1,7 @@
 package com.softserve.edu09.hw.task2;
 
 import java.util.List;
+import java.util.Objects;
 
 public class Student {
     private String name;
