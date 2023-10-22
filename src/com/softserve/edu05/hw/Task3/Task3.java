@@ -30,7 +30,7 @@ public class Task3 {
                 System.out.println(car);
             }
         }
-        Arrays.sort(cars, (c1, c2) -> Integer.compare(c1.getYearProdaction(), c2.getYearProdaction()));
+        Arrays.sort(cars, (c1, c2) -> Integer.compare(c1.getYearProdaction(), c2.getYearProdaction()));// Comparator.comparingInt(Car::getYearProdaction
 
         System.out.println("\nCars sorted by year of production:");
         for (Car car : cars) {

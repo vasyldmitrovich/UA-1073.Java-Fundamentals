@@ -2,7 +2,7 @@ package com.softserve.edu08.hw.Task2;
 
 import com.softserve.edu08.hw.Task1.FullName;
 
-public class App {
+public class App {//Ok
     public static void main(String[] args) throws CloneNotSupportedException {
         Student[] students = new Student[]{
                 new Student(new FullName("Mike", "Ramoson"), 18, 1),

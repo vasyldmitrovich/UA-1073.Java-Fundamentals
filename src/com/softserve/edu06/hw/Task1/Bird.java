@@ -1,7 +1,7 @@
 package com.softserve.edu06.hw.Task1;
 
 
-    abstract class Bird {
+abstract class Bird {
     private String feathers;
     private boolean layEggs;
 

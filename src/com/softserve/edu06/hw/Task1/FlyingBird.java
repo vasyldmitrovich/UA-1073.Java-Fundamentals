@@ -11,7 +11,7 @@ package com.softserve.edu06.hw.Task1;
         System.out.println("This bird with " + getFeathers() + " feathers can fly.");
     }
 }
-    class Eagle extends FlyingBird {
+    class Eagle extends FlyingBird {//This class should not be inner
     public Eagle() {
         super("white");
     }

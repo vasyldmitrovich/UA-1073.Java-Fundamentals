@@ -3,7 +3,7 @@ package com.softserve.edu05.hw.task1;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Ex2 {
+public class Ex2 {//Good
     public static void main(String[] args) {
 
         var nums = new Random().ints(10, -1, 10).toArray();

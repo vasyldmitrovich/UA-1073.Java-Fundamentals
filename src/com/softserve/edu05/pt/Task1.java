@@ -26,7 +26,7 @@ public class Task1 {
         }
 
     }
-    public static double averageValue (int[] numSort) {
+    public static double averageValue (int[] numSort) {//Good
         int sum = 0;
         for (int i = 0; i < numSort.length; i++) {
             sum += numSort[i];

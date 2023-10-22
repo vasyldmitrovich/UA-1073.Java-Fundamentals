@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.Task1;
 
-abstract class Employee implements Payment {
+abstract class Employee implements Payment {//Good
     private String name;
     private String position;
     private String employeeId;

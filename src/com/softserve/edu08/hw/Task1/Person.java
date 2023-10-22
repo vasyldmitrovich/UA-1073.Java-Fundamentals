@@ -33,7 +33,7 @@ public abstract class Person implements Cloneable {
 
     public abstract String activity();
 
-    public Object clone() throws CloneNotSupportedException {
+    public Object clone() throws CloneNotSupportedException {//Not good
         Person clonedPerson = (Person) super.clone();
         FullName clonedFullName = new FullName(this.fullName.getFirstName(), this.fullName.getLastName());
         clonedPerson.fullName = clonedFullName;

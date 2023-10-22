@@ -3,7 +3,7 @@ package com.softserve.edu05.pt.Task4;
 import java.sql.Array;
 import java.util.Scanner;
 
-public class Task4 {
+public class Task4 {//Ok
     public static void main() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter next information about employees:");

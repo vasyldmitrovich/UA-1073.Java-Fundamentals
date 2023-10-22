@@ -2,8 +2,10 @@ package com.softserve.edu05.hw.Task3;
 
 public class Car {
     private String type;
-    private int yearProdaction;
+    private int yearProdaction;//simply year not yearProdaction
     private double engineCapacity;
+
+    //Add constructor without parameters
 
     public Car(String type, int yearProdaction, double engineCapacity) {
         this.type = type;
@@ -40,4 +42,6 @@ public class Car {
         return "Car type: " + type + ", year of production: " + yearProdaction +
                 ", engine capacity: " + engineCapacity + '.';
     }
+
+    //Override equals and hash code
 }

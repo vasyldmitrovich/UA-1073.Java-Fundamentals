@@ -3,7 +3,7 @@ package com.softserve.edu05.hw.task1;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Ex3 {
+public class Ex3 {//All is good
     public static void main(String[] args) {
         Random rrr = new Random();
         int[] fiveNum = rrr.ints(5, -3, 4).toArray();

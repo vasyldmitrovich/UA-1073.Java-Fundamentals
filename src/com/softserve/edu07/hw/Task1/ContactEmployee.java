@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.Task1;
 
-public class ContactEmployee extends Employee implements Payment {
+public class ContactEmployee extends Employee implements Payment {//Without implements Payment, because parent class already implement this interphase
 
     private int hoursOfWork;
     private double hourlyRate;
