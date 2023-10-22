@@ -1,6 +1,6 @@
 package com.softserve.edu08.task1;
 
-public class App {
+public class App {//All is very good
     public static void main(String[] args) throws CloneNotSupportedException {
         Student firstStudent = new Student(new FullName("Nick", "Johns"), 20, 2);
         Student secondStudent = new Student(new FullName("John", "Doe"), 21, 3);

@@ -1,6 +1,6 @@
 package com.softserve.edu06.task1;
 
-public class Eagle extends FlyingBird {
+public class Eagle extends FlyingBird {//Ok
 
     Eagle(String feathers, boolean layEggs) {
         super(feathers, layEggs);

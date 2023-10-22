@@ -1,6 +1,6 @@
 package com.softserve.edu06.task1;
 
-public abstract class Bird {
+public abstract class Bird {//Ok
     private String feathers;
     private boolean layEggs;
 

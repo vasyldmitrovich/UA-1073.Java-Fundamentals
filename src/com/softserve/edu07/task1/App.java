@@ -3,7 +3,7 @@ package com.softserve.edu07.task1;
 import java.util.Arrays;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Very good
         Employee[] employees = new Employee[]{
                 new HourlyPaidEmployee("1", "327632734", 1.25, 6),
                 new FixedPaidEmployee("2", "s28d3f4d4", 20000),
