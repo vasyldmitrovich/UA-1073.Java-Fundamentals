@@ -3,7 +3,7 @@ package com.softserve.edu05.hw.task2;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class DoWhile {
+public class DoWhile {//Ok
     public static void task2Edu05Hw() {
 
         var scan = new Scanner(System.in);

@@ -2,7 +2,7 @@ package com.softserve.edu05.hw.task1;
 
 import java.util.Scanner;
 
-public class SumaProd {
+public class SumaProd {//Good
     public static void task1_2Edu05Hw() {
 
         var scan = new Scanner(System.in);

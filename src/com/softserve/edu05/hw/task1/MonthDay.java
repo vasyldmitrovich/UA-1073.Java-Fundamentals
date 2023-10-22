@@ -2,7 +2,7 @@ package com.softserve.edu05.hw.task1;
 
 import java.util.Scanner;
 
-public class MonthDay {
+public class MonthDay {//Good
     public static void task1Edu05Hw () {
 
         var scan = new Scanner(System.in);

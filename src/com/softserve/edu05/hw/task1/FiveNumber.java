@@ -2,7 +2,7 @@ package com.softserve.edu05.hw.task1;
 
 import java.util.Scanner;
 
-public class FiveNumber {
+public class FiveNumber {//Good
     public static void task1_3Edu05Hw () {
         var scan = new Scanner(System.in);
         int[] number = new int[5];

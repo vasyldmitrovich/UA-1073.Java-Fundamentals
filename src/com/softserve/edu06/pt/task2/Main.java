@@ -2,7 +2,7 @@ package com.softserve.edu06.pt.task2;
 
 import java.util.ArrayList;
 
-public class Main {
+public class Main {//Ok
     public static void main() {
 
         ArrayList<Car> cars = new ArrayList<>();

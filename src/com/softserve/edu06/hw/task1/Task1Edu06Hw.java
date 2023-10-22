@@ -1,6 +1,6 @@
 package com.softserve.edu06.hw.task1;
 
-public class Task1Edu06Hw {
+public class Task1Edu06Hw {//Good
     public static void task1Edu06Hw() {
 
         Bird[] birds = new Bird[]{

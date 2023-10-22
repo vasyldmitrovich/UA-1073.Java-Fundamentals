@@ -2,7 +2,7 @@ package com.softserve.edu06.pt.task3;
 
 import java.util.ArrayList;
 
-public class Task3Edu06Pt {
+public class Task3Edu06Pt {//ok
     public static void task3Edu06Pt(){
 
         Point point1 = new Point(8, 16);
