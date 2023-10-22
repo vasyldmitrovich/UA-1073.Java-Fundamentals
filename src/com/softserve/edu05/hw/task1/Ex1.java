@@ -2,7 +2,7 @@ package com.softserve.edu05.hw.task1;
 
 import java.util.Scanner;
 
-public class Ex1 {
+public class Ex1 {//Ok
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             System.out.print("Enter a month number (1-12): ");

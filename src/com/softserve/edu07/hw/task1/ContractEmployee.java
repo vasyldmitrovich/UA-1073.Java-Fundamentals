@@ -1,7 +1,7 @@
 package com.softserve.edu07.hw.task1;
 
 class ContractEmployee extends Employee {
-    String federalTaxId;
+    String federalTaxId;//Why this fields have default access modifier do private and add getters and setters
     double hourlyRate;
     int hoursWorked;
 

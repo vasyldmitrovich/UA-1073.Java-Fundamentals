@@ -26,4 +26,6 @@ public class  Employee {
     public String report() {
         return String.format("Name: %s, Age: %d, Salary: \u20B4 %.2f", name, age, salary);
     }
+
+    //Add toString equals and hashcode
 }

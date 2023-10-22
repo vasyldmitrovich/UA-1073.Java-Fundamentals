@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.task1;
 
-abstract class Employee {
+abstract class Employee {//Implement interphase here
     String employeeId;
     String employeeName;
 

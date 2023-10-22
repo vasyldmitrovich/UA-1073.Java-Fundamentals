@@ -2,7 +2,7 @@ package com.softserve.edu05.hw.task2;
 
 import java.util.Scanner;
 
-public class SumCalc {
+public class SumCalc {//Ok
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         char repeat;

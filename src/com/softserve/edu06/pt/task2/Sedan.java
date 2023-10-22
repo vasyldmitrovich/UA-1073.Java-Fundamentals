@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt.task2;
 
- class Sedan extends Car {
+ class Sedan extends Car {//Good
   public Sedan(String model, int yearOfProduction, int maxSpeed) {
    super(model, yearOfProduction, maxSpeed);
   }

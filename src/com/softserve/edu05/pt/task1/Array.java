@@ -3,7 +3,7 @@ package com.softserve.edu05.pt.task1;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Array {
+public class Array {//Good
     public static void main(String[] args) {
         //1
         String[] stringArray = {"toyota", "lexus", "bmw", "volkswagen", "audi"};

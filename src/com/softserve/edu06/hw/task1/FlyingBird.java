@@ -1,6 +1,6 @@
 package com.softserve.edu06.hw.task1;
 
-abstract class FlyingBird extends Bird {
+abstract class FlyingBird extends Bird {//FlyingBird should not be abstract
     public FlyingBird(boolean feathers, boolean layEggs) {
         super(feathers, layEggs);
     }

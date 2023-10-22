@@ -1,5 +1,6 @@
 package com.softserve.edu06.hw.task1;
 
+//All this classes should not be inner
 class Eagle extends FlyingBird {
     public Eagle() {
         super(true, true);

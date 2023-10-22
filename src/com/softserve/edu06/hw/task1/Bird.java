@@ -9,6 +9,8 @@ abstract class Bird {
         this.layEggs = layEggs;
     }
 
+    //Do not have getters and setters
+
     public abstract void fly();
 
     public boolean hasFeathers() {

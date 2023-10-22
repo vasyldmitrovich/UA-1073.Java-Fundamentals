@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt.task2;
 
-public class Arr {
+public class Arr {//Rename name of class to App.java
     public static void main(String[] args) {
         Car[] cars = {
                 new Sedan(" BMW X6", 2020, 200),

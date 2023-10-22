@@ -1,7 +1,7 @@
 package com.softserve.edu07.hw.task1;
 
 class SalariedEmployee extends Employee {
-    String socialSecurityNumber;
+    String socialSecurityNumber;//The same
     double fixedMonthlyPayment;
 
     public SalariedEmployee(String employeeId, String employeeName, String socialSecurityNumber, double fixedMonthlyPayment) {

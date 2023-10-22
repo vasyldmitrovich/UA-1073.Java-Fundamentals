@@ -1,7 +1,7 @@
 package com.softserve.edu06.pt.task3;
 
 public class ColorLine extends Line {
-    String color;
+    String color;//Make private
 
     public ColorLine(Point start, Point end, String color) {
         super(start, end);
