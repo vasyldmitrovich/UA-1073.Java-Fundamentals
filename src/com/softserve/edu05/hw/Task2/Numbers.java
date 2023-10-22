@@ -2,7 +2,7 @@ package com.softserve.edu05.hw.Task2;
 
 import java.util.Scanner;
 
-public class Numbers {
+public class Numbers {//This is nice
     static Scanner SCANNER = new Scanner(System.in);
     static int[] numbers = new int[2];
     static int answer;
