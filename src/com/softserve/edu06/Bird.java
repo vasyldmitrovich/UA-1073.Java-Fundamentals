@@ -36,6 +36,7 @@ public abstract class Bird {
     }
 }
 
+//WHY ALL CLASSES IS INNER. IT IS NOT GOOD
 class FlyingBird extends Bird {
     public FlyingBird(boolean feathers, boolean layEggs, boolean canFly) {
         super(feathers, layEggs, canFly);
