@@ -1,6 +1,6 @@
 package com.softserve.edu07.pt.task02;
 
-public class App {
+public class App {//Ok
     public static void main(String[] args) {
         Person[] persons = new Person[10];
         persons[0] = new Student("Sarah");

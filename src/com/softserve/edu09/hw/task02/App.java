@@ -5,9 +5,10 @@ import java.util.List;
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//DO NOT WRITE LINE BY LINE it is hard to write
         List<Student> students = new ArrayList<>();
         List<Subject> subjects = new ArrayList<>();
+
         subjects.add(new Subject("Mathematics", 5));
         subjects.add(new Subject("Physics", 3));
         subjects.add(new Subject("Informatics",4));

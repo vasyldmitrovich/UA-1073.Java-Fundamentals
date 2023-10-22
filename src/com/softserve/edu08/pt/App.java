@@ -2,7 +2,7 @@ package com.softserve.edu08.pt;
 
 import javax.sound.midi.Soundbank;
 
-public class App {
+public class App {//Good
     public static void main(String[] args) {
         Department department = new Department("Sales", "New York", "Elm street", 13);
         Department copyOfDepartment = department.clone();

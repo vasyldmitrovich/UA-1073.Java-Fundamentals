@@ -2,7 +2,7 @@ package com.softserve.edu09.hw.task01;
 
 import java.util.*;
 
-public class App {
+public class App {//Ok
     public static void main(String[] args) {
         List<Integer> myCollection = new ArrayList<>();
         var rnd = new Random();
@@ -10,12 +10,18 @@ public class App {
             myCollection.add(rnd.nextInt(2001) - 1000);
         }
         System.out.println(myCollection);
+
         printDelimiterMessage("Swapping minimal and maximal elements in this list");
+
         Integer tmp = myCollection.get(collectionMinIndex(myCollection));
+
         myCollection.set(collectionMinIndex(myCollection), myCollection.get(collectionMaxIndex(myCollection)));
         myCollection.set(collectionMaxIndex(myCollection), tmp);
+
         System.out.println(myCollection);
+
         printDelimiterMessage("Inserting three digits random number before the first negative element of the list");
+
         if (collectionFirstNegativeIndex(myCollection) >= 0) {
             int randomInt = rnd.nextInt(1800);
             randomInt = randomInt < 900 ? randomInt + 100 : randomInt - 1899;
@@ -51,6 +57,7 @@ public class App {
             }
         }
 
+        //Divide to some methods and call this methods here
         if (k != myCollection.size()) {
             message += message.isEmpty() ? "" : ". ";
             message += "Copying elements from index " + k + " to " + (myCollection.size() - 1) + " to list2, in reverse order";

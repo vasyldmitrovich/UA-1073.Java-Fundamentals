@@ -2,7 +2,7 @@ package com.softserve.edu07.hw.task01;
 
 import java.util.Arrays;
 
-public class App {
+public class App {//Ok
     public static void main(String[] args) {
         Employee[] employees = new Employee[6];
         employees[0] = new SalariedEmployee("1", "Christian", "32587443", 15, 156);

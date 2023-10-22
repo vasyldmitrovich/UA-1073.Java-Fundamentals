@@ -10,7 +10,7 @@ public class App {
         animalsVoiceFeed(animals);
     }
 
-    public static void animalsVoiceFeed(Animal[] animals) {
+    public static void animalsVoiceFeed(Animal[] animals) {//Good
         for (int i = 0; i < animals.length; i++) {
             System.out.println("Animal " + i + " Voice: " + animals[i].voice() + " Feed: " + animals[i].feed());
         }
