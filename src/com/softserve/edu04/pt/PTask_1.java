@@ -3,7 +3,7 @@ package com.softserve.edu04.pt;
 import java.util.Scanner;
 
 public class PTask_1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Ok
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input three numbers: ");
         int one = scanner.nextInt();

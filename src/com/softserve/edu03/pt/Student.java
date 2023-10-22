@@ -19,6 +19,8 @@ public class Student {
         totalRating += rating;
     }
 
+    //Write getters and setters here
+
     static public double avgRating() {
         return ((double) totalRating) / totalStudents;
     }

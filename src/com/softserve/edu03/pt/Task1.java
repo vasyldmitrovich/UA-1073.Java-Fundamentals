@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Task1 {
     private double num1;
     private double num2;
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Move from this class to App.java
         Task1 task = new Task1();
         task.getNumber();
 

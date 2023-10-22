@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Car {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Move from here to App.java
         Scanner scanner = new Scanner(System.in);
         Car[] cars = new Car[4];
         cars[0] = new Car("Micro", 2010, 1.2);

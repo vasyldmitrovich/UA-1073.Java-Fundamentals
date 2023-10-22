@@ -2,7 +2,7 @@ package com.softserve.edu03.pt;
 
 import java.util.Scanner;
 
-class Task {
+class Task {//Name of class and name of file should be the same
     private final static Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) {

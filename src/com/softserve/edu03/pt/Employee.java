@@ -4,7 +4,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class Employee {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Move to App.java
         Employee ob1 = new Employee("Mark", 15,40);
         Employee ob2 = new Employee("Bob", 25,60);
         Employee ob3 = new Employee("Mark", 15,26);
@@ -69,6 +69,7 @@ public class Employee {
     public static void updateTotalSum(double salary){
         totalSum += salary;
     }
+
     public static double getTotalSum(){
         return totalSum;
     }

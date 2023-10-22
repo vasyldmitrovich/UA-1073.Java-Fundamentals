@@ -13,6 +13,8 @@ public class Task2 {
         int c = scanner.nextInt();
         int min;
         int max;
+
+        //Move this logic to some method
         if (a < b) {
             min = a;
         } else {
