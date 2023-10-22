@@ -1,7 +1,7 @@
 package com.softserve.edu07.hw.task1;
 
 public abstract class Employee implements Payment {
-    protected String employeeld;
+    protected String employeeld;//Make private and give name id not employeeId
     protected int payment;
 
     @Override
@@ -13,6 +13,8 @@ public abstract class Employee implements Payment {
         this.employeeld = employeeld;
         this.payment = payment;
     }
+
+    //And add getters and setters
 
     public abstract String getEmployeeld();
 
