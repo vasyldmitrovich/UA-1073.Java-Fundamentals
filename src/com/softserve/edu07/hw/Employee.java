@@ -1,12 +1,12 @@
 package com.softserve.edu07.hw;
 
-public abstract class Employee {
-    private String employeeId;//noe employeeId simple id
+public abstract class Employee implements Payment {
+    private String id;//noe employeeId simple id
     private String name;
     private double salary;
 
-    public Employee(String employeeId, String name, double salary) {
-        this.employeeId = employeeId;
+    public Employee(String id, String name, double salary) {
+        this.id = id;
         this.name = name;
         this.salary = salary;
     }
@@ -14,14 +14,14 @@ public abstract class Employee {
     @Override
     public String toString() {
         return "{" +
-                "employeeId='" + employeeId + '\'' +
+                "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", salary=" + salary +
                 ", ";
     }
 
-    public String getEmployeeId() {
-        return employeeId;
+    public String getId() {
+        return id;
     }
 
 
