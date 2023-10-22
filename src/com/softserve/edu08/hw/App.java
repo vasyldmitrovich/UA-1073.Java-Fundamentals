@@ -1,6 +1,6 @@
 package com.softserve.edu08.hw;
 
-class App {
+class App {//All is good
 
     public static void main(String[] args) {
 

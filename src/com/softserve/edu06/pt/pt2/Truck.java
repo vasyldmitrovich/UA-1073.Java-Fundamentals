@@ -4,7 +4,7 @@ public class Truck extends Car {
 
     private String model;
     private int maxSpeed;
-    private int yearOfProduction;
+    private int yearOfProduction;//you could use fields from abstract class, write this fields in each class is not good
 
     public Truck(String model, int maxSpeed, int yearOfProduction) {
         this.model = model;

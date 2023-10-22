@@ -6,6 +6,8 @@ public abstract class Car {
     private int maxSpeed;
     private int yearOfProduction;
 
+    //If you will be using this fields add getters and setters
+
     public abstract void run();
 
     public abstract void stop();

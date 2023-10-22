@@ -1,6 +1,6 @@
 package com.softserve.edu06.hw;
 
-public class Developer extends Employee {
+public class Developer extends Employee {//Good
     private String position;
 
 

@@ -3,7 +3,7 @@ package com.softserve.edu06.hw;
 import com.softserve.edu06.hw.hw1.*;
 
 class App {
-
+//Nice very nice ;-)
     static void hw1() {
         Bird[] myBirds = {
                 new Eagle(),

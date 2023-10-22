@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.hw1;
 
-public class ContractEmployee extends Employee implements Payment {
+public class ContractEmployee extends Employee implements Payment {//Implement this interphase in class Employee not here
 
     private String federalTaxIdMember;
     private int hourlyRate;
