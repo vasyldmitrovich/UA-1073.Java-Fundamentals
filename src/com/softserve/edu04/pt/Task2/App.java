@@ -15,7 +15,7 @@ public class App {
 
 }
 
-enum DayOfWeek{
+enum DayOfWeek{//move to DayOfWeek.java file should be not inner in this class
     MONDAY("Monday", "Понеділок"),
     TUESDAY("Tuesday", "Вівторок"),
     WEDNESDAY("Wednesday", "Середа"),
