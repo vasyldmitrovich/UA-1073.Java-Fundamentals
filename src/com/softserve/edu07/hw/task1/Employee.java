@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.task1;
 
-public abstract class Employee implements Payment, Comparable<Employee> {
+public abstract class Employee implements Payment, Comparable<Employee> {//Code do not work because do not have class Payment.java
     private final String employeeId;
     private final String name;
 
