@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Task1 {
+public class Task1 {//Good
     final static Random RANDOM = new Random(10);
 
     public static void main (String[] args) {
