@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.Scanner;
 
 public class Person {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//This method move to class App.java
         Person p1 = new Person("Mark ", "Edison ", 2000);
         Person p2 = new Person("Bob ", "Piterson ", 1995);
         Person p3 = new Person("Erik ", "Bobkin ", 1998);
@@ -24,7 +24,7 @@ public class Person {
         person.personOutput();
     }
 
-    Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);//And this field too
     private String firstName;
     private String lastName;
     private int birthYear;

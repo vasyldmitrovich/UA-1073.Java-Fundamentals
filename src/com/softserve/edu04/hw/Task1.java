@@ -2,7 +2,7 @@ package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class Task1 {//Ok
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int min = -5;

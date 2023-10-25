@@ -14,6 +14,8 @@ public class Task1_3 {
         int minimumPosition = 0;
         int productOfEvenNumbers = 1;
 
+
+        //Divide to some method and call these methods here in main method
         for (int i = 0; i < 5; i++) {
             if (numbers[i] > 0) {
                 if (secondPositivePosition == -1) {

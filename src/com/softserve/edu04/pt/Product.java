@@ -1,12 +1,14 @@
 package com.softserve.edu04.pt;
 
 public class Product {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Move to App.java
         Product p1 = new Product("Milk", 2.5, 20);
         Product p2 = new Product("Bread", 4, 10);
         Product p3 = new Product("Eggs", 0.6, 40);
         Product p4 = new Product("Salad", 7.5, 5);
 
+
+        //Write logic like that in some method and call this method in main method
         Product mostExpensive = p1;
         if(p2.getPrice() > mostExpensive.getPrice()){
             mostExpensive = p2;

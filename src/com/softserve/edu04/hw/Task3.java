@@ -13,7 +13,7 @@ public class Task3 {
     }
 }
 
-enum Name {
+enum Name {//Not here, should be on file Name.java, and another enum the same rule
     BadRequest, Unauthorized, PaymentRequired;
 }
 
