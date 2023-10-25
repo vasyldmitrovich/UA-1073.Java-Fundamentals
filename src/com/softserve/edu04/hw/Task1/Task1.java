@@ -1,5 +1,5 @@
 /*Input three float numbers and check: are they all belong to the range [-5, 5].*/
-
+package com.softserve.edu04.hw.Task1;
 import java.util.Scanner;
 
 public class Task1 {

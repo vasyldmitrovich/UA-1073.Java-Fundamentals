@@ -1,5 +1,6 @@
 /*Input three integer numbers and and output the maximum and minimum values of them to
 the console.*/
+package com.softserve.edu04.hw.Task2;
 import java.util.Scanner;
 public class Task2 {
     public static void main(String[] args) {

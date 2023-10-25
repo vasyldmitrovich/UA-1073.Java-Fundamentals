@@ -1,3 +1,4 @@
+package com.softserve.edu08.hw;
 class Student extends Person implements Cloneable {
     int course;
 

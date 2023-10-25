@@ -1,3 +1,4 @@
+package com.softserve.edu08.hw;
 // створюємо клас FullName
 class FullName {
     private String firstName;

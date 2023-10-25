@@ -1,3 +1,4 @@
+package com.softserve.edu05.hw.Task1;
 import java.util.Scanner;
 public class SumOf {
     public static void main(String[] args) {

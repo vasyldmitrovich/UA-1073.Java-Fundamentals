@@ -1,9 +1,9 @@
 /*Write Java console application with method to find the smallest number among three integer numbers.*/
 
-package com.softserve.edu03.hw;
+package com.softserve.edu03.hw.Task2;
 
 import java .util.Scanner;
-public class Task2 {
+public class App {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Type Number 1 : ");
@@ -11,11 +11,11 @@ public class Task2 {
         int second = scan.nextInt();
         int third = scan.nextInt();
 
-        int smallest = findSmallest(first, second, third);
+        int smallest = FindSmallest(first, second, third);
         System.out.println("The smallest number among " + first + ", " + second + ", and " + third + " is: " + smallest);
 
     }
-    public static int findSmallest(int first, int second, int third){
+    public static int FindSmallest(int first, int second, int third){
         int smallest = first;
         if(second < smallest){
             smallest = second;
