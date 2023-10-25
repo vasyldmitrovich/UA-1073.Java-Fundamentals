@@ -9,7 +9,7 @@ import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 
-class TestTask1 {
+class TestTask2 {
     private List<Integer> collection;
 
     @BeforeEach
