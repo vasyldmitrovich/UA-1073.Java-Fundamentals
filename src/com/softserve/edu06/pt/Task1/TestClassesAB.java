@@ -7,7 +7,7 @@ public class TestClassesAB {
  class ClassA {
     public int i = 1;
 
-    public ClassA() {
+    public void ClassA() {
         System.out.println("ClassA() done");
     }
 
@@ -27,7 +27,9 @@ public class TestClassesAB {
     public void m4() {
         System.out.println("ClassA, metod m4");
     }
-
+     public void m5() {
+         System.out.println("ClassA, metod m5");
+     }
     public static void m6() {
         System.out.println("ClassA, static metod m6");
     }
@@ -37,13 +39,13 @@ public class TestClassesAB {
     }
 }
 
-class ClassB extends ClassA {
+class ClassB extends ClassA{
     public double i = 1.1;
 
     @Override
     public void m1() {
         System.out.println("ClassB, metod m1, i=" + i);
-// super.m1();
+    super.m1();
     }
 
     @Override
@@ -51,18 +53,19 @@ class ClassB extends ClassA {
         System.out.println("ClassB, metod m4, i = " + i);
     }
 
-    // @Override
+     @Override
     public void m5() {
         System.out.println("ClassB, metod m5");
     }
 
-    // @Override
+     //@Override - static methods can`t be overridden
     public static void m6() {
         System.out.println("ClassB, static metod m6");
         ClassA.m6();
     }
+    //private void m8() { }
 
-    // private void m8() {
+    @Override
     public void m8() {
         System.out.println("ClassB, metod m8");
         super.m8();
@@ -73,66 +76,33 @@ class ClassB extends ClassA {
 class App {
 
     public static void main(String[] args) {
+ System.out.println("Test ClassA.");
+ ClassA a;
+  a = new ClassA();
+ System.out.println("a.i = " + a.i);
+  a.m1();
+  a.m2();
+ a.m3();
+  a.m4();
+  a.m6(); // static running A.m6();
+ a.m8();
 
-// System.out.println("Test ClassA.");
-//
-//
-//
-//
-//   ClassA a;
-//
-//
-//
-//
-//   a = new ClassA();
-//
-//
-//
-//
-//   System.out.println("a.i = " + a.i);
-//
-//
-//
-//
-//   a.m1();
-//
-//
-//
-//
-//   a.m2();
-//
-//
-//
-//
-//   a.m3();
-//
-//
-//
-//
-//   a.m4();
-//
-//
-//
-//
-//   a.m6(); // static running A.m6();
-// a.m8();
-
-// System.out.println("Test ClassB.");
-// ClassA b = new ClassB();
-// System.out.println("b.i = " + b.i);
-// b.m1();
-// b.m2();
-// b.m3();
-// b.m4();
-//// b.m5();
-//// ((ClassB) b).m5();
-//// if (b instanceof ClassB) {
-//// ((ClassB) b).m5(); // No Runtime Error
-//// }
-// b.m6(); // Running from ClassA; Architecture Error;
-// ClassB.m6();
-// ClassA.m6();
-// b.m8();
+ System.out.println("Test ClassB.");
+ ClassA b = new ClassB();
+ System.out.println("b.i = " + b.i);
+ b.m1();
+ b.m2();
+b.m3();
+ b.m4();
+ b.m5();
+ ((ClassB) b).m5();
+ if (b instanceof ClassB) {
+ ((ClassB) b).m5(); // No Runtime Error
+ }
+ b.m6(); // Running from ClassA; Architecture Error;
+ ClassB.m6();
+ ClassA.m6();
+ b.m8();
 
         System.out.println("Test_0 ClassB.");
         ClassB b0 = new ClassB();
@@ -145,6 +115,9 @@ class App {
         b0.m6();
         b0.m8();
     }
+
+
+
 }
 
 
