@@ -13,7 +13,7 @@ public class Task1Edu07Pt {
             animal.voice();
             animal.feed();
 
-            System.out.println(animal.toString());
+            System.out.println(animal);
             System.out.println();
 
 

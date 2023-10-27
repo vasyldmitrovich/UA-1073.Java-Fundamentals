@@ -9,7 +9,7 @@ public class Cat implements Animal {
 
     @Override
     public void feed() {
-        System.out.println(" eating cat food");
+        System.out.println("eating cat food");
 
     }
 
