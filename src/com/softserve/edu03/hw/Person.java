@@ -1,6 +1,7 @@
 package com.softserve.edu03.hw;
 
 import java.util.Date;
+import java.util.InputMismatchException;
 
 import static com.softserve.edu03.hw.App.SCANNER;
 
@@ -20,24 +21,12 @@ public class Person {
     }
 
     /**
-     * Calculates and returns the age of the person based on the current year and
-     * their birth year.
-     *
-     * @return The age of the person as an integer.
-     */
-    public int getAge() {
-        Date today = new Date();
-        int year = today.getYear();
-        return year - birthYear;
-    }
-
-    /**
      * Prompts the user to input the first name, last name, and birth year of a
      * person and sets these values in the provided Person object.
      *
      * @param person The Person object to store the input values.
      */
-    public static void input(Person person) {
+    public static void input (Person person) {
         System.out.println("Input first name: ");
         String firstName = SCANNER.nextLine();
         person.setFirstName(firstName);
@@ -47,8 +36,22 @@ public class Person {
         person.setLastName(lastName);
 
         System.out.println("Input birth year: ");
-        int birthYear = SCANNER.nextInt();
-        SCANNER.nextLine();
+
+        int birthYear = 0;
+        boolean validInput = false;
+
+        do {
+            try {
+                System.out.println("Input birth year: ");
+                birthYear = SCANNER.nextInt();
+                SCANNER.nextLine();
+                validInput = true;
+            } catch (InputMismatchException e) {
+                e.printStackTrace();
+                SCANNER.nextLine();
+            }
+        } while (!validInput);
+
         person.setBirthYear(birthYear);
     }
 
@@ -57,10 +60,26 @@ public class Person {
      *
      * @param person The Person object to display information for.
      */
-    public static void output(Person person) {
-        System.out.println("Person first name is " + person.getFirstName());
-        System.out.println("Person last name is " + person.getLastName());
-        System.out.println("Person age is " + person.getAge());
+    public static void output (Person person) {
+        try {
+            System.out.println("Person first name is " + person.getFirstName());
+            System.out.println("Person last name is " + person.getLastName());
+            System.out.println("Person age is " + person.getAge());
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * Calculates and returns the age of the person based on the current year and
+     * their birth year.
+     *
+     * @return The age of the person as an integer.
+     */
+    public int getAge () {
+        Date today = new Date();
+        int year = today.getYear();
+        return year - birthYear;
     }
 
     /**
@@ -69,7 +88,7 @@ public class Person {
      * @param fn The new first name for the person.
      * @param ln The new last name for the person.
      */
-    public void changeName(String fn, String ln) {
+    public void changeName (String fn, String ln) {
         this.firstName = fn;
         this.lastName = ln;
     }
@@ -79,7 +98,7 @@ public class Person {
      *
      * @param fn The new first name for the person.
      */
-    public void changeName(String fn) {
+    public void changeName (String fn) {
         this.firstName = fn;
     }
 

@@ -10,8 +10,7 @@ public class IntegerOperations {
         System.out.println("Enter " + length + " integers");
 
         for (int i = 0; i < length; i++) {
-            integers[i] = SCANNER.nextInt();
-            SCANNER.nextLine();
+            integers[i] = App.getNumber();
         }
 
         return integers;

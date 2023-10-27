@@ -1,5 +1,7 @@
 package com.softserve.edu05.hw;
 
+import java.util.InputMismatchException;
+
 import static com.softserve.edu05.hw.App.SCANNER;
 
 public class FindInteger {
@@ -8,12 +10,14 @@ public class FindInteger {
         System.out.println("Enter " + length + " integers");
 
         for (int i = 0; i < length; i++) {
-            integers[i] = SCANNER.nextInt();
-            SCANNER.nextLine();
+            integers[i] = App.getNumber();
         }
 
         return integers;
     }
+
+
+
 
     public static void findSecondPositive (int[] integers) {
         int positiveNum = 0;
@@ -48,7 +52,7 @@ public class FindInteger {
     }
 
     public static void findProductOfEven (int[] integers) {
-        int product = 0;
+        int product = 1;
 
         for (int i = 1; i < integers.length; i++) {
             if (integers[i] % 2 == 0 && integers[i] > 0) {

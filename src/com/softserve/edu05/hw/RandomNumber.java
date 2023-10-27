@@ -19,12 +19,8 @@ public class RandomNumber {
 
         do {
             System.out.println("Enter int from 1 to 100");
-            int inputNumber = SCANNER.nextInt();
+            int inputNumber = App.getNumber();
             guessNumber = inputNumber;
-            if (inputNumber == originalNumber) {
-                System.out.println(RandomNumber.GUESSED);
-                break;
-            }
 
             if (inputNumber > originalNumber) {
                 System.out.println(RandomNumber.HIGH);
@@ -32,6 +28,8 @@ public class RandomNumber {
                 System.out.println(RandomNumber.LOW);
             }
         } while(guessNumber != originalNumber);
+
+        System.out.println(RandomNumber.GUESSED);
     }
 
     public int getNumber () {

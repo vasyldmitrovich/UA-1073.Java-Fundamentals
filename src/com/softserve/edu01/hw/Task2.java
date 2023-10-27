@@ -8,13 +8,17 @@ public class Task2 {
     public static void main (String[] args) throws IOException {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("What is your name?");
-        String name = scanner.readLine();
+        try {
+            System.out.println("What is your name?");
+            String name = scanner.readLine();
 
-        System.out.println("Where do you live?");
-        String address = scanner.readLine();
+            System.out.println("Where do you live?");
+            String address = scanner.readLine();
 
-        System.out.printf("Your name is %s%n", name);
-        System.out.printf("Your address is %s%n", address);
+            System.out.printf("Your name is %s%n", name);
+            System.out.printf("Your address is %s%n", address);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

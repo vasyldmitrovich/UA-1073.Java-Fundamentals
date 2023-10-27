@@ -1,5 +1,7 @@
 package com.softserve.edu03.hw;
 
+import java.util.InputMismatchException;
+
 import static com.softserve.edu03.hw.App.SCANNER;
 
 public class TriangleArea {
@@ -8,7 +10,7 @@ public class TriangleArea {
     private int side3;
 
     public TriangleArea () {
-        this(0,0,0);
+        this(0, 0, 0);
     }
 
     public TriangleArea (int side1, int side2, int side3) {
@@ -23,7 +25,7 @@ public class TriangleArea {
      *
      * @param obj A TriangleArea object to store the input side lengths.
      */
-    public static void promptParameters(TriangleArea obj) {
+    public static void promptParameters (TriangleArea obj) {
         System.out.println("Input side 1: ");
         int side1 = getNumber();
         obj.setSide1(side1);
@@ -44,8 +46,20 @@ public class TriangleArea {
      * @return The integer read from the input.
      */
     private static int getNumber () {
-        int num = SCANNER.nextInt();
-        SCANNER.nextLine();
+        boolean validInput = false;
+        int num = 0;
+        do {
+
+            try {
+                num = SCANNER.nextInt();
+                SCANNER.nextLine();
+                validInput = true;
+            } catch (InputMismatchException e) {
+                e.printStackTrace();
+                SCANNER.nextLine();
+            }
+        } while (!validInput);
+
         return num;
     }
 
@@ -55,7 +69,7 @@ public class TriangleArea {
      *
      * @return The semi-perimeter of the triangle as a double.
      */
-    public double getSemiPerimeter() {
+    public double getSemiPerimeter () {
         return (side1 + side2 + side3) / 2.0;
     }
 
@@ -65,7 +79,7 @@ public class TriangleArea {
      *
      * @return The area of the triangle as a double.
      */
-    public double getArea() {
+    public double getArea () {
         double semiPerimeter = getSemiPerimeter();
         double areaSquare = semiPerimeter * (semiPerimeter - side1) * (semiPerimeter - side2) * (semiPerimeter - side3);
 

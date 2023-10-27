@@ -1,6 +1,7 @@
 package com.softserve.edu05.hw;
 
 import java.util.Arrays;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class App {
@@ -44,5 +45,24 @@ public class App {
         // Task 4
         RandomNumber randomNumber = new RandomNumber();
         RandomNumber.guessNumber(randomNumber.getNumber());
+    }
+
+    public static int getNumber () {
+        boolean isValid = false;
+        int res = 0;
+
+        do {
+            try {
+                res = SCANNER.nextInt();
+                SCANNER.nextLine();
+
+                isValid = true;
+            } catch (InputMismatchException e) {
+                e.printStackTrace();
+                SCANNER.nextLine();
+            }
+        } while (!isValid);
+
+        return res;
     }
 }

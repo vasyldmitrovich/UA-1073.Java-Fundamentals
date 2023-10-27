@@ -1,10 +1,10 @@
 package com.softserve.edu05.hw;
 
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Calendar;
-import java.util.Comparator;
 
 public class Car implements Comparable<Car> {
     private String type;
@@ -33,7 +33,7 @@ public class Car implements Comparable<Car> {
         return filteredCars.toArray(new Car[filteredCars.size()]);
     }
 
-    public int compareTo (Car car) {
+    public int compareTo (@NotNull Car car) {
         int compareYear = car.getYear();
 
         return this.year - compareYear;

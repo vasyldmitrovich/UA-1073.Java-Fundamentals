@@ -15,11 +15,20 @@ public class Task1 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter radius of the flower bed");
 
-        int radius = Integer.parseInt(scanner.nextLine());
-        double perimeter = calculatePerimeter(radius);
-        double area = calculateArea(radius);
+        while (true) {
+            try {
+                int radius = Integer.parseInt(scanner.nextLine());
+                double perimeter = calculatePerimeter(radius);
+                double area = calculateArea(radius);
 
-        System.out.printf("Perimeter is %s%n", perimeter);
-        System.out.printf("Area is %s%n", area);
+                System.out.printf("Perimeter is %s%n", perimeter);
+                System.out.printf("Area is %s%n", area);
+                break;
+            } catch (NumberFormatException e) {
+                e.printStackTrace();
+                //                System.out.println(e.getMessage());
+            }
+        }
+
     }
 }

@@ -1,5 +1,7 @@
 package com.softserve.edu03.hw;
 
+import java.util.InputMismatchException;
+
 import static com.softserve.edu03.hw.App.SCANNER;
 
 public class MinNumber {
@@ -24,7 +26,7 @@ public class MinNumber {
      * @param obj A MinNumber object to store the input values.
      */
 
-    public static void promptParameters(MinNumber obj) {
+    public static void promptParameters (MinNumber obj) {
         System.out.println("Input the first number: ");
         obj.setNum1(getNumber());
 
@@ -36,8 +38,20 @@ public class MinNumber {
     }
 
     private static int getNumber () {
-        int num = SCANNER.nextInt();
-        SCANNER.nextLine();
+        boolean validNumber = false;
+        int num = 0;
+
+        do {
+            try {
+                num = SCANNER.nextInt();
+                SCANNER.nextLine();
+                validNumber = true;
+            } catch (InputMismatchException e) {
+                e.printStackTrace();
+                SCANNER.nextLine();
+            }
+        } while (!validNumber);
+
         return num;
     }
 
@@ -49,7 +63,7 @@ public class MinNumber {
      * @return The minimum of the three integers.
      */
 
-    public static int getMinNumber(MinNumber obj) {
+    public static int getMinNumber (MinNumber obj) {
         int num1 = obj.getNum1();
         int num2 = obj.getNum2();
         int num3 = obj.getNum3();
@@ -62,7 +76,8 @@ public class MinNumber {
 
         if (num3 < min) {
             min = num3;
-        };
+        }
+        ;
 
         return min;
     }

@@ -5,20 +5,16 @@ import static com.softserve.edu05.hw.App.SCANNER;
 public class SumOfIntegers {
     public static int[] promptIntegers () {
         System.out.println("Enter two integers");
-        int int1;
-        int1 = SCANNER.nextInt();
-        SCANNER.nextLine();
-        int int2 = SCANNER.nextInt();
-        SCANNER.nextLine();
+        int int1 = App.getNumber();
+        int int2 = App.getNumber();
 
-        int[] integers = {int1, int2};
-        return integers;
+        return new int[]{int1, int2};
     }
 
     private static int getSum(int[] integers) {
         int sum = 0;
-        for (int i = 0; i < integers.length; i++) {
-            sum += integers[i];
+        for (int integer : integers) {
+            sum += integer;
         }
 
         return sum;

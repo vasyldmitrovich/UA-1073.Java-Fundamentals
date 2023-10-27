@@ -22,7 +22,7 @@ public class MonthDays {//Good
         int monthNumber;
         do {
             System.out.println("Enter a month number");
-            monthNumber = SCANNER.nextInt();
+            monthNumber = App.getNumber();
         } while(!(monthNumber <= 12 && monthNumber >= 1));
 
         MonthDays.findDayNumber(monthNumber);
