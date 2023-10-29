@@ -1,6 +1,5 @@
 package com.softserve.edu12.pt.task02;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Plant {
