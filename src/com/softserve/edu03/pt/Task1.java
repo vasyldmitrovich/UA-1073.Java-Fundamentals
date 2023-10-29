@@ -1,5 +1,7 @@
 package com.softserve.edu03.pt;
 
+import com.softserve.common_tools.CommonTools;
+
 import java.util.Scanner;
 
 public class Task1 {
@@ -23,8 +25,8 @@ public class Task1 {
     }
 
     public void simpleUI(){//Why you do not use this UI in main method?
-        double a = getNumber("Enter the first number: ");
-        double b = getNumber("Enter the second number: ");
+        double a = CommonTools.readLineAndConvertToNumber("Enter the first number: ", Double.class);
+        double b = CommonTools.readLineAndConvertToNumber("Enter the second number: ", Double.class);
 
         System.out.println();
 
@@ -33,11 +35,11 @@ public class Task1 {
     }
 
     private void printTotal(double a, double b){
-        System.out.printf("The sum of %f and %f is %f\n", a, b, getTotal(a, b));
+        System.out.printf("The sum of %f and %f is %f%n", a, b, getTotal(a, b));
     }
 
     private void printAverage(double a, double b){
-        System.out.printf("The average of %f and %f is %f\n", a, b, getAverage(a, b));
+        System.out.printf("The average of %f and %f is %f%n", a, b, getAverage(a, b));
     }
 
     public double getTotal(double a, double b){

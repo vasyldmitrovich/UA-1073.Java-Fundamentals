@@ -1,6 +1,6 @@
 package com.softserve.edu03.hw;
 
-import java.util.Scanner;
+import com.softserve.common_tools.CommonTools;
 
 public class Task1 {
     private double a;
@@ -8,31 +8,11 @@ public class Task1 {
     private double c;
 
     public static Task1 createTriangle(){
-        double a = getNumber("Input Side a: ");//This is nice ;-)
-        double b = getNumber("Input Side b: ");
-        double c = getNumber("Input Side c: ");
+        double a = CommonTools.readLineAndConvertToNumber("Input Side a: ", Double.class);
+        double b = CommonTools.readLineAndConvertToNumber("Input Side b: ", Double.class);
+        double c = CommonTools.readLineAndConvertToNumber("Input Side c: ", Double.class);
 
         return new Task1(a, b, c);
-    }
-
-    //Good decision
-    private static double getNumber(String prompt){
-        double enterNum;
-        Scanner scanner = new Scanner(System.in);
-
-        while(true){
-            System.out.print(prompt);
-            if(scanner.hasNextDouble()){
-                enterNum = scanner.nextDouble();
-                break;
-            }
-            else{
-                System.out.println("Invalid input. Please enter a valid number.");
-                scanner.nextLine();
-            }
-        }
-
-        return enterNum;
     }
 
     private Task1(double a, double b, double c){
