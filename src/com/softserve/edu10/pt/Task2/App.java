@@ -1,4 +1,4 @@
-package edu10.pt.Task2;
+package com.softserve.edu10.pt.Task2;
 
 import java.util.HashMap;
 import java.util.Map;

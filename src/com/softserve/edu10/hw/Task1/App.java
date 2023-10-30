@@ -1,10 +1,10 @@
-package edu10.hw.Task1;
+package com.softserve.edu10.hw.Task1;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import static edu10.hw.Task1.OperationSet.intersect;
-import static edu10.hw.Task1.OperationSet.union;
+import static com.softserve.edu10.hw.Task1.OperationSet.intersect;
+import static com.softserve.edu10.hw.Task1.OperationSet.union;
 
 public class App {
     public static void main(String[] args) {

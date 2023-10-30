@@ -1,4 +1,4 @@
-package edu10.hw.Task3;
+package com.softserve.edu10.hw.Task3;
 import java.util.ArrayList;
 import java.util.List;
 public class App {

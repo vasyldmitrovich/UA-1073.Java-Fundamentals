@@ -1,4 +1,4 @@
-package edu10.pt.Task2;
+package com.softserve.edu10.pt.Task2;
 
 public class Employee {
     private String name;
