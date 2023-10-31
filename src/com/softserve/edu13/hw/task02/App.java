@@ -3,7 +3,6 @@ package com.softserve.edu13.hw.task02;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
-import java.time.format.ResolverStyle;
 import java.util.Scanner;
 
 public class App {
@@ -18,12 +17,16 @@ public class App {
 
     static boolean isValidDate(String enDate, String pattern) {
         try {
-            LocalDate.parse(enDate, DateTimeFormatter.ofPattern(pattern).withResolverStyle(ResolverStyle.STRICT));
-            System.out.println("Entered date is valid!");
-            return true;
+            var formatter = DateTimeFormatter.ofPattern(pattern);
+            var parsedDate = LocalDate.parse(enDate, formatter);
+            if (parsedDate.format(formatter).equals(enDate)) {
+                System.out.println("Entered date is valid!");
+                return true;
+            }
+            System.out.println("No such date in this month/year!");
         } catch (DateTimeParseException e) {
-            System.out.println("Entered date is invalid!");
-            return false;
+            System.out.println("Entered date is not valid!");
         }
+        return false;
     }
 }
