@@ -1,7 +1,8 @@
 package com.softserve.edu08.pt.task1;
 
 public class Task1PtEdu08 {
-    public static void task1() {
+    public static void main(String[] args) {
+
         Department.Address address1 = new Department.Address("New York", "sgv. Central Park", 61);
 
         Department department1 = new Department("OBSE", address1);
@@ -15,8 +16,6 @@ public class Task1PtEdu08 {
 
         System.out.println(department1);
         System.out.println(department2);
-
-
 
 
     }
