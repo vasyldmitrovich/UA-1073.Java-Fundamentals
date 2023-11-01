@@ -1,9 +1,6 @@
 package com.softserve.edu10.hw.task3;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class Student implements Comparable<Student> {
     private String name;
@@ -58,7 +55,7 @@ public class Student implements Comparable<Student> {
         }
 
 
-        Collections.sort(students, (s1, s2) -> Integer.compare(s1.getCourse(), s2.getCourse()));
+        students.sort(Comparator.comparingInt(Student::getCourse));
         System.out.println("\nStudents sorted by course:");
         for (Student student : students) {
             System.out.println(student.getName() + " (Course " + student.getCourse() + ")");
