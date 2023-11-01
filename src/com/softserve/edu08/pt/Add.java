@@ -1,4 +1,4 @@
-package com.softserve.edu08.pt.task1;
+package com.softserve.edu08.pt;
 
 public class Add {
     public static void main(String[] args) {
