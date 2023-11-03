@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Task1Edu09Pt {
-    public static void main(String[] args) {
+    public static void task1() {
 
         List<HeavyBox> list = new ArrayList<>();
         list.add(new HeavyBox(5, "TV"));

@@ -3,7 +3,7 @@ package com.softserve.edu09.pt.task2;
 import java.util.*;
 
 public class Task2 {
-    public static void main(String[] args) {
+    public static void task2() {
 
         Set<Integer> set = new HashSet<>();
 
