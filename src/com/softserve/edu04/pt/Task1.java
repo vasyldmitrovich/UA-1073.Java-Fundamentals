@@ -7,12 +7,24 @@ public class Task1 {
 
     public static void task1() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Input a first number: ");
-        int a = sc.nextInt();
-        System.out.print("Input a second number: ");
-        int b = sc.nextInt();
-        System.out.print("Input a third number: ");
-        int c = sc.nextInt();
+
+        int a;
+        int b;
+        int c;
+        while (true) {
+            try {
+                System.out.print("Input a first number: ");
+                a = sc.nextInt();
+                System.out.print("Input a second number: ");
+                b = sc.nextInt();
+                System.out.print("Input a third number: ");
+                c = sc.nextInt();
+                break;
+            } catch (Exception e) {
+                System.out.println("Wrong number! Try again.");
+                sc.nextLine();
+            }
+        }
 
         checkOddNumber(a);
         checkOddNumber(b);

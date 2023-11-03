@@ -7,11 +7,20 @@ public class Task2 {
         String response = "";
         Scanner scanner = new Scanner(System.in);
         do {
-            System.out.print("Enter the first number: ");
-            int a = Integer.parseInt(scanner.nextLine());
+            int a;
+            int b;
+            while (true) {
+                try {
+                    System.out.print("Enter the first number: ");
+                    a = Integer.parseInt(scanner.nextLine());
 
-            System.out.print("Enter the second number: ");
-            int b = Integer.parseInt(scanner.nextLine());
+                    System.out.print("Enter the second number: ");
+                    b = Integer.parseInt(scanner.nextLine());
+                    break;
+                } catch (NumberFormatException e) {
+                    System.out.println("Wrong number! Try again.");
+                }
+            }
 
             System.out.printf("%d + %d = %d\n", a, b, (a + b));
 

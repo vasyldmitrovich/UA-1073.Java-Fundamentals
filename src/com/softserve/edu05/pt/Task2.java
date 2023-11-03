@@ -8,8 +8,13 @@ public class Task2 {
         Scanner sc = new Scanner(System.in);
         int number;
         while (true) {
-            System.out.print("Enter a number: ");
-            number = Integer.parseInt(sc.nextLine());
+            try {
+                System.out.print("Enter a number: ");
+                number = Integer.parseInt(sc.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("Wrong number! Try again.");
+                continue;
+            }
             if (isPrimeNumber(number)) {
                 System.out.println("Is a prime number");
             } else {

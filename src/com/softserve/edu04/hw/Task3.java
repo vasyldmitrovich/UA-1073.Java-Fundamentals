@@ -6,7 +6,16 @@ public class Task3 {
     public static void task3() throws Exception {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input a number representing an HTTP error: ");
-        int errorNumber = sc.nextInt();
+        int errorNumber = 0;
+        while (true) {
+            try {
+                errorNumber = sc.nextInt();
+                break;
+            } catch (Exception e) {
+                System.out.println("Wrong number! Try again.");
+                sc.nextLine();
+            }
+        }
 
         HTTPError error = switch (errorNumber) {
             case 400 -> HTTPError.BAD_REQUEST;

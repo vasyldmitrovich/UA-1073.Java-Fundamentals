@@ -78,12 +78,21 @@ public class Employee {
     //Remember about order of fields and methods in class
     public static void initializeEmployee(Employee employee) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the employee's name: ");
-        employee.name = scanner.nextLine();
-        System.out.print("Enter the employee's rate: ");
-        employee.rate = scanner.nextInt();
-        System.out.print("Enter the employee's hours: ");
-        employee.hours = scanner.nextDouble();
-        totalSum += employee.getSalary();
+
+        while (true) {
+            try {
+                System.out.print("Enter the employee's name: ");
+                employee.name = scanner.nextLine();
+                System.out.print("Enter the employee's rate: ");
+                employee.rate = scanner.nextInt();
+                System.out.print("Enter the employee's hours: ");
+                employee.hours = scanner.nextDouble();
+                totalSum += employee.getSalary();
+                break;
+            } catch (Exception e) {
+                System.out.println("Wrong number! Try again.");
+                scanner.nextLine();
+            }
+        }
     }
 }

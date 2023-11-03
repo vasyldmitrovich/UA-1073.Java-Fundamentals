@@ -22,8 +22,16 @@ public class Task3 {
 
     public static void getCarsByYear(Car[] cars) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the year of production: ");
-        int year = Integer.parseInt(sc.nextLine());
+        int year = 0;
+        while (true) {
+            try {
+                System.out.print("Enter the year of production: ");
+                year = Integer.parseInt(sc.nextLine());
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("Wrong number! Try again.");
+            }
+        }
         boolean found = false;
         for (int i = 0; i < cars.length; i++) {
             if (cars[i].getYearOfProduction() == year) {

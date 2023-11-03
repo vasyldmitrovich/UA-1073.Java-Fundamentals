@@ -28,16 +28,23 @@ public class Person {
     public void input() {
         Scanner scanner = new Scanner(System.in);
 
+
         System.out.print("Enter a first name: ");
         firstName = scanner.nextLine();
 
         System.out.print("Enter a last name: ");
         lastName = scanner.nextLine();
-
-        System.out.print("Enter a birthday year: ");
-        birthYear = scanner.nextInt();
-
-        scanner.nextLine();
+        while (true) {
+            try {
+                System.out.print("Enter a birthday year: ");
+                birthYear = scanner.nextInt();
+                scanner.nextLine();
+                break;
+            } catch (Exception e) {
+                System.out.println("Wrong number! Try again.");
+                scanner.nextLine();
+            }
+        }
     }
 
     // Do not correct order. Firstly should be fields after constructors without and with parameters after method like toString() and after another methods

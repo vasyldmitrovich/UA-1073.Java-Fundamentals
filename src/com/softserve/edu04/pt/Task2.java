@@ -6,8 +6,17 @@ public class Task2 {
     public static void task2() throws Exception {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a number of the day of the week: ");
-        int numDay = sc.nextInt();
+        int numDay;
+        while (true) {
+            try {
+                System.out.print("Enter a number of the day of the week: ");
+                numDay = sc.nextInt();
+                break;
+            } catch (Exception e) {
+                System.out.println("Wrong number! Try again.");
+                sc.nextLine();
+            }
+        }
 
         DayOfTheWeek day = switch (numDay) {
             case 1 -> DayOfTheWeek.MONDAY;

@@ -10,14 +10,25 @@ public class Task2 {
         Locale.setDefault(Locale.ROOT);
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Input the first number: ");
-        int a = scanner.nextInt();
+        int a;
+        int b;
+        int c;
+        while (true) {
+            try {
+                System.out.print("Input the first number: ");
+                a = scanner.nextInt();
 
-        System.out.print("Input the second number: ");
-        int b = scanner.nextInt();
+                System.out.print("Input the second number: ");
+                b = scanner.nextInt();
 
-        System.out.print("Input the third number: ");
-        int c = scanner.nextInt();
+                System.out.print("Input the third number: ");
+                c = scanner.nextInt();
+                break;
+            } catch (Exception e) {
+                System.out.println("Wrong number! Try again.");
+                scanner.nextLine();
+            }
+        }
 
         System.out.format("The smallest number is %d\n", findTheSmallestNumber(a, b, c));
     }

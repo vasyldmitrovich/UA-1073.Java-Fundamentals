@@ -9,19 +9,33 @@ public class Task4 {
         Scanner sc = new Scanner(System.in);
 
         int randomNumber = rnd.nextInt(0, 11);
-        System.out.print("Try guess the number: ");
-        int guessNumber = Integer.parseInt(sc.nextLine());
+        int guessNumber = 0;
+        try {
+            System.out.print("Try guess the number: ");
+            guessNumber = Integer.parseInt(sc.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Wrong number! Try again.");
+            sc.nextLine();
+        }
 
         if (randomNumber == guessNumber) {
             System.out.println("You are Vanga:)");
         } else {
             while (randomNumber != guessNumber) {
-                if (guessNumber > randomNumber) {
-                    System.out.println("Too high, try again.");
-                    guessNumber = Integer.parseInt(sc.nextLine());
-                } else if (guessNumber < randomNumber) {
-                    System.out.println("Too low, try again.");
-                    guessNumber = Integer.parseInt(sc.nextLine());
+
+                while (true) {
+                    try {
+                        if (guessNumber > randomNumber) {
+                            System.out.println("Too high, try again.");
+                            guessNumber = Integer.parseInt(sc.nextLine());
+                        } else if (guessNumber < randomNumber) {
+                            System.out.println("Too low, try again.");
+                            guessNumber = Integer.parseInt(sc.nextLine());
+                        }
+                        break;
+                    } catch (NumberFormatException e) {
+                        System.out.println("Wrong number! Try again.");
+                    }
                 }
             }
             System.out.println("Finally, you guess the number:)!");

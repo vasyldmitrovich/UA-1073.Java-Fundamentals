@@ -23,8 +23,16 @@ public class Task4 {
     public static void getAllEmployeeInOneDepartment(Employee[] employees) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Input a number department: ");
-        int department = Integer.parseInt(scanner.nextLine());
+        int department = 0;
+        while (true) {
+            try {
+                System.out.print("Input a number department: ");
+                department = Integer.parseInt(scanner.nextLine());
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("Wrong number! Try again.");
+            }
+        }
         boolean found = false;
         for (int i = 0; i < employees.length; i++) {
             if (employees[i].getDepartmentNumber() == department) {

@@ -8,8 +8,15 @@ public class Task1_3 {
         //int[] arr = new int[]{3, 5, 7, -1, 9};
         int[] arr = new int[5];
         for (int i = 0; i < arr.length; i++) {
-            System.out.print("Enter the " + (i + 1) + " element: ");
-            arr[i] = Integer.parseInt(sc.nextLine());
+            while (true) {
+                try {
+                    System.out.print("Enter the " + (i + 1) + " element: ");
+                    arr[i] = Integer.parseInt(sc.nextLine());
+                    break;
+                } catch (NumberFormatException e) {
+                    System.out.println("Wrong number! Try again.");
+                }
+            }
         }
 
         findSecondPositiveNumber(arr);

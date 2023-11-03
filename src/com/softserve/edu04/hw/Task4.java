@@ -7,15 +7,33 @@ public class Task4 {
         Scanner sc = new Scanner(System.in);
         Faculty mif = new Faculty();
 
-        System.out.print("Enter a number of students: ");
-        int numOfStudents = sc.nextInt();
+        int numOfStudents = 0;
+        while (true) {
+            try {
+                System.out.print("Enter a number of students: ");
+                numOfStudents = sc.nextInt();
+                break;
+            } catch (Exception e) {
+                System.out.println("Wrong number! Try again.");
+                sc.nextLine();
+            }
+        }
         mif.setNumberOfStudents(numOfStudents);
         sc.nextLine();
 
-        System.out.print("Enter a current season: ");
-        String currentSeason = sc.nextLine();
-        Season season = Season.valueOf(currentSeason.toUpperCase());
-        mif.setCurrentSeason(season);
+
+        while (true) {
+            try {
+                System.out.print("Enter a current season: ");
+                String currentSeason = sc.nextLine();
+                Season season = Season.valueOf(currentSeason.toUpperCase());
+                mif.setCurrentSeason(season);
+                break;
+            } catch (IllegalArgumentException e) {
+                System.out.println("Wrong input! Try again.");
+                sc.nextLine();
+            }
+        }
 
         System.out.print("Number of students: " + mif.getNumberOfStudents());
         System.out.println(", current season: " + mif.getCurrentSeason().season);

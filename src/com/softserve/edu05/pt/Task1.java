@@ -17,8 +17,17 @@ public class Task1 {
     }
 
     public static void task1_1() {
-        System.out.print("Input array length: ");
-        int arrLength = Integer.parseInt(sc.nextLine());
+
+        int arrLength = 0;
+        while (true) {
+            try {
+                System.out.print("Input array length: ");
+                arrLength = Integer.parseInt(sc.nextLine());
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("Wrong number! Try again.");
+            }
+        }
         String[] arr = new String[arrLength];
         inputStringArray(arr);
         System.out.printf("Arrays before sorting: %s\n", Arrays.toString(arr));
@@ -42,8 +51,16 @@ public class Task1 {
         System.out.printf("Average value is %f\n", avgValue);
 
 
-        System.out.println("Enter a value: ");
-        int value = Integer.parseInt(sc.nextLine());
+        int value = 0;
+        while (true) {
+            try {
+                System.out.println("Enter a value: ");
+                value = Integer.parseInt(sc.nextLine());
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("Wrong number! Try again.");
+            }
+        }
         findValue(arr, value);
     }
 

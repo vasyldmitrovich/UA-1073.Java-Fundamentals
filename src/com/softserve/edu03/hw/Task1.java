@@ -10,14 +10,25 @@ public class Task1 {
         Locale.setDefault(Locale.ROOT);
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Input Side 1: ");
-        int a = scanner.nextInt();
+        int b;
+        int a;
+        int c;
+        while (true) {
+            try {
+                System.out.print("Input Side 1: ");
+                a = scanner.nextInt();
 
-        System.out.print("Input Side 2: ");
-        int b = scanner.nextInt();
+                System.out.print("Input Side 2: ");
+                b = scanner.nextInt();
 
-        System.out.print("Input Side 3: ");
-        int c = scanner.nextInt();
+                System.out.print("Input Side 3: ");
+                c = scanner.nextInt();
+                break;
+            } catch (Exception e) {
+                System.out.println("Wrong number! Try again.");
+                scanner.nextLine();
+            }
+        }
 
         System.out.format("The area of the triangle is %.2f\n", calculateTriangleArea(a, b, c));
     }

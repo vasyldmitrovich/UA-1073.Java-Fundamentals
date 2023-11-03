@@ -6,12 +6,23 @@ public class Task1 {
     public static void task1() {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Input the first number: ");
-        float a = sc.nextFloat();
-        System.out.print("Input the second number: ");
-        float b = sc.nextFloat();
-        System.out.print("Input the third number: ");
-        float c = sc.nextFloat();
+        float a;
+        float b;
+        float c;
+        while (true) {
+            try {
+                System.out.print("Input the first number: ");
+                a = sc.nextFloat();
+                System.out.print("Input the second number: ");
+                b = sc.nextFloat();
+                System.out.print("Input the third number: ");
+                c = sc.nextFloat();
+                break;
+            } catch (Exception e) {
+                System.out.println("Wrong number! Try again.");
+                sc.nextLine();
+            }
+        }
 
         if (checkEligibility(a, b, c)) {//Good
             System.out.println("Numbers are belong to the range [-5, 5].");

@@ -11,10 +11,19 @@ public class Task3 {
         Person p4 = new Person();
         Person p5 = new Person();
 
-        System.out.println("Enter a birth year of " + p1.getFirstName() + " " + p1.getLastName());
-        p1.setBirthYear(sc.nextInt());
-        System.out.println("Enter a birth year of " + p2.getFirstName() + " " + p2.getLastName());
-        p1.setBirthYear(sc.nextInt());
+
+        while (true) {
+            try {
+                System.out.println("Enter a birth year of " + p1.getFirstName() + " " + p1.getLastName());
+                p1.setBirthYear(sc.nextInt());
+                System.out.println("Enter a birth year of " + p2.getFirstName() + " " + p2.getLastName());
+                p2.setBirthYear(sc.nextInt());
+                break;
+            } catch (Exception e) {
+                System.out.println("Wrong number! Try again.");
+                sc.nextLine();
+            }
+        }
 
         p3.input();
         p4.input();
