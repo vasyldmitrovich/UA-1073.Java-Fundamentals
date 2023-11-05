@@ -41,8 +41,9 @@ public class Main {
         System.out.println(myCollection);
         System.out.println("-".repeat(20));
 
-               List<Integer> list1 = myCollection.subList(0,myCollection.size()/2);
-        List<Integer> list2 = myCollection.subList(myCollection.size()/2,myCollection.size());
+        int k = 5;
+        List<Integer> list1 = myCollection.subList(0,k);
+        List<Integer> list2 = myCollection.subList(k,myCollection.size());
         Collections.reverse(list2);
         System.out.println("Copy the first k elements of the myCollection to the list1, in direct order, and the rest to thelist2 in reverse order.");
         System.out.println("List 1");
