@@ -1,5 +1,6 @@
 package com.softserve.edu04.hw.task3;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class App {
@@ -11,9 +12,15 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter error: ");
-        String status = scanner.nextLine();
+        try {
+            String status = scanner.nextLine();
+            outputDetails(status);
+        } catch (InputMismatchException e) {
+            System.out.println("Enter a valid data!");
+        }
 
-        outputDetails(status);
+
+
 
     }
     public static void outputDetails(String status) {

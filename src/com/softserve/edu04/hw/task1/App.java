@@ -1,10 +1,16 @@
 package com.softserve.edu04.hw.task1;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        inputAndCheck();
+        try {
+            inputAndCheck();
+        } catch (InputMismatchException e) {
+            System.out.println("Enter data of type float!");
+        }
+
     }//Nice
 
     public static void inputAndCheck() {

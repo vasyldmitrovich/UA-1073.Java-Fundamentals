@@ -1,5 +1,6 @@
 package com.softserve.edu03.hw.task3;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Person {//This is good structure of class, nice
@@ -44,17 +45,22 @@ public class Person {//This is good structure of class, nice
         return  2023 - birthYear;
     }
     public void input() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter first name: ");
-        firstName = scanner.nextLine();
+        try {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Enter first name: ");
+            firstName = scanner.nextLine();
 
 
-        System.out.print("Enter last name: ");
-        lastName = scanner.nextLine();
+            System.out.print("Enter last name: ");
+            lastName = scanner.nextLine();
 
 
-        System.out.print("Enter birth year: ");
-        birthYear = scanner.nextInt();
+            System.out.print("Enter birth year: ");
+            birthYear = scanner.nextInt();
+        } catch (InputMismatchException e) {
+            System.out.println("Enter values of type string!");
+        }
+
 
     }
 
