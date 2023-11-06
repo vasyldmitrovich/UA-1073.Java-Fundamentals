@@ -3,7 +3,7 @@ package com.softserve.edu03.pt.task2;
 import java.util.Objects;
 
 public class Employee {
-    public String getSalary;
+    public String getSalary;//Delete this variable if you do not need it
     private String name;
     private double rate;
     private double hours;

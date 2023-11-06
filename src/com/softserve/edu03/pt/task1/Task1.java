@@ -3,17 +3,17 @@ package com.softserve.edu03.pt.task1;
 import java.util.Scanner;
 
 public class Task1 {
-    public static void main() {
+    public static void main() {//Rename this method to something like t1()
 
         double firstNumber = getNumber("Enter the first number: ");
 
         double secondNumber = getNumber("Enter the second number: ");
 
 
-        double total = getTotal(firstNumber, secondNumber);
+        double total = getTotal(firstNumber, secondNumber);//Nice
 
 
-        double average = getAverage(firstNumber, secondNumber);
+        double average = getAverage(firstNumber, secondNumber);//Good
 
         System.out.println("The sum of " + firstNumber + " and " + secondNumber + " is " + total);
         System.out.println("The average of " + firstNumber + " and " + secondNumber + " is " + average);

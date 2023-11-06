@@ -5,6 +5,6 @@ public class App {
 
         //this is task1
         Task1.t1();
-        Task2.main();
+        Task2.main();//Rename method main()
     }
 }
