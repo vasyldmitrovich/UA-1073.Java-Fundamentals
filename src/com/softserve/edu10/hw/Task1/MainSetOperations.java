@@ -1,4 +1,4 @@
-package com.softserve.edu10.hw.Task2;
+package com.softserve.edu10.hw.Task1;
 
 import java.util.Set;
 import java.util.HashSet;
@@ -14,7 +14,7 @@ public class MainSetOperations {
         set1.add(3);
 
         set2.add(2);
-        set2 add(3);
+        set2.add(3);
         set2.add(4);
 
         // Test union operation
