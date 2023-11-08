@@ -1,15 +1,15 @@
-package com.softserve.edu01.pt;
+package com.softserve.edu08.hw;
 
 
-import com.softserve.edu08.hw.Task2;
+
 
 public class App {
-    public static void main(String[] args) {
+    public static void main() {
 
         // Practical tasks
 
         // Task 1
-        Task2.main();
+         main();
 
         // Task 2
         Task2.task2();
@@ -17,4 +17,4 @@ public class App {
         // Task 3...
 
     }
-}
+
