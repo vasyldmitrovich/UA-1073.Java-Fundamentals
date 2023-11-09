@@ -25,29 +25,7 @@ public class Sedan extends Car{
         System.out.println(getModel() + " stops");
     }
 
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public int getMaxSpeed() {
-        return maxSpeed;
-    }
-
-    public void setMaxSpeed(int maxSpeed) {
-        this.maxSpeed = maxSpeed;
-    }
-
-    public int getYearOfProduction() {
-        return yearOfProduction;
-    }
-
-    public void setYearOfProduction(int yearOfProduction) {
-        this.yearOfProduction = yearOfProduction;
-    }
+    //use getters and setters of abstract (parent) class. TY
 
     @Override
     public String toString() {

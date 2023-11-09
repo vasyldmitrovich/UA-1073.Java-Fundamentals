@@ -5,7 +5,7 @@ public class Truck extends Car {
     private String model;
     private int maxSpeed;
     private int yearOfProduction;//you could use fields from abstract class, write this fields in each class is not good
-
+// thank you, yeah it's simplified code))
     public Truck(String model, int maxSpeed, int yearOfProduction) {
         this.model = model;
         this.maxSpeed = maxSpeed;
@@ -20,30 +20,6 @@ public class Truck extends Car {
     @Override
     public void stop() {
         System.out.println(getModel() + " stops");
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public int getMaxSpeed() {
-        return maxSpeed;
-    }
-
-    public void setMaxSpeed(int maxSpeed) {
-        this.maxSpeed = maxSpeed;
-    }
-
-    public int getYearOfProduction() {
-        return yearOfProduction;
-    }
-
-    public void setYearOfProduction(int yearOfProduction) {
-        this.yearOfProduction = yearOfProduction;
     }
 
     @Override
