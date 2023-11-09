@@ -28,11 +28,16 @@ class App {
     private static void PtTree() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input username and i show you, does it fit to username rules");
-        String userName = sc.nextLine();
-        String regex = "\\w{3,15}";
-        Pattern p = Pattern.compile(regex);
-        Matcher m = p.matcher(userName);
-        System.out.printf("Username '%s' is %s valid", userName, m.matches() ? "" : "not");
+        try {
+            String userName = sc.nextLine();
+            String regex = "\\w{3,15}";
+            Pattern p = Pattern.compile(regex);
+            Matcher m = p.matcher(userName);
+            System.out.printf("Username '%s' is %s valid", userName, m.matches() ? "" : "not");
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new RuntimeException("Something goes wrong. Contact with developer please.");
+        }
     }
 
 
@@ -44,18 +49,22 @@ class App {
         Scanner sc = new Scanner(System.in);
         System.out.println("Lets input full name step by step and i'll show you what i can.\n" +
                 "Input first name(you can ignore case):");
-        firstName = sc.nextLine();
-        System.out.println("Input middle name(you can ignore case):");
-        middleName = sc.nextLine();
-        System.out.println("Input last name(you can ignore case):");
-        lastName = sc.nextLine();
-        firstName = normalizeCase(firstName);
-        middleName = normalizeCase(middleName);
-        lastName = normalizeCase(lastName);
-        System.out.printf("Last name + initials: %s %s. %s.%n", lastName, firstName.charAt(0), middleName.charAt(0));
-        System.out.println("First name - " + firstName);
-        System.out.printf("First name, middle name, and last name:  %s %s %s%n", firstName, middleName, lastName);
-
+        try {
+            firstName = sc.nextLine();
+            System.out.println("Input middle name(you can ignore case):");
+            middleName = sc.nextLine();
+            System.out.println("Input last name(you can ignore case):");
+            lastName = sc.nextLine();
+            firstName = normalizeCase(firstName);
+            middleName = normalizeCase(middleName);
+            lastName = normalizeCase(lastName);
+            System.out.printf("Last name + initials: %s %s. %s.%n", lastName, firstName.charAt(0), middleName.charAt(0));
+            System.out.println("First name - " + firstName);
+            System.out.printf("First name, middle name, and last name:  %s %s %s%n", firstName, middleName, lastName);
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new RuntimeException("Something goes wrong. Contact with developer please.");
+        }
     }
 
     static String normalizeCase(String input){

@@ -10,16 +10,21 @@ class FiveWords {
     private static String[] originalSortedInReverseOrderByLength;
 
     static {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Hello. Please input sentence minimum 5 words long (please use latin letters or/and numbers:");
-        original = sc.nextLine().split("\\W+");
-        originalSortedInReverseOrderByLength = original.clone();
-        Arrays.sort(originalSortedInReverseOrderByLength, new Comparator<>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return Integer.compare(o2.length(), o1.length());
-            }
-        });
+        try {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Hello. Please input sentence minimum 5 words long (please use latin letters or/and numbers:");
+            original = sc.nextLine().split("\\W+");
+            originalSortedInReverseOrderByLength = original.clone();
+            Arrays.sort(originalSortedInReverseOrderByLength, new Comparator<>() {
+                @Override
+                public int compare(String o1, String o2) {
+                    return Integer.compare(o2.length(), o1.length());
+                }
+            });
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new RuntimeException("Something goes wrong. Contact with developer please.");
+        }
     }
 
     public static void theLongestWord() {
