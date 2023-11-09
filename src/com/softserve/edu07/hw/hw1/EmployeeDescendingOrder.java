@@ -2,7 +2,7 @@ package com.softserve.edu07.hw.hw1;
 
 import java.util.Comparator;
 
-public class EmployeeSuccessorsComparatorInDescendingOrder implements Comparator <Employee> {//Too long name of class
+public class EmployeeDescendingOrder implements Comparator <Employee> {//Too long name of class
 
     @Override
     public int compare(Employee o1, Employee o2) {

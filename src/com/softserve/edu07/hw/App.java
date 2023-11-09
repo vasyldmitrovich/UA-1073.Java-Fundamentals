@@ -2,7 +2,7 @@ package com.softserve.edu07.hw;
 
 import com.softserve.edu07.hw.hw1.ContractEmployee;
 import com.softserve.edu07.hw.hw1.Employee;
-import com.softserve.edu07.hw.hw1.EmployeeSuccessorsComparatorInDescendingOrder;
+import com.softserve.edu07.hw.hw1.EmployeeDescendingOrder;
 import com.softserve.edu07.hw.hw1.SalariedEmployee;
 import com.softserve.edu07.hw.hw2.TestVehicles;
 
@@ -21,7 +21,7 @@ class App {
         employees[3] = new SalariedEmployee("John", "33333333", 4_000);
         employees[4] = new ContractEmployee("Alice", "44444444", 220, 8);
 
-        Arrays.sort(employees, new EmployeeSuccessorsComparatorInDescendingOrder());
+        Arrays.sort(employees, new EmployeeDescendingOrder());
 
         for (Employee empl: employees) {
             System.out.println(empl);

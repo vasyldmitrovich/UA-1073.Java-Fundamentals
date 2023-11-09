@@ -1,6 +1,9 @@
 package com.softserve.edu07.hw.hw1;
 
-public class ContractEmployee extends Employee implements Payment {//Implement this interphase in class Employee not here
+public class ContractEmployee extends Employee{//Implement this interphase in class Employee not here
+    //TY. I even don't know that in abstract classes,
+    // that implemented interfaces, nno need to override interface methods
+
 
     private String federalTaxIdMember;
     private int hourlyRate;
