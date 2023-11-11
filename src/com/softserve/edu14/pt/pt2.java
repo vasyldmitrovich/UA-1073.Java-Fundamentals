@@ -11,7 +11,6 @@ public class pt2 {
         int min = getMin(primes);
         int max = getMax(primes);
         int sum = getSum(primes);
-
         System.out.println("Count: " + count);
         System.out.println("Min: " + min);
         System.out.println("Max: " + max);
