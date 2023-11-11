@@ -1,7 +1,7 @@
 package com.softserve.edu05.hw.Task1.Task1_3;
 import java.util.Scanner;
 
-public class integfive {
+public class integfive {//PLEASE RENAME ALL BAD CLASSES IN YOUR PROJECT
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int[] numbers = new int[5];

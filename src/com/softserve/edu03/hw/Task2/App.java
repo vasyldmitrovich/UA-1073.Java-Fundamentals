@@ -3,7 +3,7 @@
 package com.softserve.edu03.hw.Task2;
 
 import java .util.Scanner;
-public class App {
+public class Task2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Type Number 1 : ");

@@ -1,6 +1,6 @@
 package com.softserve.edu05.hw.Task1.Task1_1;
 import java.util.Scanner;
-public class MonthDays {
+public class Task1_1 {
     public static void main(String[] args) {
         int[] daysInMonth = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         Scanner scan = new Scanner(System.in);

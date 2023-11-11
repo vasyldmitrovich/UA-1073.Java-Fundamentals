@@ -1,4 +1,4 @@
-package com.softserve.edu10.hw.Task2;
+package com.softserve.edu10.hw.Task1;
 
 import java.util.HashSet;
 import java.util.Set;
