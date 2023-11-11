@@ -6,6 +6,7 @@ import java.util.function.Function;
 
 public class App {
     private static final Scanner SCANNER = new Scanner(System.in);
+
     public static void main(String[] args) {
         System.out.print("Enter string to encrypt: ");
         String str = SCANNER.nextLine();
@@ -23,13 +24,13 @@ public class App {
         return secure(s, n, (a, b) -> a - b);
     }
 
-   public static String secure(String s, int n, BiFunction<Integer, Integer, Integer> func) {
-       var chArr = s.toCharArray();
-       for (int i = 0; i < chArr.length; i++) {
-           int value = chArr[i];
-           int secureValue = func.apply(value, n);
-           chArr[i] = (char) secureValue;
-       }
-       return new String(chArr);
-   }
+    public static String secure(String s, int n, BiFunction<Integer, Integer, Integer> func) {
+        var chArr = s.toCharArray();
+        for (int i = 0; i < chArr.length; i++) {
+            int value = chArr[i];
+            int secureValue = func.apply(value, n);
+            chArr[i] = (char) secureValue;
+        }
+        return new String(chArr);
+    }
 }
