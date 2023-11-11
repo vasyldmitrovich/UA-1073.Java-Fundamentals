@@ -33,7 +33,7 @@ public class StudentManagement {
         students.add(new Student("Ivan", "A", 1, List.of(90, 85, 88)));
         students.add(new Student("Oleksii", "B", 2, List.of(75, 80, 72)));
         students.add(new Student("Valentyn", "A", 1, List.of(92, 87, 89)));
-        students.add(new Student("Maryna", "C", 3, List.of(68, 75, 80));
+        students.add(new Student("Maryna", "C", 3, List.of(68, 75, 80)));
 
         printStudents(students, 2);
 

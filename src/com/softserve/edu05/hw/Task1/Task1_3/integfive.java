@@ -1,4 +1,4 @@
-package com.softserve.edu05.hw.Task1;
+package com.softserve.edu05.hw.Task1.Task1_3;
 import java.util.Scanner;
 
 public class integfive {

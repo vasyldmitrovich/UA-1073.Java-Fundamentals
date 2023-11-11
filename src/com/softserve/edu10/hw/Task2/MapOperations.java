@@ -1,5 +1,6 @@
 package com.softserve.edu10.hw.Task2;
 
+
 import java.util.Map;
 
 public class MapOperations {
@@ -22,3 +23,6 @@ public class MapOperations {
         map.entrySet().removeIf(entry -> entry.getValue().equals(firstName));
     }
 }
+
+
+

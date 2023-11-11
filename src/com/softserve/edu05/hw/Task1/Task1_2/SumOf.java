@@ -1,4 +1,4 @@
-package com.softserve.edu05.hw.Task1;
+package com.softserve.edu05.hw.Task1.Task1_2;
 import java.util.Scanner;
 public class SumOf {
     public static void main(String[] args) {

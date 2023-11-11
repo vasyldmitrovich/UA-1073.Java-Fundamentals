@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
-public class Main {
+public class App {
     public static void main(String[] args) {
         List<Car> cars = new ArrayList<>();
 
