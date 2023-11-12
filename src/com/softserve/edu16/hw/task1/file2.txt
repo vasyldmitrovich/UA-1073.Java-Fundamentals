@@ -1,0 +1,4 @@
+Number of lines in file1.txt: 7
+The longest line in file1.txt: Later, I joined the ABC team, where I continued to develop my competencies in [insert other area]. In this company, I also had the opportunity to work on interesting projects and collaborate with highly qualified colleagues.
+Your name: bogdan mysko
+Birthday date: 2003-01-01
