@@ -1,17 +1,16 @@
 package com.softserve.edu05.apptest;
 
-
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CalcTest {
-    private static Calc calc;
+    private static com.softserve.edu05.AppTst.Calc calc;
 
     @BeforeAll
     public static void setUpBeforeClass() throws Exception {
         System.out.println("@BeforeClass setUpBeforeClass()");
-        calc = new Calc();
+        calc = new com.softserve.edu05.AppTst.Calc();
     }
 
     @AfterAll
@@ -58,7 +57,7 @@ public class CalcTest {
 //        throw new RuntimeException("Hahaha");
 
 
-        Calc calc = new Calc();
+        com.softserve.edu05.AppTst.Calc calc = new com.softserve.edu05.AppTst.Calc();
         double actual;
         double expected;
 
@@ -73,7 +72,7 @@ public class CalcTest {
     public void testAdd2() {
         System.out.println("\t\t@Test testAdd2()");
         //
-        Calc calc = new Calc();
+        com.softserve.edu05.AppTst.Calc calc = new com.softserve.edu05.AppTst.Calc();
         double actual;
         double expected;
         //
@@ -87,7 +86,7 @@ public class CalcTest {
     public void testDiv1() {
         System.out.println("\t\t@Test testDiv1()");
         //
-        Calc calc = new Calc();
+        com.softserve.edu05.AppTst.Calc calc = new com.softserve.edu05.AppTst.Calc();
         double actual;
         double expected;
         //
@@ -101,7 +100,7 @@ public class CalcTest {
     public void testDiv2() {
         System.out.println("\t\t@Test testDiv2()");
         //
-        Calc calc = new Calc();
+        com.softserve.edu05.AppTst.Calc calc = new com.softserve.edu05.AppTst.Calc();
         double actual;
         double expected;
         //
