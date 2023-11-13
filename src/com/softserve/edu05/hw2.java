@@ -1,7 +1,7 @@
 package com.softserve.edu05;
 import java.util.Scanner;
 
-public class hw2 {
+public class hw2 {//Name of class should start from Upper case character
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int choice;
