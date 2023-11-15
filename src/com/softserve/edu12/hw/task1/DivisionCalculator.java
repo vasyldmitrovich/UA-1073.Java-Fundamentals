@@ -1,3 +1,5 @@
+package com.softserve.edu12.hw.task1;
+
 import java.util.Scanner;
 
 public class DivisionCalculator {

@@ -1,3 +1,5 @@
+package com.softserve.edu04.hw.Task3;
+
 public enum ErrorCodes {
     // Define enum constants with associated error code and error name.
     HTTP_400(400, "Bad Request"),
