@@ -1,0 +1,39 @@
+private class Employee {
+    private String name;
+    private int age;
+    private double salary;
+
+    private Employee(String name, int age, double salary) {
+        this.name = name;
+        this.age = age;
+        this.salary = salary;
+    }
+
+    private String getName() {
+        return name;
+    }
+
+    private void setName(String name) {
+        this.name = name;
+    }
+
+    private int getAge() {
+        return age;
+    }
+
+    private void setAge(int age) {
+        this.age = age;
+    }
+
+    private double getSalary() {
+        return salary;
+    }
+
+    private void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    private String report() {
+        return String.format("Name: %s, Age: %d, Salary: \u20B4 %.2f.", name, age, salary);
+    }
+}
