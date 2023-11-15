@@ -1,8 +1,7 @@
 package com.softserve.edu10.pt;
 
-import java.util.Map;
-
 public class Employee {
+    private static int lastId = 0;
     private int id;
     private String name;
     private String position;
@@ -11,6 +10,16 @@ public class Employee {
 
     public Employee (int id, String name, String position, int salary, String dateOfBirth) {
         this.id = id;
+        lastId++;
+        this.name = name;
+        this.position = position;
+        this.salary = salary;
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    public Employee (String name, String position, int salary, String dateOfBirth) {
+        this.id = lastId + 1;
+        lastId++;
         this.name = name;
         this.position = position;
         this.salary = salary;
