@@ -1,7 +1,5 @@
 package com.softserve.edu09.hw.Task2;
 
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 class Student {
