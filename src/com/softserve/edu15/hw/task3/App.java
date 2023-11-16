@@ -1,0 +1,21 @@
+package com.softserve.edu15.hw.task3;
+
+public class App {
+    public static void main(String[] args) {
+        Thread one = new Thread(() -> {
+            Thread two = new Thread(() -> {
+                for (int i = 0; i < 3; i++) {
+                    System.out.println("Thread number two");
+                }
+                Thread three = new Thread(() -> {
+                    for (int j = 0; j < 5; j++) {
+                        System.out.println("Thread number three");
+                    }
+                });
+                three.start();
+            });
+            two.start();
+        });
+        one.start();
+    }
+}
