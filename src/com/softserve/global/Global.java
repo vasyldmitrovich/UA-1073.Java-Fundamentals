@@ -4,6 +4,7 @@ import java.util.Locale;
 import java.util.Random;
 
 public class Global {
+    private static final String PATH_TO_DIRECTORY = System.getProperty("user.dir");
     public static final Random RANDOM = new Random();
     public static final String UPPER = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -22,5 +23,9 @@ public class Global {
         }
 
         return String.valueOf(resultChars);
+    }
+
+    public static String getPath(String path) {
+        return PATH_TO_DIRECTORY + path;
     }
 }
