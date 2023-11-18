@@ -1,0 +1,3 @@
+Line length: 18
+Longest line:Agile ceremonies, including sprint planning and retrospectives, have been integral to my collaborative and iterative development approach. My career has been marked by a commitment to code review best practices, fostering a culture of shared responsibility and improvement. Accessibility has been a priority in front-end development, ensuring that applications are usable by individuals with diverse abilities.
+My name and birthday: Alina, 01.01.0000
