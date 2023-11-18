@@ -1,0 +1,4 @@
+Number of lines: 5
+The longest line in file: 'Student Pricarpacian National University named Vasyl Stefanyk'
+First and last name: Andrii Berchak
+Birthday date: 13.04.2004
