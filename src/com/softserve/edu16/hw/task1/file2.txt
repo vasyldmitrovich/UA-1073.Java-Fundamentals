@@ -1,0 +1,4 @@
+Number of lines: 13
+The longest line in file: 'I am working towards a comprehensive understanding of software development and programming languages. My academic journey has exposed me to a diverse range of subjects,'
+First and last name: Oleh Soltysyak
+Birthday date: 14.08.2004
